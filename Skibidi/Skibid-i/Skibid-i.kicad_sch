@@ -5154,6 +5154,12 @@
 		(uuid "4e07112f-2aa2-4b92-8306-0d58df76d90f")
 	)
 	(junction
+		(at 180.34 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512b4045-ed5f-4cbe-b167-9592faae131a")
+	)
+	(junction
 		(at 92.71 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8536,7 +8542,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Skibidi-feet:Screwterminal2"
 			(at 256.54 72.39 0)
 			(effects
 				(font
@@ -9194,7 +9200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Skibidi-feet:Screwterminal4"
 			(at 26.67 179.07 0)
 			(effects
 				(font
@@ -9652,6 +9658,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 180.34 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29995723-9119-44b5-891f-7f84cb56ff8e")
+		(property "Reference" "#PWR069"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 182.88 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7b2db1f-175e-440f-a688-2a2a9a597a80")
+		)
+		(instances
+			(project "Skibid-i"
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 265.43 72.39 90)
 		(unit 1)
@@ -9678,7 +9750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Skibidi-feet:Screwterminal2"
 			(at 265.43 72.39 0)
 			(effects
 				(font
@@ -11360,7 +11432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 96.52 143.51 0)
 			(effects
 				(font
@@ -11511,7 +11583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 46.99 111.76 0)
 			(effects
 				(font
@@ -12351,7 +12423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Skibidi-feet:Screwterminal4"
 			(at 57.15 179.07 0)
 			(effects
 				(font
@@ -12903,7 +12975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -12989,7 +13061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 96.52 128.27 0)
 			(effects
 				(font
@@ -13755,7 +13827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -14115,7 +14187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 274.0152 35.56 0)
 			(effects
 				(font
@@ -15721,7 +15793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 46.99 143.51 0)
 			(effects
 				(font
@@ -16188,7 +16260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Optocoupler"
+		(property "Footprint" "Skibidi-feet:RealOPtocoupler"
 			(at 46.99 160.02 0)
 			(effects
 				(font
@@ -16545,7 +16617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 227.6348 35.56 0)
 			(effects
 				(font
@@ -17079,7 +17151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:TEENSY"
+		(property "Footprint" "Skibidi-feet:Teensy4.1"
 			(at 165.1 77.47 0)
 			(effects
 				(font
