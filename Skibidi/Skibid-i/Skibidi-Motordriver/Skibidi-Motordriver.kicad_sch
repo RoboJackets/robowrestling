@@ -192,6 +192,179 @@
 				)
 			)
 		)
+		(symbol "Device:D_Schottky_AKA"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky_AKA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode, anode on pins 1 and 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky SCHDPAK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_AKA_0_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Schottky_AKA_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Q_NIGBT_GEC"
 			(pin_names
 				(offset 0) hide)
@@ -990,98 +1163,262 @@
 		)
 	)
 	(junction
-		(at 232.41 123.19)
+		(at 99.06 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29671aca-f3db-445a-8d95-c8069f9c69ef")
+		(uuid "1ea7d191-fd68-47e6-8d52-9ba097072ad4")
 	)
 	(junction
-		(at 232.41 90.17)
+		(at 166.37 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "35d31f1c-6de7-4f0d-b575-3805cba6ef6f")
+		(uuid "21afc64a-4412-4727-be24-d705b774ea2a")
 	)
 	(junction
-		(at 167.64 123.19)
+		(at 166.37 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "257769b3-eb07-43e6-b3e8-06089e8b7d45")
+	)
+	(junction
+		(at 166.37 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d044e9-aee9-4c02-9fcb-d5529cc0c006")
+	)
+	(junction
+		(at 240.03 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "287d0185-d668-4c40-8849-8543826c3ff7")
+	)
+	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352a4c73-8c3f-4c25-b2c4-30e71412d24c")
+	)
+	(junction
+		(at 138.43 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f66042a-921f-4d57-a00f-457fcf91da7a")
+	)
+	(junction
+		(at 212.09 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59cedbd9-dd8a-4695-854c-02117e936de2")
+	)
+	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "608d6fbd-15fb-45b1-a609-91cfda305cb7")
+	)
+	(junction
+		(at 152.4 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6853ab7f-bb52-42b2-821c-3d8d56ccf88c")
 	)
 	(junction
-		(at 128.27 71.12)
+		(at 240.03 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e319ea8-82a6-49b8-bad4-b9ca5022580b")
+		(uuid "7a81554a-093d-4a66-a7b8-4be3c55ab725")
 	)
 	(junction
-		(at 181.61 105.41)
+		(at 99.06 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "894218ed-2387-4ffc-838a-d8bca8888841")
+	)
+	(junction
+		(at 212.09 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ea27f08-4b49-4d52-aee2-b09e8de98c1a")
+	)
+	(junction
+		(at 166.37 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ed6f0f0-4c51-43d2-bd99-2e454e14c362")
 	)
 	(junction
-		(at 246.38 105.41)
+		(at 212.09 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a2cb201e-a7e1-4863-b9ce-4fb180a410f1")
+		(uuid "a396b83c-d648-47a1-9326-105e0166867c")
 	)
 	(junction
-		(at 167.64 90.17)
+		(at 152.4 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab52c406-18ff-4d4b-85cf-af0755f80af7")
 	)
 	(junction
-		(at 128.27 132.08)
+		(at 226.06 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1779d65-c03e-4949-a89d-bceaf1a0780d")
+		(uuid "ad36f200-35a0-46d1-8c07-abcc7bac14e1")
 	)
 	(junction
-		(at 153.67 105.41)
+		(at 166.37 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbafebb9-73e4-4ea5-9026-0bdd2d94c56a")
+	)
+	(junction
+		(at 99.06 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d213bb93-85ea-4a11-92c8-6c4c197864b8")
+	)
+	(junction
+		(at 138.43 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df282cfe-c2bb-40e0-9037-d75678cab7ab")
 	)
 	(junction
-		(at 218.44 105.41)
+		(at 138.43 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e745a232-c0d8-49a4-a108-d7225c5c8633")
+		(uuid "e0cd0fc2-b822-4b8d-b2cf-fcaa6e43d550")
+	)
+	(junction
+		(at 212.09 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4d32563-0dad-42a0-8460-132542bbc3c8")
+	)
+	(junction
+		(at 138.43 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e578857e-2241-4891-9dd2-95c050f62e9b")
+	)
+	(junction
+		(at 212.09 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb036e30-55e8-45e3-be2f-e2d50ddad335")
+	)
+	(junction
+		(at 240.03 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79ea661-6d1a-4f62-a74f-5e316adb865f")
+	)
+	(junction
+		(at 226.06 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2228b3-1cc9-4617-af49-d80a6a27ff2a")
+	)
+	(junction
+		(at 138.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdbd941c-b99f-4845-9b3c-e9cc7dafebbd")
+	)
+	(no_connect
+		(at 219.71 95.25)
+		(uuid "785f553b-1ae6-43e8-91a6-e061ac1a24b6")
+	)
+	(no_connect
+		(at 236.22 110.49)
+		(uuid "8bad84bc-56e0-4f1f-8e6d-3859a9ab84bf")
+	)
+	(no_connect
+		(at 162.56 111.76)
+		(uuid "9bc3c564-7065-4cce-bae8-19eb9bb71912")
+	)
+	(no_connect
+		(at 146.05 110.49)
+		(uuid "b9a9a845-0573-4351-bb6f-d9bee81a1a61")
+	)
+	(no_connect
+		(at 146.05 96.52)
+		(uuid "c5d5f4bb-0579-4823-a9b2-05b8e478201d")
+	)
+	(no_connect
+		(at 162.56 95.25)
+		(uuid "cd6e3bb5-89b0-40a9-aabb-1190ba67ec26")
+	)
+	(no_connect
+		(at 219.71 109.22)
+		(uuid "e40bfe09-1d3a-4b06-858c-1f6c072e19d7")
+	)
+	(no_connect
+		(at 236.22 93.98)
+		(uuid "e910805f-603f-4b19-a585-42c37c1b036d")
 	)
 	(wire
 		(pts
-			(xy 232.41 90.17) (xy 232.41 88.9)
+			(xy 226.06 115.57) (xy 240.03 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0746c1af-9e98-4913-8210-834d47b8b5c2")
+		(uuid "0131518b-5f2e-47de-8285-2ef504d10b9e")
 	)
 	(wire
 		(pts
-			(xy 218.44 105.41) (xy 218.44 110.49)
+			(xy 217.17 109.22) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "084de1af-09e8-4871-afad-ed38f77d1ac7")
+		(uuid "021c0949-64ae-4431-8668-ef8221372394")
 	)
 	(wire
 		(pts
-			(xy 232.41 90.17) (xy 246.38 90.17)
+			(xy 138.43 101.6) (xy 143.51 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c3ea253-9193-4278-b068-794ec6afd138")
+		(uuid "05b6af81-5b55-470c-96cc-424b93c27632")
 	)
 	(wire
 		(pts
-			(xy 153.67 105.41) (xy 153.67 110.49)
+			(xy 233.68 85.09) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0660e15d-fd61-4357-aa1d-9dda67afd1a9")
+	)
+	(wire
+		(pts
+			(xy 212.09 115.57) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d27515a-71e7-42cf-a434-9aa13670bceb")
+	)
+	(wire
+		(pts
+			(xy 212.09 82.55) (xy 226.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b849fc-1745-4af8-b05b-4f21c084c149")
+	)
+	(wire
+		(pts
+			(xy 138.43 99.06) (xy 138.43 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1091,47 +1428,67 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 246.38 105.41)
+			(xy 212.09 97.79) (xy 224.79 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15c06462-0b4c-4ba7-a87c-a8a9b01f678b")
-	)
-	(bus
-		(pts
-			(xy 128.27 71.12) (xy 24.13 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182d1454-66ac-47de-8d89-214cd12386ff")
+		(uuid "1a17b7a8-31e9-4f86-a415-7eafa4ca588e")
 	)
 	(wire
 		(pts
-			(xy 246.38 101.6) (xy 246.38 105.41)
+			(xy 138.43 96.52) (xy 138.43 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1eff4ed0-b56f-4e3a-9023-2260d32884c8")
+		(uuid "1fd7045c-c666-4d98-8784-41baefa7f591")
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 181.61 123.19)
+			(xy 138.43 99.06) (xy 151.13 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ef88dca-5a6a-4e51-a192-d3362f49456c")
+		(uuid "22a0cdae-1c32-4d3a-8857-b9ca8da29e8d")
 	)
 	(wire
 		(pts
-			(xy 168.91 105.41) (xy 181.61 105.41)
+			(xy 226.06 82.55) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c12a27a-5cf6-4a0f-a065-9cce84c539f7")
+	)
+	(wire
+		(pts
+			(xy 233.68 95.25) (xy 240.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c47107f-c361-4058-ae63-d4f59869b9e8")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e69bb15-f842-4f69-a92d-f8e0fe162bda")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 166.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1498,37 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 181.61 91.44)
+			(xy 226.06 118.11) (xy 226.06 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fff6ebb-28bb-42b6-bf48-38045c7100d4")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 143.51 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3030804b-f702-42c6-8763-c4cada9357df")
+	)
+	(wire
+		(pts
+			(xy 152.4 119.38) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f73362-2f8e-4ba7-adf4-607cd925cbef")
+	)
+	(wire
+		(pts
+			(xy 166.37 83.82) (xy 166.37 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1149,9 +1536,19 @@
 		)
 		(uuid "328616d7-6401-4157-a7cb-60d90e5af015")
 	)
+	(bus
+		(pts
+			(xy 99.06 16.51) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33261168-ac75-462b-818c-34f85c499b44")
+	)
 	(wire
 		(pts
-			(xy 181.61 101.6) (xy 181.61 105.41)
+			(xy 166.37 95.25) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1558,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 123.19) (xy 181.61 120.65)
+			(xy 212.09 115.57) (xy 212.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395097af-1d8b-41db-af7e-3f53635e49f8")
+	)
+	(wire
+		(pts
+			(xy 166.37 116.84) (xy 166.37 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1578,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 153.67 91.44)
+			(xy 212.09 82.55) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c51e16e-cc16-4e74-876d-f27117f8ba60")
+	)
+	(wire
+		(pts
+			(xy 233.68 83.82) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eed80b9-f93f-4c4b-aec0-fea29643a421")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1181,17 +1608,47 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 218.44 91.44)
+			(xy 160.02 95.25) (xy 160.02 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a4d561c-20cc-4150-91a3-ffe220e49dd7")
+		(uuid "4571bb8c-9957-445a-95a0-c9db059e886d")
 	)
 	(wire
 		(pts
-			(xy 153.67 123.19) (xy 153.67 120.65)
+			(xy 233.68 100.33) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46480156-2bc9-4b56-9b2a-00a6d82ea3d8")
+	)
+	(wire
+		(pts
+			(xy 217.17 83.82) (xy 212.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae48f41-6a0d-4eab-88d9-c1a292eb63d0")
+	)
+	(wire
+		(pts
+			(xy 233.68 93.98) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b74e2bb-b470-4c5a-92ab-deb1b1d68579")
+	)
+	(wire
+		(pts
+			(xy 138.43 116.84) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1201,27 +1658,57 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 105.41) (xy 166.37 105.41)
+			(xy 160.02 114.3) (xy 166.37 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c15892b-d0dd-4459-b88e-b5e7003ff2b4")
-	)
-	(bus
-		(pts
-			(xy 269.24 132.08) (xy 128.27 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1ed71c-cfba-4f79-9fe7-9d83b1ea16e3")
+		(uuid "4f3d388d-32ed-43ab-8e3a-eb0db6103232")
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 167.64 90.17)
+			(xy 233.68 101.6) (xy 233.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c29da4-36b3-4271-86e8-f9cb2faa390c")
+	)
+	(wire
+		(pts
+			(xy 240.03 82.55) (xy 240.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5760eca1-b398-45c2-beb8-a12b89865eaf")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 143.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583e1038-52cd-490a-acc0-314b5d089ca5")
+	)
+	(wire
+		(pts
+			(xy 212.09 100.33) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d24f95-a31c-4863-bc43-7e796c88ff81")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1231,17 +1718,37 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 90.17) (xy 246.38 91.44)
+			(xy 212.09 97.79) (xy 212.09 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61c61375-c9a3-4849-bd73-fc0146ddd0fd")
+		(uuid "5eb74405-6608-4a5b-bb33-0b4cba00aa6e")
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 167.64 88.9)
+			(xy 160.02 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0683c6-36e1-40d8-a36f-d665b99d7c93")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616cc99d-db96-40a1-8c0a-9aa6eb5ba8f7")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1251,17 +1758,37 @@
 	)
 	(bus
 		(pts
-			(xy 128.27 71.12) (xy 269.24 71.12)
+			(xy 99.06 71.12) (xy 99.06 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "633d7679-5468-4d05-a424-dc10cdc92f15")
+		(uuid "64a5a265-3d68-43c3-b3e0-191ce0b533c2")
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 181.61 90.17)
+			(xy 217.17 113.03) (xy 212.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e4423e-227c-4715-8099-7a664e342365")
+	)
+	(bus
+		(pts
+			(xy 96.52 16.51) (xy 99.06 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a6e1f5-71a9-4881-871b-5a18caed1046")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 166.37 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1269,19 +1796,39 @@
 		)
 		(uuid "76d5bc7e-a0e4-462c-84f3-b6b442c2c04e")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 128.27 132.08) (xy 128.27 71.12)
+			(xy 227.33 97.79) (xy 240.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "819329c8-157c-48b4-b86e-eb177db585a8")
+		(uuid "7904c78c-5142-4b4a-bf98-c4fdb2ee912e")
+	)
+	(wire
+		(pts
+			(xy 217.17 86.36) (xy 217.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804d9d23-7568-4267-be24-9394ba33ea6a")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b46991-fb03-4177-a4e5-b8489ce7ef22")
 	)
 	(bus
 		(pts
-			(xy 24.13 132.08) (xy 128.27 132.08)
+			(xy 24.13 132.08) (xy 99.06 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1291,27 +1838,67 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 105.41) (xy 246.38 110.49)
+			(xy 138.43 96.52) (xy 143.51 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90e7ca51-e542-4838-9a75-37c0cbd639f8")
+		(uuid "85225d68-5085-4005-9f85-f98f0d4fde06")
 	)
 	(wire
 		(pts
-			(xy 218.44 101.6) (xy 218.44 105.41)
+			(xy 240.03 95.25) (xy 240.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2ec7459-a0e0-4c75-a570-29b204405f6b")
+		(uuid "878335b3-7f4d-415f-8456-3e59037e6fa6")
+	)
+	(bus
+		(pts
+			(xy 99.06 161.29) (xy 274.32 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901481a1-041e-4de8-b930-a41fab2822f0")
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 181.61 110.49)
+			(xy 212.09 95.25) (xy 212.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963f2286-9e93-4bb0-afbe-1d77171e9840")
+	)
+	(bus
+		(pts
+			(xy 99.06 16.51) (xy 274.32 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1ca392-3e5c-4662-aa5d-683e7d1a65c1")
+	)
+	(wire
+		(pts
+			(xy 212.09 93.98) (xy 212.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a4fcb3-7829-496f-a0e3-1f695665ccbb")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1329,19 +1916,19 @@
 		)
 		(uuid "b37b7a7a-e1a8-41e1-a985-40fb7b468651")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 232.41 123.19) (xy 246.38 123.19)
+			(xy 99.06 71.12) (xy 24.13 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb855981-7124-40da-a4e8-26ecaaf32c43")
+		(uuid "b94185f7-a486-4a1f-ac87-9f98b3c784fb")
 	)
 	(bus
 		(pts
-			(xy 269.24 71.12) (xy 269.24 132.08)
+			(xy 274.32 16.51) (xy 274.32 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1351,57 +1938,157 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 246.38 120.65)
+			(xy 240.03 100.33) (xy 240.03 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c58f1c5e-0e11-40b2-9ccb-6d9b36d47ac7")
+		(uuid "bce45cb7-7ae0-43ff-8c43-a8e45bd8c6c5")
 	)
 	(wire
 		(pts
-			(xy 218.44 90.17) (xy 232.41 90.17)
+			(xy 212.09 100.33) (xy 212.09 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9d02e48-fc54-4794-9364-830c9b7cfb95")
+		(uuid "be76e60d-f74c-4c9c-8641-4f9105d20f23")
 	)
 	(wire
 		(pts
-			(xy 218.44 105.41) (xy 231.14 105.41)
+			(xy 138.43 116.84) (xy 152.4 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d054d7cd-4672-41dc-b591-580c4c8f9712")
+		(uuid "c2cbb9cc-df88-4f60-8023-3f90eeeeb842")
 	)
 	(wire
 		(pts
-			(xy 153.67 123.19) (xy 167.64 123.19)
+			(xy 143.51 110.49) (xy 143.51 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5f5573f-b9fe-4d44-90d3-d48eec165e8c")
+		(uuid "c503a044-93ad-4b69-843a-8c4fd3954ce2")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 218.44 123.19) (xy 232.41 123.19)
+			(xy 99.06 132.08) (xy 99.06 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e621d746-b507-42d4-bd38-3bdceb4bf70a")
+		(uuid "c9c68ce6-dd76-4523-9f83-d65fde998089")
 	)
 	(wire
 		(pts
-			(xy 153.67 101.6) (xy 153.67 105.41)
+			(xy 212.09 95.25) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4500dd-b942-4669-a1fe-2bcaf42c3bb0")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7d97cd-fa31-4847-b012-f8743949be5a")
+	)
+	(wire
+		(pts
+			(xy 240.03 97.79) (xy 240.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf79458b-9bc7-4dab-9e9b-5db2164864bf")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fff7f1-fc31-420f-9872-7e163a8d75e5")
+	)
+	(wire
+		(pts
+			(xy 226.06 82.55) (xy 240.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf58558-f2f5-45ea-a2ab-2af15ccf2445")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf983a4-9468-4332-b769-22b97b9b5e3f")
+	)
+	(wire
+		(pts
+			(xy 240.03 93.98) (xy 240.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f044831d-b4a1-4501-89d4-dfd414ce2626")
+	)
+	(wire
+		(pts
+			(xy 166.37 96.52) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ae0571-5fd1-4b78-a8a2-e475c749dd7f")
+	)
+	(wire
+		(pts
+			(xy 233.68 113.03) (xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37e6471-42c8-44d8-833a-1b652aaa966e")
+	)
+	(wire
+		(pts
+			(xy 240.03 115.57) (xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c7a288-3d02-485b-9968-24117f42e81d")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1411,27 +2098,47 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 123.19) (xy 218.44 120.65)
+			(xy 160.02 102.87) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb5f2f73-0895-4a70-bf33-89ac49e6854a")
+		(uuid "f6538f89-27f0-4798-a3bb-74d800fbf037")
+	)
+	(wire
+		(pts
+			(xy 233.68 110.49) (xy 233.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd24b64-3140-401c-9c23-e1ee39bd5b39")
+	)
+	(wire
+		(pts
+			(xy 152.4 116.84) (xy 166.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedc90ac-aa69-40cd-8be8-54cf9b97e686")
 	)
 	(text "H-Bridge\n"
 		(exclude_from_sim no)
-		(at 198.882 79.248 0)
+		(at 186.944 62.23 0)
 		(effects
 			(font
-				(size 3.81 3.81)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "5575ab7a-f085-4041-ba7e-97ff55889c67")
 	)
 	(text "Connectors \n\n"
 		(exclude_from_sim no)
-		(at 71.374 87.122 0)
+		(at 60.96 83.82 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1441,7 +2148,7 @@
 	)
 	(global_label "BDC11"
 		(shape input)
-		(at 86.36 107.95 180)
+		(at 63.5 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1451,7 +2158,7 @@
 		)
 		(uuid "06c6ab77-36c1-4e9c-905e-f050378a2a92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1458 107.95 0)
+			(at 54.2858 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +2170,7 @@
 	)
 	(global_label "BDC22"
 		(shape input)
-		(at 86.36 110.49 180)
+		(at 63.5 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1473,7 +2180,7 @@
 		)
 		(uuid "0c9d8021-12ad-4134-9674-9efde62fdb96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.1458 110.49 0)
+			(at 54.2858 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +2192,7 @@
 	)
 	(global_label "BDC2"
 		(shape input)
-		(at 86.36 100.33 180)
+		(at 63.5 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1495,7 +2202,7 @@
 		)
 		(uuid "2ae0ff09-e210-4501-92af-481fbda677fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.3553 100.33 0)
+			(at 55.4953 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,9 +2212,9 @@
 			)
 		)
 	)
-	(global_label "BDC2"
+	(global_label "BDC1"
 		(shape input)
-		(at 254 96.52 0)
+		(at 247.65 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1515,9 +2222,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3bfe1d04-f43a-4bb3-9682-94349ed7bad5")
+		(uuid "44823938-c1e1-4205-b5c4-b3042a5e1f60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.0047 96.52 0)
+			(at 255.6547 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,9 +2234,31 @@
 			)
 		)
 	)
+	(global_label "BDC2"
+		(shape input)
+		(at 204.47 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44838c89-bb08-43a4-9cd7-804ee41e1cff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.4653 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BDC1"
 		(shape input)
-		(at 86.36 97.79 180)
+		(at 63.5 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1539,7 +2268,7 @@
 		)
 		(uuid "5d3b29ad-f413-4143-ad57-e33fc8a41809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.3553 97.79 0)
+			(at 55.4953 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1551,7 +2280,7 @@
 	)
 	(global_label "BDC11"
 		(shape input)
-		(at 189.23 115.57 0)
+		(at 173.99 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1561,29 +2290,7 @@
 		)
 		(uuid "7ac7fa4a-92dd-4edc-b653-378340acac63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.4442 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BDC22"
-		(shape input)
-		(at 189.23 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9acb651-50e7-4783-b4f2-3980dcad9ece")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.4442 96.52 0)
+			(at 183.2042 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +2302,51 @@
 	)
 	(global_label "BDC2"
 		(shape input)
-		(at 210.82 115.57 180)
+		(at 247.65 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f425250-d9ca-41df-8b0a-2d8aa4e02e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.6547 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BDC22"
+		(shape input)
+		(at 173.99 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9acb651-50e7-4783-b4f2-3980dcad9ece")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.2042 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BDC1"
+		(shape input)
+		(at 204.47 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1603,9 +2354,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b25dacb7-bdee-43a5-b19d-ab9d68a8c438")
+		(uuid "b192ca8e-2156-49fc-b5fd-9f3450ebcc2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.8153 115.57 0)
+			(at 196.4653 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +2368,7 @@
 	)
 	(global_label "BDC11"
 		(shape input)
-		(at 146.05 96.52 180)
+		(at 130.81 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1627,7 +2378,7 @@
 		)
 		(uuid "cb6439ac-4549-408a-bfdb-f75d2da234ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 96.52 0)
+			(at 121.5958 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1639,7 +2390,7 @@
 	)
 	(global_label "BDC22"
 		(shape input)
-		(at 146.05 115.57 180)
+		(at 130.81 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1649,51 +2400,7 @@
 		)
 		(uuid "daf2b581-fd43-4c27-bad0-fc30c1315b07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8358 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BDC1"
-		(shape input)
-		(at 254 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed2dbd15-61c5-475a-a7c1-86adf8ce6443")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.0047 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BDC1"
-		(shape input)
-		(at 210.82 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f77a2fae-15ab-491a-a227-ada7c02cfe7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.8153 96.52 0)
+			(at 121.5958 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,17 +2411,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+48V")
-		(at 232.41 88.9 0)
+		(lib_id "Device:D_Schottky_AKA")
+		(at 160.02 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0312d4db-931a-46e0-aeb8-34de06e78cd7")
-		(property "Reference" "#PWR011"
-			(at 232.41 92.71 0)
+		(uuid "0721bc44-311d-41d0-bc84-81f92eb2c4e1")
+		(property "Reference" "D2"
+			(at 161.29 106.934 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 145.796 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,16 +2447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+48V"
-			(at 232.41 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 88.9 0)
+		(property "Datasheet" "~"
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,17 +2456,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 232.41 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 232.41 88.9 0)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,12 +2466,302 @@
 			)
 		)
 		(pin "1"
-			(uuid "294bd178-24db-4161-aa60-b40d4c23b5e8")
+			(uuid "3cb19a16-6d95-428e-9cca-b8cc05528bd9")
+		)
+		(pin "2"
+			(uuid "fb3fcb15-a2bd-44c2-9eb4-1334c2be7071")
+		)
+		(pin "3"
+			(uuid "02e15694-5a03-45a9-a348-c3c6e3a6fbde")
 		)
 		(instances
 			(project "Skibidi-Motordriver"
 				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "#PWR011")
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 226.06 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d456fa4-ca6d-4d72-aa72-850b1e2d8941")
+		(property "Reference" "#PWR01"
+			(at 226.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 226.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24e033d9-9a0e-4448-93fc-358f998e4233")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 160.02 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ffdeb0b-7aa8-479c-af81-7f433eb5e721")
+		(property "Reference" "D1"
+			(at 154.94 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 145.796 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2ea8ddc-3be9-4c94-9e63-bd925fe65f24")
+		)
+		(pin "2"
+			(uuid "7b90d177-4098-439f-a6f1-7026c43459ad")
+		)
+		(pin "3"
+			(uuid "f4481a22-f55f-40f2-82df-eb7f859a463c")
+		)
+		(instances
+			(project ""
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 143.51 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ae4ec85-0c71-4db5-b561-5b40bec3f667")
+		(property "Reference" "D3"
+			(at 145.034 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 129.286 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 143.51 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d39a7adf-3930-4ac8-b158-67cda2cda00f")
+		)
+		(pin "2"
+			(uuid "0efd6574-593c-45aa-82f4-d13c334274e2")
+		)
+		(pin "3"
+			(uuid "864700d6-343c-44ab-9cff-ddeede6bf795")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GEC")
+		(at 209.55 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b67c91a-3509-48c0-831e-2928bce35517")
+		(property "Reference" "Q10"
+			(at 203.708 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGBT"
+			(at 202.946 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:IGBT"
+			(at 214.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-IGBT transistor, gate/emitter/collector"
+			(at 209.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fba422b7-a918-47c6-b75a-0c72b64cf131")
+		)
+		(pin "3"
+			(uuid "1f24b475-b112-4c65-a6b1-4d9dab9ab78c")
+		)
+		(pin "1"
+			(uuid "5d947505-8da9-4a72-a756-b27e3ae56baf")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1771,15 +2769,15 @@
 	)
 	(symbol
 		(lib_id "xt90:XT90PW-M")
-		(at 233.68 110.49 270)
+		(at 227.33 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "09454371-5c4b-43fb-ae72-fe2630bda456")
-		(property "Reference" "J1"
-			(at 231.394 116.332 90)
+		(uuid "2280808e-1abb-42e9-b508-04c51c676eef")
+		(property "Reference" "J3"
+			(at 225.044 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +2786,7 @@
 			)
 		)
 		(property "Value" "XT90"
-			(at 230.378 119.888 90)
+			(at 224.028 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +2795,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:xt90Female"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +2805,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +2814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +2823,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +2833,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow\n"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,7 +2843,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +2853,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +2863,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2873,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +2883,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +2893,7 @@
 			)
 		)
 		(property "PARTREV" "V00"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,7 +2903,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +2913,7 @@
 			)
 		)
 		(property "MP" "XT90PW-M"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +2923,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2933,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 233.68 110.49 0)
+			(at 227.33 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,15 +2943,15 @@
 			)
 		)
 		(pin "N"
-			(uuid "9a3d62e2-dc2e-4979-af4b-3f78e88a52a0")
+			(uuid "35341f84-4b64-4960-9d8d-f8ebbbd3b4a7")
 		)
 		(pin "P"
-			(uuid "2d78e681-81bc-4815-a86a-a77514f1366b")
+			(uuid "dff5322a-504c-4cc3-abde-90e1bdfdd44c")
 		)
 		(instances
 			(project "Skibidi-Motordriver"
 				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1961,152 +2959,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NIGBT_GEC")
-		(at 215.9 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "17f285a9-5960-4276-998b-38555aee9224")
-		(property "Reference" "Q2"
-			(at 210.058 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGBT"
-			(at 209.296 120.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 220.98 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "536fa4a3-3946-4c78-9571-139ea6d80742")
-		)
-		(pin "3"
-			(uuid "198fde1c-f65a-4625-bbaa-a1fdd630cd97")
-		)
-		(pin "1"
-			(uuid "7580b04b-c435-4175-88ad-4f5f26016148")
-		)
-		(instances
-			(project "Skibidi-Motordriver"
-				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GEC")
-		(at 248.92 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "21f217fa-e273-4914-a7ce-9b620c3bea18")
-		(property "Reference" "Q4"
-			(at 254.254 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGBT"
-			(at 255.016 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 243.84 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 248.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b80579c-7e2b-4914-aa34-651b0b6a355c")
-		)
-		(pin "3"
-			(uuid "8860f052-419b-48fc-9369-5366299eb49c")
-		)
-		(pin "1"
-			(uuid "5cf595e0-b2ab-4893-a8bb-b7c73dce80b3")
-		)
-		(instances
-			(project "Skibidi-Motordriver"
-				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NIGBT_GEC")
-		(at 184.15 115.57 0)
+		(at 168.91 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2115,7 +2968,7 @@
 		(dnp no)
 		(uuid "49f1917c-f2ec-49de-9aeb-244d60c13c8f")
 		(property "Reference" "Q8"
-			(at 189.484 118.364 0)
+			(at 174.244 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2977,7 @@
 			)
 		)
 		(property "Value" "IGBT"
-			(at 190.246 120.65 0)
+			(at 175.006 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2986,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 179.07 113.03 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2995,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 115.57 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +3004,7 @@
 			)
 		)
 		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 184.15 115.57 0)
+			(at 168.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,8 +3031,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 217.17 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "548f2d09-0278-4f62-abe4-2cebabcbb294")
+		(property "Reference" "D5"
+			(at 219.71 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 202.946 93.726 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f7b7647-9316-4a45-bc1c-6e1f6eb48288")
+		)
+		(pin "2"
+			(uuid "245558fc-c592-484a-a9b9-c629df0f5388")
+		)
+		(pin "3"
+			(uuid "a125f28f-7889-4ab2-bbb9-7373b0979d14")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "xt90:XT90PW-M")
-		(at 44.45 101.6 90)
+		(at 38.1 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2187,7 +3113,7 @@
 		(dnp no)
 		(uuid "5892d1ea-6190-4a54-b78b-303c5866d395")
 		(property "Reference" "J5"
-			(at 46.736 95.758 90)
+			(at 40.386 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2196,7 +3122,7 @@
 			)
 		)
 		(property "Value" "XT90"
-			(at 47.752 92.202 90)
+			(at 41.402 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +3131,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:xt90Female"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +3150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +3159,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +3169,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow\n"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +3179,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +3189,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,7 +3199,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +3209,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +3219,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +3229,7 @@
 			)
 		)
 		(property "PARTREV" "V00"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +3239,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +3249,7 @@
 			)
 		)
 		(property "MP" "XT90PW-M"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +3259,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +3269,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 44.45 101.6 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,8 +3294,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 226.06 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb5b0ed-c84f-4a4e-ac7e-57feb6966dc1")
+		(property "Reference" "#PWR02"
+			(at 226.06 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65c521a2-6741-4ae3-afcb-95612c5f39f3")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NIGBT_GEC")
-		(at 151.13 115.57 0)
+		(at 135.89 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2377,7 +3369,7 @@
 		(dnp no)
 		(uuid "602017fc-8e5f-400d-b506-93743907c710")
 		(property "Reference" "Q7"
-			(at 145.288 118.11 0)
+			(at 130.048 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +3378,7 @@
 			)
 		)
 		(property "Value" "IGBT"
-			(at 144.526 120.396 0)
+			(at 129.286 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +3387,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 156.21 113.03 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2404,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 115.57 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,7 +3405,7 @@
 			)
 		)
 		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 151.13 115.57 0)
+			(at 135.89 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +3433,7 @@
 	)
 	(symbol
 		(lib_id "xt90:XT90PW-M")
-		(at 168.91 110.49 270)
+		(at 153.67 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2449,7 +3441,7 @@
 		(dnp no)
 		(uuid "6433b0d2-7b00-4e8f-993e-5847c7e68bcd")
 		(property "Reference" "J2"
-			(at 166.624 116.332 90)
+			(at 151.384 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +3450,7 @@
 			)
 		)
 		(property "Value" "XT90"
-			(at 165.608 119.888 90)
+			(at 150.368 113.538 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +3459,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:xt90Female"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +3469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +3478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +3487,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +3497,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow\n"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2515,7 +3507,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +3517,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +3527,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +3537,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +3547,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +3557,7 @@
 			)
 		)
 		(property "PARTREV" "V00"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +3567,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +3577,7 @@
 			)
 		)
 		(property "MP" "XT90PW-M"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +3587,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +3597,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 168.91 110.49 0)
+			(at 153.67 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,17 +3622,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 91.44 107.95 0)
+		(lib_id "Device:Q_NIGBT_GEC")
+		(at 209.55 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e209085-ccfc-4ccf-8184-e0db81a918a5")
-		(property "Reference" "J7"
-			(at 93.98 107.9499 0)
+		(uuid "6a1ca867-91fb-465a-b015-36c669ad11e3")
+		(property "Reference" "Q9"
+			(at 203.2 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,8 +3639,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 93.98 110.4899 0)
+		(property "Value" "IGBT"
+			(at 202.692 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,8 +3648,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Screwterminal2"
-			(at 91.44 107.95 0)
+		(property "Footprint" "Skibidi-feet:IGBT"
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +3658,80 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 107.95 0)
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-IGBT transistor, gate/emitter/collector"
+			(at 209.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17c43968-288d-4184-89ed-724891c3f6fd")
+		)
+		(pin "3"
+			(uuid "81237281-6359-4029-9e87-74f113cfeece")
+		)
+		(pin "1"
+			(uuid "8825c1a0-b83e-4bf9-b54b-a9b2048719de")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 68.58 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e209085-ccfc-4ccf-8184-e0db81a918a5")
+		(property "Reference" "J7"
+			(at 71.12 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 71.12 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:Screwterminal2"
+			(at 68.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +3740,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 107.95 0)
+			(at 68.58 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,80 +3764,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NIGBT_GEC")
-		(at 215.9 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7da34a0f-f7c1-44b6-8239-3292f50648b4")
-		(property "Reference" "Q1"
-			(at 209.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGBT"
-			(at 209.042 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 220.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 215.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0241d9dd-63a9-4441-a05b-bd42b521c8ab")
-		)
-		(pin "3"
-			(uuid "975c0290-33ca-4aa0-bf5e-9aad0ee1df16")
-		)
-		(pin "1"
-			(uuid "b2e2d0a8-bef6-475e-b336-14fbeea75c50")
-		)
-		(instances
-			(project "Skibidi-Motordriver"
-				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 46.99 106.68 0)
+		(at 40.64 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2782,7 +3774,7 @@
 		(fields_autoplaced yes)
 		(uuid "941fc8a3-b8f7-4594-bd7d-a85fb5a86ec5")
 		(property "Reference" "#PWR015"
-			(at 46.99 113.03 0)
+			(at 40.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +3783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 111.76 0)
+			(at 40.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 106.68 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 106.68 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +3809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 106.68 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +3831,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NIGBT_GEC")
-		(at 151.13 96.52 0)
+		(at 135.89 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2847,7 +3839,7 @@
 		(dnp no)
 		(uuid "a22cd805-bb66-44c3-bc69-c529c94e739c")
 		(property "Reference" "Q5"
-			(at 144.78 99.06 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +3848,7 @@
 			)
 		)
 		(property "Value" "IGBT"
-			(at 144.272 101.346 0)
+			(at 129.032 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3857,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 156.21 93.98 0)
+			(at 140.97 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +3866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 96.52 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +3875,7 @@
 			)
 		)
 		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 151.13 96.52 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,16 +3903,16 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NIGBT_GEC")
-		(at 248.92 96.52 0)
+		(at 242.57 88.9 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "abba0753-e3c5-41c5-92a8-76b98f496709")
-		(property "Reference" "Q3"
-			(at 254 99.314 0)
+		(uuid "ac27786e-79db-4e2f-8685-9ba7873fb925")
+		(property "Reference" "Q11"
+			(at 247.65 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +3921,7 @@
 			)
 		)
 		(property "Value" "IGBT"
-			(at 255.016 101.6 0)
+			(at 248.666 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +3930,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 243.84 93.98 0)
+			(at 237.49 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 96.52 0)
+			(at 242.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +3948,7 @@
 			)
 		)
 		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 248.92 96.52 0)
+			(at 242.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,18 +3957,91 @@
 			)
 		)
 		(pin "2"
-			(uuid "4ba8f969-726b-4137-a257-b61fec8795ed")
+			(uuid "a77c863a-1be1-418b-adbe-390fb026877b")
 		)
 		(pin "3"
-			(uuid "44ca110e-0a27-4fa0-af1f-fe0e50ebfca5")
+			(uuid "c355a498-b628-496f-ab77-1a00539e2d73")
 		)
 		(pin "1"
-			(uuid "9775602a-b1b2-40a0-9e97-c22199f6ae07")
+			(uuid "9ea43738-3c2c-4a1d-b501-59ca7aeb2607")
 		)
 		(instances
 			(project "Skibidi-Motordriver"
 				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "Q3")
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 233.68 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6071b78-e2e6-444d-8086-34d70a46405d")
+		(property "Reference" "D8"
+			(at 234.95 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 219.456 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc9eb79-5ae6-43b4-9c60-aa70983931bb")
+		)
+		(pin "2"
+			(uuid "0d3688e1-d7e4-4eea-b2e7-a6c9e40a865b")
+		)
+		(pin "3"
+			(uuid "3062ab5a-6c5d-481e-b15b-3987d9a257e9")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -2984,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 167.64 88.9 0)
+		(at 152.4 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2993,7 +4058,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6f8a9e0-f549-41fc-8689-4ca3215da296")
 		(property "Reference" "#PWR03"
-			(at 167.64 92.71 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +4067,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 167.64 83.82 0)
+			(at 152.4 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +4075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 88.9 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +4084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 88.9 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +4093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 167.64 88.9 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,8 +4114,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 217.17 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb0184fe-3e80-4ac8-aaa8-18243f54b5f8")
+		(property "Reference" "D6"
+			(at 218.694 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 202.946 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "745a5c53-7120-44a7-ac9c-7fa2e637da3c")
+		)
+		(pin "2"
+			(uuid "65d6e84b-8787-4957-9dfd-3bd4eb8d9064")
+		)
+		(pin "3"
+			(uuid "91b28946-c6c9-4cbc-b12a-78f84c6ef664")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 143.51 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7a43c9a-07de-4e73-a509-0a56a992edde")
+		(property "Reference" "D4"
+			(at 146.05 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_Schottky_AKA"
+			(at 129.286 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "118cb6d6-6e68-40d9-a021-57a9f5825dfd")
+		)
+		(pin "2"
+			(uuid "a32e0e9a-45b5-456f-80d8-9135f3fb95dd")
+		)
+		(pin "3"
+			(uuid "b1b8f0fb-a736-48e1-b92b-35d78ad0b9b0")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 167.64 123.19 0)
+		(at 152.4 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3059,7 +4270,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9e586c8-31a6-47fe-a887-651120f2cf31")
 		(property "Reference" "#PWR012"
-			(at 167.64 129.54 0)
+			(at 152.4 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,7 +4279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 128.27 0)
+			(at 152.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +4287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 123.19 0)
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,7 +4296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 123.19 0)
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +4305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 123.19 0)
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,16 +4327,16 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NIGBT_GEC")
-		(at 184.15 96.52 0)
+		(at 242.57 107.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "df725021-fb0c-4d41-90ce-8965e579e5a3")
-		(property "Reference" "Q6"
-			(at 189.23 99.314 0)
+		(uuid "da004568-0279-4d21-8c8b-a037cde5d2b2")
+		(property "Reference" "Q12"
+			(at 247.904 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +4345,7 @@
 			)
 		)
 		(property "Value" "IGBT"
-			(at 190.246 101.6 0)
+			(at 248.666 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +4354,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:IGBT"
-			(at 179.07 93.98 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +4363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 96.52 0)
+			(at 242.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +4372,80 @@
 			)
 		)
 		(property "Description" "N-IGBT transistor, gate/emitter/collector"
-			(at 184.15 96.52 0)
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27c37423-4bc2-4205-8f1a-af52f18c178d")
+		)
+		(pin "3"
+			(uuid "c1e724e3-c2bb-452a-a880-603d8b9128ec")
+		)
+		(pin "1"
+			(uuid "105f2092-78c6-4790-b8aa-08f6208abc7d")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NIGBT_GEC")
+		(at 168.91 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df725021-fb0c-4d41-90ce-8965e579e5a3")
+		(property "Reference" "Q6"
+			(at 173.99 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGBT"
+			(at 175.006 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:IGBT"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-IGBT transistor, gate/emitter/collector"
+			(at 168.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +4473,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 44.45 106.68 180)
+		(at 38.1 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3198,7 +4482,7 @@
 		(fields_autoplaced yes)
 		(uuid "e121bcb9-b843-49d7-984f-1941b45b35e8")
 		(property "Reference" "#PWR013"
-			(at 44.45 102.87 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +4491,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 44.45 111.76 0)
+			(at 38.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +4499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 106.68 0)
+			(at 38.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +4508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 106.68 0)
+			(at 38.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +4517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 44.45 106.68 0)
+			(at 38.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,83 +4538,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 232.41 123.19 0)
+		(lib_id "Device:D_Schottky_AKA")
+		(at 233.68 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eec81347-97f0-48b9-8720-072891c2c8c5")
-		(property "Reference" "#PWR014"
-			(at 232.41 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f245ae86-e132-4c88-9ab8-fd7bbf52f750")
-		)
-		(instances
-			(project "Skibidi-Motordriver"
-				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 91.44 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd578bf6-0b1b-4e7d-aa63-82abd4cbdc4f")
-		(property "Reference" "J8"
-			(at 93.98 97.7899 0)
+		(uuid "e8e8c841-6ccd-433b-a4b8-8adfeff08a6d")
+		(property "Reference" "D7"
+			(at 228.6 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,17 +4555,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 93.98 100.3299 0)
+		(property "Value" "D_Schottky_AKA"
+			(at 219.456 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Skibidi-feet:Screwterminal2"
-			(at 91.44 97.79 0)
+		(property "Footprint" "Skibidi-feet:SchottkyDiode"
+			(at 233.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +4575,80 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 97.79 0)
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, anode on pins 1 and 3"
+			(at 233.68 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "826a4bab-8bc6-4a57-aa07-2b4c98237080")
+		)
+		(pin "2"
+			(uuid "ed29e0c8-7aac-4db9-8d25-73449ab2933e")
+		)
+		(pin "3"
+			(uuid "bf914080-4298-46f3-9e37-b81180ac484e")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 68.58 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd578bf6-0b1b-4e7d-aa63-82abd4cbdc4f")
+		(property "Reference" "J8"
+			(at 71.12 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 71.12 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Skibidi-feet:Screwterminal2"
+			(at 68.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +4657,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 97.79 0)
+			(at 68.58 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
