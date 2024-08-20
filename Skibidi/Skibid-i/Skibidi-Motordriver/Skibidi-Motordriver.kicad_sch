@@ -1801,10 +1801,22 @@
 		)
 	)
 	(junction
+		(at 232.41 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29671aca-f3db-445a-8d95-c8069f9c69ef")
+	)
+	(junction
 		(at 232.41 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35d31f1c-6de7-4f0d-b575-3805cba6ef6f")
+	)
+	(junction
+		(at 167.64 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6853ab7f-bb52-42b2-821c-3d8d56ccf88c")
 	)
 	(junction
 		(at 128.27 71.12)
@@ -1933,6 +1945,16 @@
 			(type default)
 		)
 		(uuid "1eff4ed0-b56f-4e3a-9023-2260d32884c8")
+	)
+	(wire
+		(pts
+			(xy 167.64 123.19) (xy 181.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef88dca-5a6a-4e51-a192-d3362f49456c")
 	)
 	(wire
 		(pts
@@ -2154,6 +2176,16 @@
 		)
 		(uuid "b37b7a7a-e1a8-41e1-a985-40fb7b468651")
 	)
+	(wire
+		(pts
+			(xy 232.41 123.19) (xy 246.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb855981-7124-40da-a4e8-26ecaaf32c43")
+	)
 	(bus
 		(pts
 			(xy 269.24 71.12) (xy 269.24 132.08)
@@ -2196,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 123.19) (xy 181.61 123.19)
+			(xy 153.67 123.19) (xy 167.64 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 123.19) (xy 246.38 123.19)
+			(xy 218.44 123.19) (xy 232.41 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2364,7 @@
 	)
 	(global_label "Motor2B"
 		(shape input)
-		(at 41.91 49.53 180)
+		(at 142.24 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2342,7 +2374,7 @@
 		)
 		(uuid "2e6113df-6922-482e-a428-2189a478dc96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.184 49.53 0)
+			(at 131.514 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2452,7 @@
 	)
 	(global_label "Motor2A"
 		(shape input)
-		(at 41.91 46.99 180)
+		(at 142.24 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2430,29 +2462,7 @@
 		)
 		(uuid "44f278ed-2044-42e8-8119-5a119b1136e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.3654 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bat-"
-		(shape input)
-		(at 167.64 123.19 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ae20764-0372-4619-981b-cfffda93de6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.64 130.8923 90)
+			(at 131.6954 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2518,7 @@
 	)
 	(global_label "Motor1B"
 		(shape input)
-		(at 41.91 59.69 180)
+		(at 142.24 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2518,7 +2528,7 @@
 		)
 		(uuid "72c83260-2766-449e-bce2-0fe6a0106808")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.184 59.69 0)
+			(at 131.514 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,28 +2573,6 @@
 		(uuid "7ac7fa4a-92dd-4edc-b653-378340acac63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.4442 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Bat-"
-		(shape input)
-		(at 46.99 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "825f05bd-2c0f-4d8e-b20e-84a58b11876b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.6923 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,28 +2692,6 @@
 			)
 		)
 	)
-	(global_label "Bat-"
-		(shape input)
-		(at 232.41 123.19 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b48c2c5a-9e85-4ced-abca-f619f1c127c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 130.8923 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BDC22"
 		(shape input)
 		(at 54.61 185.42 0)
@@ -2750,7 +2716,7 @@
 	)
 	(global_label "Motor1A"
 		(shape input)
-		(at 41.91 57.15 180)
+		(at 142.24 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2760,7 +2726,7 @@
 		)
 		(uuid "cb4051e6-092a-49df-be6d-97b7e9ee99ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.3654 57.15 0)
+			(at 131.6954 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 52.07 270)
+		(at 142.24 170.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4476,7 +4442,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6731f2-46e4-41a7-b72e-dc276852567c")
 		(property "Reference" "#PWR04"
-			(at 35.56 52.07 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 52.0699 90)
+			(at 138.43 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 52.07 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 52.07 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 52.07 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,6 +4635,72 @@
 			(project "Skibidi-Motordriver"
 				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "941fc8a3-b8f7-4594-bd7d-a85fb5a86ec5")
+		(property "Reference" "#PWR015"
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42551a3a-f945-4565-ab27-a3f0dc18cba6")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 46.99 57.15 0)
+		(at 147.32 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4907,7 +4939,7 @@
 		(fields_autoplaced yes)
 		(uuid "b76bfb81-10e1-40b2-8a99-8c874aa80932")
 		(property "Reference" "J3"
-			(at 49.53 57.1499 0)
+			(at 149.86 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4948,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 49.53 59.6899 0)
+			(at 149.86 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4957,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:Screwterminal2"
-			(at 46.99 57.15 0)
+			(at 147.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 57.15 0)
+			(at 147.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4975,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 57.15 0)
+			(at 147.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,6 +5126,72 @@
 			(project "Skibidi-Motordriver"
 				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e586c8-31a6-47fe-a887-651120f2cf31")
+		(property "Reference" "#PWR012"
+			(at 167.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02552182-66af-421d-a439-7e037b5042af")
+		)
+		(instances
+			(project ""
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5393,8 +5491,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 232.41 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eec81347-97f0-48b9-8720-072891c2c8c5")
+		(property "Reference" "#PWR014"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f245ae86-e132-4c88-9ab8-fd7bbf52f750")
+		)
+		(instances
+			(project "Skibidi-Motordriver"
+				(path "/2a9fd5b7-0f65-47cc-af9d-9a1728df1491"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 46.99 49.53 0)
+		(at 147.32 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +5567,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7fbb2d7-8a2a-45a7-b334-cc1307fd00f3")
 		(property "Reference" "J6"
-			(at 49.53 48.2599 0)
+			(at 149.86 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5576,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 49.53 50.7999 0)
+			(at 149.86 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5585,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:ScrewTerminal3"
-			(at 46.99 49.53 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 49.53 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5603,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 49.53 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
