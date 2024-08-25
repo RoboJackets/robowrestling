@@ -1163,12 +1163,6 @@
 		)
 	)
 	(junction
-		(at 99.06 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ea7d191-fd68-47e6-8d52-9ba097072ad4")
-	)
-	(junction
 		(at 166.37 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1456,6 +1450,16 @@
 		)
 		(uuid "22a0cdae-1c32-4d3a-8857-b9ca8da29e8d")
 	)
+	(bus
+		(pts
+			(xy 99.06 48.26) (xy 278.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29747f07-1933-41a9-afb8-d826cfed5e83")
+	)
 	(wire
 		(pts
 			(xy 226.06 82.55) (xy 226.06 81.28)
@@ -1535,16 +1539,6 @@
 			(type default)
 		)
 		(uuid "328616d7-6401-4157-a7cb-60d90e5af015")
-	)
-	(bus
-		(pts
-			(xy 99.06 16.51) (xy 99.06 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33261168-ac75-462b-818c-34f85c499b44")
 	)
 	(wire
 		(pts
@@ -1858,7 +1852,17 @@
 	)
 	(bus
 		(pts
-			(xy 99.06 161.29) (xy 274.32 161.29)
+			(xy 99.06 48.26) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a296b0-af6f-4b6d-a2a7-0652c1111c9c")
+	)
+	(bus
+		(pts
+			(xy 99.06 132.08) (xy 278.13 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1875,16 +1879,6 @@
 			(type default)
 		)
 		(uuid "963f2286-9e93-4bb0-afbe-1d77171e9840")
-	)
-	(bus
-		(pts
-			(xy 99.06 16.51) (xy 274.32 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e1ca392-3e5c-4662-aa5d-683e7d1a65c1")
 	)
 	(wire
 		(pts
@@ -1928,7 +1922,7 @@
 	)
 	(bus
 		(pts
-			(xy 274.32 16.51) (xy 274.32 161.29)
+			(xy 278.13 48.26) (xy 278.13 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1975,16 +1969,6 @@
 			(type default)
 		)
 		(uuid "c503a044-93ad-4b69-843a-8c4fd3954ce2")
-	)
-	(bus
-		(pts
-			(xy 99.06 132.08) (xy 99.06 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c68ce6-dd76-4523-9f83-d65fde998089")
 	)
 	(wire
 		(pts
@@ -2138,7 +2122,7 @@
 	)
 	(text "Connectors \n\n"
 		(exclude_from_sim no)
-		(at 60.96 83.82 0)
+		(at 62.23 88.9 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -2148,7 +2132,7 @@
 	)
 	(global_label "BDC11"
 		(shape input)
-		(at 63.5 105.41 180)
+		(at 64.77 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2158,7 +2142,7 @@
 		)
 		(uuid "06c6ab77-36c1-4e9c-905e-f050378a2a92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2858 105.41 0)
+			(at 55.5558 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,7 +2154,7 @@
 	)
 	(global_label "BDC22"
 		(shape input)
-		(at 63.5 107.95 180)
+		(at 64.77 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2180,7 +2164,7 @@
 		)
 		(uuid "0c9d8021-12ad-4134-9674-9efde62fdb96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.2858 107.95 0)
+			(at 55.5558 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2176,7 @@
 	)
 	(global_label "BDC2"
 		(shape input)
-		(at 63.5 97.79 180)
+		(at 64.77 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2202,7 +2186,7 @@
 		)
 		(uuid "2ae0ff09-e210-4501-92af-481fbda677fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4953 97.79 0)
+			(at 56.7653 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2242,7 @@
 	)
 	(global_label "BDC1"
 		(shape input)
-		(at 63.5 95.25 180)
+		(at 64.77 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2268,7 +2252,7 @@
 		)
 		(uuid "5d3b29ad-f413-4143-ad57-e33fc8a41809")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4953 95.25 0)
+			(at 56.7653 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +3089,7 @@
 	)
 	(symbol
 		(lib_id "xt90:XT90PW-M")
-		(at 38.1 100.33 90)
+		(at 39.37 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3113,7 +3097,7 @@
 		(dnp no)
 		(uuid "5892d1ea-6190-4a54-b78b-303c5866d395")
 		(property "Reference" "J5"
-			(at 40.386 94.488 90)
+			(at 41.656 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3106,7 @@
 			)
 		)
 		(property "Value" "XT90"
-			(at 41.402 90.932 90)
+			(at 42.672 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3131,7 +3115,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:xt90Female"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3143,7 @@
 			)
 		)
 		(property "MF" "AMASS"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3153,7 @@
 			)
 		)
 		(property "Description_1" "\nSocket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow\n"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3163,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3173,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +3183,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3193,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3203,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3213,7 @@
 			)
 		)
 		(property "PARTREV" "V00"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3223,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3233,7 @@
 			)
 		)
 		(property "MP" "XT90PW-M"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3243,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3269,7 +3253,7 @@
 			)
 		)
 		(property "MANUFACTURER" "AMASS"
-			(at 38.1 100.33 0)
+			(at 39.37 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3679,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 68.58 105.41 0)
+		(at 69.85 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3704,7 +3688,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e209085-ccfc-4ccf-8184-e0db81a918a5")
 		(property "Reference" "J7"
-			(at 71.12 105.4099 0)
+			(at 72.39 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +3697,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 71.12 107.9499 0)
+			(at 72.39 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3706,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:Screwterminal2"
-			(at 68.58 105.41 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3715,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 105.41 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3724,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 105.41 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3749,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 105.41 0)
+		(at 41.91 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3774,7 +3758,7 @@
 		(fields_autoplaced yes)
 		(uuid "941fc8a3-b8f7-4594-bd7d-a85fb5a86ec5")
 		(property "Reference" "#PWR015"
-			(at 40.64 111.76 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 110.49 0)
+			(at 41.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +3775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 105.41 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 105.41 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 105.41 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4457,7 @@
 	)
 	(symbol
 		(lib_id "power:+48V")
-		(at 38.1 105.41 180)
+		(at 39.37 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4482,7 +4466,7 @@
 		(fields_autoplaced yes)
 		(uuid "e121bcb9-b843-49d7-984f-1941b45b35e8")
 		(property "Reference" "#PWR013"
-			(at 38.1 101.6 0)
+			(at 39.37 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4475,7 @@
 			)
 		)
 		(property "Value" "+48V"
-			(at 38.1 110.49 0)
+			(at 39.37 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 105.41 0)
+			(at 39.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 105.41 0)
+			(at 39.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+48V\""
-			(at 38.1 105.41 0)
+			(at 39.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4596,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 68.58 95.25 0)
+		(at 69.85 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4621,7 +4605,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd578bf6-0b1b-4e7d-aa63-82abd4cbdc4f")
 		(property "Reference" "J8"
-			(at 71.12 95.2499 0)
+			(at 72.39 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4614,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 71.12 97.7899 0)
+			(at 72.39 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4623,7 @@
 			)
 		)
 		(property "Footprint" "Skibidi-feet:Screwterminal2"
-			(at 68.58 95.25 0)
+			(at 69.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 95.25 0)
+			(at 69.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4641,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 95.25 0)
+			(at 69.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
