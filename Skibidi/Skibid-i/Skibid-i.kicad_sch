@@ -3821,380 +3821,6 @@
 				)
 			)
 		)
-		(symbol "Isolator:LTV-827S"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LTV-827S"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_DIP:SMDIP-8_W9.53mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-				(at -20.32 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN DC Optocoupler"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SMDIP*W9.53mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTV-827S_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 -1.905) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651) (xy 3.048 -1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "LTV-827S_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTV-827S_2_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Levelshift:TXB0108PWR"
 			(pin_names
 				(offset 1.016)
@@ -4733,6 +4359,457 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Optocouipler1]:WL-OCPT_SERIES_357"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "WL-OCPT_SERIES_357"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "WL-OCPT_SERIES_357:WL-OCPT_SOP4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WL-OCPT_SERIES_357_0_0"
+				(rectangle
+					(start -5.1562 -3.81)
+					(end 5.0038 3.81)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.508) (xy 0.508 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.508) (xy 0.508 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.98 -0.8) (xy 1.98 -1.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.98 -0.8) (xy 4.445 -2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.98 0.7) (xy 1.98 -0.8)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.98 0.7) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.98 1.7) (xy 1.98 0.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy 1.016 -0.508) (xy 0.254 -0.762) (xy 0.254 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.762) (xy 1.016 0.508) (xy 0.254 0.254) (xy 0.254 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.278 -1.354) (xy 2.951 -1.827) (xy 3.7494 -2.0556) (xy 3.278 -1.354)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "A"
+					(at -7.366 2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
+					)
+				)
+				(text "C"
+					(at -7.366 -2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
+					)
+				)
+				(text "C"
+					(at 6.35 2.286 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
+					)
+				)
+				(text "E"
+					(at 6.35 -2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left top)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -7253,6 +7330,12 @@
 		(uuid "4b6242df-3cfd-4581-aec2-5e2024876197")
 	)
 	(junction
+		(at 191.77 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d0ebbe4-4147-490b-862c-31735db343a4")
+	)
+	(junction
 		(at 72.39 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7299,12 +7382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c137b16-e374-456d-bcdb-ad2eb32955a4")
-	)
-	(junction
-		(at 270.51 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "805a3e42-93f7-42bd-b00a-fabe906dfa4e")
 	)
 	(junction
 		(at 143.51 162.56)
@@ -7439,12 +7516,20 @@
 		(uuid "119ccd10-6617-4ce0-ab91-1f053ab7bc0b")
 	)
 	(no_connect
+		(at 118.11 95.25)
+		(uuid "18bf4acf-7dde-45d2-a6eb-a934a2b21676")
+	)
+	(no_connect
 		(at 171.45 102.87)
 		(uuid "1c5bc57c-7ad6-4df4-a0cf-d77e69452a62")
 	)
 	(no_connect
 		(at 222.25 58.42)
 		(uuid "1d8f8bbd-d367-44ae-8a64-df5da1a57917")
+	)
+	(no_connect
+		(at 231.14 93.98)
+		(uuid "26ded7ca-a898-45c6-bf9a-45dc8671b1c3")
 	)
 	(no_connect
 		(at 171.45 92.71)
@@ -7475,12 +7560,12 @@
 		(uuid "40609cd7-a525-4d83-bedd-3570bba0d243")
 	)
 	(no_connect
-		(at 118.11 113.03)
-		(uuid "4fe231b8-ffc2-4462-a623-d2be5727c63d")
+		(at 118.11 87.63)
+		(uuid "44c67627-baf1-402e-9c98-7b7e5f724ff5")
 	)
 	(no_connect
-		(at 171.45 57.15)
-		(uuid "5e29edef-8b53-4889-91d9-20f9103ce87a")
+		(at 118.11 113.03)
+		(uuid "4fe231b8-ffc2-4462-a623-d2be5727c63d")
 	)
 	(no_connect
 		(at 171.45 82.55)
@@ -7509,6 +7594,10 @@
 	(no_connect
 		(at 171.45 67.31)
 		(uuid "7a32ff12-1e68-4a94-867a-765320ad4a5f")
+	)
+	(no_connect
+		(at 118.11 90.17)
+		(uuid "7d29d1ff-05ad-4c85-9774-e56b758c5cdd")
 	)
 	(no_connect
 		(at 171.45 105.41)
@@ -7583,10 +7672,6 @@
 		(uuid "e0eb932e-7a99-4b06-95e7-da00b4e57086")
 	)
 	(no_connect
-		(at 171.45 59.69)
-		(uuid "e1c49ec1-f0db-4a10-86ea-46125a997bcc")
-	)
-	(no_connect
 		(at 171.45 107.95)
 		(uuid "e3736057-6e7f-4934-abeb-640c75c5a422")
 	)
@@ -7603,8 +7688,16 @@
 		(uuid "ebe877c5-cc59-418e-979c-cc37a0c57184")
 	)
 	(no_connect
+		(at 261.62 93.98)
+		(uuid "ecfa4467-6277-4e8c-9ba7-36395539a5d4")
+	)
+	(no_connect
 		(at 171.45 90.17)
 		(uuid "f0385a98-1d71-4473-b948-c58287058a6d")
+	)
+	(no_connect
+		(at 118.11 92.71)
+		(uuid "f42acfa2-fa6f-4318-86df-d5d4d1fac875")
 	)
 	(no_connect
 		(at 266.7 153.67)
@@ -7639,16 +7732,6 @@
 			(type default)
 		)
 		(uuid "0409ac7b-0f8b-4c51-a135-05c1ca5d0b00")
-	)
-	(wire
-		(pts
-			(xy 270.51 93.98) (xy 261.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "057fea17-2fa8-4a80-b1e7-b6239214d672")
 	)
 	(bus
 		(pts
@@ -8049,26 +8132,6 @@
 			(type default)
 		)
 		(uuid "63e14f01-f05b-4040-a7f7-0396486d206c")
-	)
-	(wire
-		(pts
-			(xy 271.78 93.98) (xy 270.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650a42d9-5ffc-48c8-8fbc-553bdf21d42a")
-	)
-	(wire
-		(pts
-			(xy 270.51 96.52) (xy 270.51 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65148501-bc30-438e-968b-8661791467b6")
 	)
 	(bus
 		(pts
@@ -8980,28 +9043,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 118.11 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "050e607f-d5d9-4cde-b8e2-f6d1926cf60d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.5567 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LN2A"
 		(shape input)
 		(at 266.7 138.43 0)
@@ -9288,28 +9329,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 118.11 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "398a423f-636a-4913-bacc-9cd3f51b0cb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.6172 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Dis5"
 		(shape input)
 		(at 118.11 52.07 180)
@@ -9376,28 +9395,6 @@
 			)
 		)
 	)
-	(global_label "DIP3"
-		(shape input)
-		(at 271.78 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3dd573e4-4d4c-48ee-8bfa-3188dddd32df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 279.1195 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LN5"
 		(shape input)
 		(at 92.71 176.53 0)
@@ -9455,6 +9452,28 @@
 		(uuid "49625a0b-ecea-4fde-bed2-3c380ca1f14c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.6642 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 171.45 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49ba987d-1911-4073-a69d-1c840ac832ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.9428 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9728,7 +9747,7 @@
 			)
 		)
 	)
-	(global_label "DIP2"
+	(global_label "DIP3"
 		(shape input)
 		(at 271.78 91.44 0)
 		(fields_autoplaced yes)
@@ -9816,7 +9835,7 @@
 			)
 		)
 	)
-	(global_label "DIP4"
+	(global_label "DIP1"
 		(shape input)
 		(at 271.78 96.52 0)
 		(fields_autoplaced yes)
@@ -10076,6 +10095,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 171.45 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac62f1e9-08ae-4fad-81bf-73d8e1717335")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.0033 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10432,7 +10473,7 @@
 			)
 		)
 	)
-	(global_label "DIP1"
+	(global_label "DIP4"
 		(shape input)
 		(at 271.78 88.9 0)
 		(fields_autoplaced yes)
@@ -11659,6 +11700,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 46.99 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ea31fbb-7246-4d77-84f4-a10592243702")
+		(property "Reference" "Q4"
+			(at 47.2282 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 47.2282 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "askibidi:optopt"
+			(at 46.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b7d31061-beb4-4187-8d7b-90755e86fbe7")
+		)
+		(pin "2"
+			(uuid "f65f3318-dfec-48ad-b1b6-5a6b902ef8fe")
+		)
+		(pin "1"
+			(uuid "12f1ba70-1ad6-44a2-8ede-0f02e9922714")
+		)
+		(pin "3"
+			(uuid "d319fd40-2147-43fb-8d2e-27f1085c1de1")
+		)
+		(instances
+			(project "Skibid-i"
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
 		(at 262.89 77.47 90)
@@ -11794,6 +11910,81 @@
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 87.63 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a9a727-7e6c-4fc5-824e-3aa5f3afe4d5")
+		(property "Reference" "Q6"
+			(at 87.8682 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 87.8682 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "askibidi:optopt"
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ccf7aa3f-3849-4e44-8bc8-cccb2b35fffb")
+		)
+		(pin "2"
+			(uuid "29092235-9b3b-4032-bd53-ca71a73ce55b")
+		)
+		(pin "1"
+			(uuid "ca9a806d-0e0b-43f3-b0bb-764412fb3b4e")
+		)
+		(pin "3"
+			(uuid "5c44cf8c-9ae0-4810-9c31-279043bcb9f8")
+		)
+		(instances
+			(project "Skibid-i"
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -12670,75 +12861,6 @@
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 270.51 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38f66b9c-a382-424e-9b69-e2565827e828")
-		(property "Reference" "R12"
-			(at 276.606 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 276.352 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 271.526 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 270.51 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f52ab828-01d4-4a8f-836f-ef56e746f478")
-		)
-		(pin "1"
-			(uuid "b75bc4d7-45d9-4a83-a590-29c2144cf301")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14215,178 +14337,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 87.63 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f918352-f3d1-4091-a762-cd99e60278b0")
-		(property "Reference" "U6"
-			(at 87.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 87.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 67.31 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6188132-a9a1-43fc-ae6b-fc553b2edd3f")
-		)
-		(pin "2"
-			(uuid "9e4fb870-def4-4cb7-9178-881b30161c86")
-		)
-		(pin "7"
-			(uuid "913b4b9b-7d4e-402f-b405-605a90f0cbc3")
-		)
-		(pin "8"
-			(uuid "fee31c02-d0e7-487f-b30c-fc9f05fab322")
-		)
-		(pin "3"
-			(uuid "f909c4f7-0007-4726-9ddd-3501f4821cd9")
-		)
-		(pin "4"
-			(uuid "89745d1e-36b9-4a79-9c23-9c9c3d939c12")
-		)
-		(pin "5"
-			(uuid "6281e4c8-abf5-4f55-8841-b7ce0a3d401b")
-		)
-		(pin "6"
-			(uuid "9d4b327d-4d35-41f0-b174-e1cc96cd7232")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 46.99 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65f27d67-78d6-4d16-bee9-6eb901dd960e")
-		(property "Reference" "U1"
-			(at 46.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 46.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 46.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 26.67 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2adba974-137b-478e-ba91-5be3c1c498d6")
-		)
-		(pin "2"
-			(uuid "cb96e758-6acc-4713-afed-01d1efdf8ea0")
-		)
-		(pin "7"
-			(uuid "c3fac192-a8d2-4f79-90f6-b1cda51cad1b")
-		)
-		(pin "8"
-			(uuid "3f478f69-cfb9-4716-95a7-fa4d9e759689")
-		)
-		(pin "3"
-			(uuid "879324dd-921f-4ec2-ae6f-b9fa08156ef2")
-		)
-		(pin "4"
-			(uuid "db9c18e2-5994-4722-8dda-efbc25b210a1")
-		)
-		(pin "5"
-			(uuid "e5ebb911-93bd-4216-a62e-503901215e73")
-		)
-		(pin "6"
-			(uuid "c67ef7f2-6afd-4355-8134-1414380ed834")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 172.72 180)
 		(unit 1)
@@ -15423,6 +15373,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 46.99 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82493ce5-a590-46b8-a8f1-41074610c252")
+		(property "Reference" "Q3"
+			(at 47.2282 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 47.2282 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "askibidi:optopt"
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1298a743-bdf1-4843-a520-f806338630d9")
+		)
+		(pin "2"
+			(uuid "75350269-b6df-4814-91d6-bdbab1012096")
+		)
+		(pin "1"
+			(uuid "eda17a23-d30f-4d8e-92cd-359b78c610fe")
+		)
+		(pin "3"
+			(uuid "82765f89-5dda-4b0f-9869-dc8f95a7c8e8")
+		)
+		(instances
+			(project "Skibid-i"
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 29.21 74.93 180)
 		(unit 1)
@@ -15633,7 +15658,7 @@
 	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 193.04 33.02 180)
+		(at 191.77 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15642,7 +15667,7 @@
 		(fields_autoplaced yes)
 		(uuid "856fccb1-3ebc-40c3-8d5f-9096e103de08")
 		(property "Reference" "#PWR069"
-			(at 193.04 26.67 0)
+			(at 191.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15651,7 +15676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 27.94 0)
+			(at 191.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15659,7 +15684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 33.02 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15668,7 +15693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 33.02 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15677,7 +15702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 33.02 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,74 +15850,6 @@
 			(project ""
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+3.3V_2")
-		(lib_id "power:+3.3V")
-		(at 231.14 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8beb2970-2753-42a3-9b72-de10e8cccda4")
-		(property "Reference" "#PWR082"
-			(at 234.95 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 227.33 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 231.14 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9bbefc0-a3ae-4fb5-9b0b-45176a0b08f0")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -16121,42 +16078,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 87.63 105.41 0)
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 46.99 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "913e868c-a84e-417d-8b91-6fb6875d1646")
-		(property "Reference" "U3"
-			(at 87.63 96.52 0)
+		(uuid "91f8dea7-9d8a-40a6-8966-b0026b7dff5c")
+		(property "Reference" "Q2"
+			(at 47.2282 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LTV-827S"
-			(at 87.63 99.06 0)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 47.2282 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 87.63 113.03 0)
+		(property "Footprint" "askibidi:optopt"
+			(at 46.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 67.31 91.44 0)
+		(property "Datasheet" ""
+			(at 46.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16165,7 +16123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 105.41 0)
+			(at 46.99 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16173,34 +16131,22 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "96949d05-2f67-40e3-866a-f091880047a8")
+		(pin "4"
+			(uuid "3bacefdb-380b-48c9-b36b-c9aea4e0e57e")
 		)
 		(pin "2"
-			(uuid "82610c48-6d35-4fa7-b499-45b7323e0912")
+			(uuid "d227d67e-e4be-4d59-9933-872c6c265a0b")
 		)
-		(pin "7"
-			(uuid "04eaa2cb-01a1-40dc-9821-8f7e0e0978b4")
-		)
-		(pin "8"
-			(uuid "fd6cb474-1b10-4a2e-96f3-0a2d220287a8")
+		(pin "1"
+			(uuid "0ba04feb-b7cc-4c37-9d10-c85a5b407efe")
 		)
 		(pin "3"
-			(uuid "99b14021-0b11-4f51-be6b-82b822bd6808")
-		)
-		(pin "4"
-			(uuid "d7cb01a2-ea54-423e-9c0e-50fd2b520703")
-		)
-		(pin "5"
-			(uuid "0873ab95-92a5-4d59-be53-e147e4f801ff")
-		)
-		(pin "6"
-			(uuid "f64a0bff-171c-4086-b6fd-792079a3a639")
+			(uuid "c00e4ae8-75f2-4235-93ef-2c706c90d645")
 		)
 		(instances
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -16661,92 +16607,6 @@
 			(project ""
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 87.63 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93cd972b-b926-4b25-be3b-8da32e07dafe")
-		(property "Reference" "U4"
-			(at 87.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 87.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 87.63 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a83dfb4a-3a45-4810-8813-516e6b785f7d")
-		)
-		(pin "2"
-			(uuid "2aae1206-a415-419a-acac-1ddd56cddc0d")
-		)
-		(pin "7"
-			(uuid "dc5b6f9a-ecf5-4c49-bd75-72cef6e01a90")
-		)
-		(pin "8"
-			(uuid "b5cb43ba-c55e-441f-b61e-153f42afdc5d")
-		)
-		(pin "3"
-			(uuid "a8066e8c-0dbe-4487-b41b-02a8413d688a")
-		)
-		(pin "4"
-			(uuid "196aeca7-51ac-4dfb-92eb-9e42a708ab6b")
-		)
-		(pin "5"
-			(uuid "9ffc9d93-9758-45d1-88fe-35054c4777eb")
-		)
-		(pin "6"
-			(uuid "353a0054-2988-4785-a56e-2d7d03930f8b")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -17882,92 +17742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 46.99 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adf8cd73-dd86-43b4-87ca-59e4dc10753f")
-		(property "Reference" "U2"
-			(at 46.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 46.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 26.67 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a866fc0c-f945-4046-9739-a737e927e17e")
-		)
-		(pin "2"
-			(uuid "ed8f11b1-06d3-41cf-b5cb-057242d8759d")
-		)
-		(pin "7"
-			(uuid "34642978-d91d-4c2a-b8b8-0e51e62b2b1c")
-		)
-		(pin "8"
-			(uuid "e6e29b59-7fd8-41ab-bddb-0a18726870ce")
-		)
-		(pin "3"
-			(uuid "a176f295-1cd5-48e6-8cdf-729bd6617a0a")
-		)
-		(pin "4"
-			(uuid "fe7cd6ca-e486-4945-af91-8678386cfc79")
-		)
-		(pin "5"
-			(uuid "2e47f668-b730-4b23-a335-aea92d7d7c33")
-		)
-		(pin "6"
-			(uuid "faa606df-d580-40ea-8814-eb233ef12443")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 92.71 34.29 0)
 		(unit 1)
@@ -18381,6 +18155,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 87.63 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf855c8-0ce2-4571-aec3-4cddeac1e7d5")
+		(property "Reference" "Q5"
+			(at 87.8682 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 87.8682 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "askibidi:optopt"
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "940e3aa5-236a-4376-9b65-e3c509173f37")
+		)
+		(pin "2"
+			(uuid "6422e578-1ff6-4bf4-9812-ef96f9726f17")
+		)
+		(pin "1"
+			(uuid "bc4ca26d-c713-40aa-9673-ac31887a6ba5")
+		)
+		(pin "3"
+			(uuid "4d704a07-b086-44b9-81d7-8fff554123ab")
+		)
+		(instances
+			(project "Skibid-i"
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 86.36 24.13 180)
 		(unit 1)
@@ -18725,7 +18574,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 36.83 0)
+		(at 191.77 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18733,7 +18582,7 @@
 		(dnp no)
 		(uuid "c756f6ed-9dc6-426a-873b-195d98250087")
 		(property "Reference" "C16"
-			(at 186.182 37.0839 0)
+			(at 184.912 37.0839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18742,7 +18591,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 185.42 35.052 0)
+			(at 184.15 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18751,7 +18600,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 194.0052 40.64 0)
+			(at 192.7352 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18760,7 +18609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 36.83 0)
+			(at 191.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18769,7 +18618,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 193.04 36.83 0)
+			(at 191.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20288,92 +20137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 46.99 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebe5db51-e9d2-4f41-bcce-c823f890a48f")
-		(property "Reference" "U5"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 46.99 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 46.99 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 26.67 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c25ce5c-8b32-45bb-a464-e64001cf3e21")
-		)
-		(pin "2"
-			(uuid "48d49b3d-15b7-4c02-9989-cf2a995af590")
-		)
-		(pin "7"
-			(uuid "404e4906-34ae-43c6-a2a5-b702c34128d8")
-		)
-		(pin "8"
-			(uuid "34e5c104-eb81-4384-8082-fdf1d40b103c")
-		)
-		(pin "3"
-			(uuid "6af0234b-4eaa-4ac8-af29-4c52d72b63a8")
-		)
-		(pin "4"
-			(uuid "eea109a1-db4c-44c7-b9bd-97b838dfac08")
-		)
-		(pin "5"
-			(uuid "aac8c266-9640-40e0-9142-269acfe741e7")
-		)
-		(pin "6"
-			(uuid "87710d0c-fd27-4f24-a812-32b640fbcfa5")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 95.25 133.35 270)
 		(unit 1)
@@ -20568,92 +20331,6 @@
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Isolator:LTV-827S")
-		(at 46.99 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eec7f6d4-9aec-433d-af3e-f4f5595601e0")
-		(property "Reference" "U7"
-			(at 46.99 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-827S"
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "askibidi:optocoupler"
-			(at 46.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 26.67 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bc3f3d0-2e4d-4026-9e2e-8f1a700747d4")
-		)
-		(pin "2"
-			(uuid "ea2ee1c4-765e-41a4-99b5-a3a10cb4712a")
-		)
-		(pin "7"
-			(uuid "c272d174-e09f-4a37-80bb-d1b9669a0c6e")
-		)
-		(pin "8"
-			(uuid "9c2b3e43-8ecd-4552-9e92-77fd67c64419")
-		)
-		(pin "3"
-			(uuid "b8398f01-7702-4c47-ba89-38dead6235f5")
-		)
-		(pin "4"
-			(uuid "e794fd42-fe75-44fa-ad6a-a2a6aa3be03d")
-		)
-		(pin "5"
-			(uuid "5a5418c8-0539-498b-89b9-5508f184821b")
-		)
-		(pin "6"
-			(uuid "0fd7439c-e5d0-4183-a74c-49d6b15613ea")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -21065,45 +20742,43 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_5")
-		(lib_id "power:GND")
-		(at 270.51 104.14 90)
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 87.63 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fafc1644-3ecb-4000-960d-73fb6f78f95d")
-		(property "Reference" "#PWR087"
-			(at 276.86 104.14 0)
+		(uuid "f968ad5a-6656-40ae-beb3-b869ca2e2c57")
+		(property "Reference" "Q7"
+			(at 87.8682 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 274.32 104.1399 90)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 87.8682 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 270.51 104.14 0)
+		(property "Footprint" "askibidi:optopt"
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 104.14 0)
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21111,22 +20786,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 104.14 0)
+		(property "Description" ""
+			(at 87.63 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "4"
+			(uuid "40ec6845-929d-466b-8d4a-188ec9a84f30")
+		)
+		(pin "2"
+			(uuid "4f1fa906-5f18-4e19-83bf-d5e292d1504a")
 		)
 		(pin "1"
-			(uuid "db08b4d6-d780-46e2-8fb7-05c783a7c67e")
+			(uuid "aed7e8ea-98cd-4022-8dc6-c3c0c89a44ac")
+		)
+		(pin "3"
+			(uuid "7bbffe61-5571-4745-93f3-cd02884cae25")
 		)
 		(instances
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "#PWR087")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -21328,6 +21012,81 @@
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Optocouipler1]:WL-OCPT_SERIES_357")
+		(at 46.99 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff4cd904-eaca-405c-9fb6-7a681f6b3010")
+		(property "Reference" "Q1"
+			(at 47.2282 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WL-OCPT_SERIES_357"
+			(at 47.2282 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "askibidi:optopt"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d41c1eca-c467-4f13-aaf3-16ca4566c6e8")
+		)
+		(pin "2"
+			(uuid "f9df0a86-337d-4ec5-b7ff-249f32958584")
+		)
+		(pin "1"
+			(uuid "0f683d32-59f6-43b6-bf67-cb1aed8e959f")
+		)
+		(pin "3"
+			(uuid "c2950bc0-ca19-4b37-81e1-aa9d0aeb41da")
+		)
+		(instances
+			(project ""
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
