@@ -4079,12 +4079,6 @@
 		(uuid "3290c554-8550-4d14-929d-7727a0cdc867")
 	)
 	(junction
-		(at 135.89 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47983ce5-98df-42b6-a814-352528d48ca1")
-	)
-	(junction
 		(at 161.29 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4227,10 +4221,6 @@
 		(uuid "7c8d2ae9-248a-41ca-8555-4a76baf19916")
 	)
 	(no_connect
-		(at 66.04 81.28)
-		(uuid "8ed73df1-5ea0-4fae-aac0-2c7c26066cb1")
-	)
-	(no_connect
 		(at 66.04 33.02)
 		(uuid "ab8d9151-2e7c-4e2a-a1fb-b074354ce786")
 	)
@@ -4273,16 +4263,6 @@
 			(type default)
 		)
 		(uuid "096ebbfa-0648-4cda-b02b-a4dec0da6725")
-	)
-	(wire
-		(pts
-			(xy 135.89 55.88) (xy 125.73 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c08fc0a-5443-4cf0-aff2-4c9e8e25c1f6")
 	)
 	(wire
 		(pts
@@ -4503,16 +4483,6 @@
 			(type default)
 		)
 		(uuid "62ba720f-67c1-4183-8a2c-71aeedcff592")
-	)
-	(wire
-		(pts
-			(xy 137.16 55.88) (xy 135.89 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632b976c-9b39-4ee2-9957-9a4b293ce671")
 	)
 	(bus
 		(pts
@@ -4995,28 +4965,6 @@
 			)
 		)
 	)
-	(global_label "S1"
-		(shape input)
-		(at 125.73 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "187f1f30-2a3a-4eed-a133-7cb72729f5c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.1342 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5v"
 		(shape input)
 		(at 107.95 142.24 0)
@@ -5325,6 +5273,28 @@
 			)
 		)
 	)
+	(global_label "ST"
+		(shape input)
+		(at 66.04 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55a78d38-b650-4f89-aa06-5c18fcd55be0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.2023 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S4"
 		(shape input)
 		(at 59.69 152.4 0)
@@ -5369,7 +5339,7 @@
 			)
 		)
 	)
-	(global_label "S1"
+	(global_label "LN2"
 		(shape input)
 		(at 132.08 38.1 0)
 		(fields_autoplaced yes)
@@ -5381,7 +5351,7 @@
 		)
 		(uuid "6112c90d-2d43-4f18-a2f2-254cf261132b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.4842 38.1 0)
+			(at 138.6333 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +5757,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SCL"
 		(shape input)
 		(at 134.62 143.51 0)
 		(fields_autoplaced yes)
@@ -5799,7 +5769,7 @@
 		)
 		(uuid "f8867544-1e6a-4d0f-ba5c-dc22033735b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1733 143.51 0)
+			(at 141.1128 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5801,7 @@
 			)
 		)
 	)
-	(global_label "S1"
+	(global_label "LN1"
 		(shape input)
 		(at 101.6 36.83 0)
 		(fields_autoplaced yes)
@@ -5843,7 +5813,7 @@
 		)
 		(uuid "fb18d8ce-1581-4f94-a520-1b0be81bf2f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.0042 36.83 0)
+			(at 108.1533 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,73 +5885,6 @@
 			(project "Jongmyeong-i"
 				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02eeec3c-ed8b-4625-8901-64139da27d2c")
-		(property "Reference" "#PWR034"
-			(at 132.08 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 53.3401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e76e3f4-849a-4fea-a761-2904b385034c")
-		)
-		(instances
-			(project "Jongmyeong-i"
-				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -6289,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZSKIBIDI:drvmotordriver"
 			(at 233.68 68.58 0)
 			(effects
 				(font
@@ -8480,7 +8383,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 222.25 74.93 0)
 			(effects
 				(font
@@ -8998,72 +8901,6 @@
 			(project "Jongmyeong-i"
 				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85955924-4b76-4112-b6de-4336d949b76f")
-		(property "Reference" "#PWR035"
-			(at 135.89 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2977fc9-0bbf-4664-b19a-ba6399e1110a")
-		)
-		(instances
-			(project "Jongmyeong-i"
-				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11290,7 +11127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 176.53 73.66 0)
 			(effects
 				(font
@@ -11397,73 +11234,6 @@
 			(project "Jongmyeong-i"
 				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf9afe34-e5fe-428f-bef9-fe86c97322ac")
-		(property "Reference" "#PWR036"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 140.97 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9408515-6bed-4d64-9f8a-6b8d046b0525")
-		)
-		(instances
-			(project "Jongmyeong-i"
-				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12086,76 +11856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 135.89 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1ef0ad7-eb33-42fa-a785-98cafccceeb7")
-		(property "Reference" "C12"
-			(at 139.7 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 139.7 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 136.8552 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7f70855-6e44-4b84-bb82-62e71b3c061a")
-		)
-		(pin "1"
-			(uuid "ffb84772-26b8-4ec9-867e-d403bbaed891")
-		)
-		(instances
-			(project "Jongmyeong-i"
-				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 194.31 39.37 0)
 		(unit 1)
@@ -12500,77 +12200,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 120.65 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb73cccd-2d5c-49f0-aeb9-896470a5bc25")
-		(property "Reference" "J10"
-			(at 120.65 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw3"
-			(at 120.65 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b20c7ac5-8ddd-4f11-9250-d1fb61bdf2e7")
-		)
-		(pin "1"
-			(uuid "e4f83f84-cb06-439e-b3ac-2fb8e24a5cf1")
-		)
-		(pin "3"
-			(uuid "20a823d6-7eeb-4bad-97f7-588404e0bf19")
-		)
-		(instances
-			(project "Jongmyeong-i"
-				(path "/f955c6d0-d8e8-4f6c-84d6-3c558820264b"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 238.76 146.05 0)
 		(unit 1)
@@ -12871,7 +12500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ZSKIBIDI:drvmotordriver"
 			(at 190.5 67.31 0)
 			(effects
 				(font
