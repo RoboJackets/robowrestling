@@ -6157,12 +6157,6 @@
 		(uuid "171d5ec6-8ca0-4847-9dc0-c852267ae930")
 	)
 	(junction
-		(at 166.37 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17e517c7-95ac-4587-bc1d-997b19d4c607")
-	)
-	(junction
 		(at 283.21 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6281,6 +6275,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95ed6eb8-9778-45a6-9864-d8451e88094c")
+	)
+	(junction
+		(at 156.21 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1477933-50aa-4bec-a2e1-a02ffcb2dbd7")
 	)
 	(junction
 		(at 256.54 33.02)
@@ -6603,16 +6603,6 @@
 			(type default)
 		)
 		(uuid "10bfb269-35d9-45ce-8a82-a576813073fd")
-	)
-	(wire
-		(pts
-			(xy 166.37 179.07) (xy 156.21 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11bd2497-3687-4162-abbd-1ac79a0e5655")
 	)
 	(bus
 		(pts
@@ -7056,6 +7046,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 152.4) (xy 198.12 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b17f6be-5958-49c2-952a-d4d3a1d04b8b")
+	)
+	(wire
+		(pts
 			(xy 200.66 152.4) (xy 200.66 153.67)
 		)
 		(stroke
@@ -7203,16 +7203,6 @@
 			(type default)
 		)
 		(uuid "94b15304-6102-4be8-8a32-ca9ae4c201a6")
-	)
-	(wire
-		(pts
-			(xy 182.88 152.4) (xy 198.12 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a15b8b-ef8d-4b8a-9793-5110e31e2d4b")
 	)
 	(wire
 		(pts
@@ -7636,7 +7626,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 179.07) (xy 166.37 179.07)
+			(xy 163.83 181.61) (xy 156.21 181.61)
 		)
 		(stroke
 			(width 0)
@@ -12817,7 +12807,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 186.69 0)
+		(at 156.21 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12826,7 +12816,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cf87d45-e1f2-4e41-9f3b-bbc415ea69c3")
 		(property "Reference" "#PWR062"
-			(at 166.37 193.04 0)
+			(at 156.21 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,7 +12825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 191.77 0)
+			(at 156.21 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12843,7 +12833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 186.69 0)
+			(at 156.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +12842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 186.69 0)
+			(at 156.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +12851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 186.69 0)
+			(at 156.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,6 +13005,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "729a421b-68b4-4b34-adf4-7f21b6535ee6")
+		(property "Reference" "#PWR010"
+			(at 162.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82c0ae8e-96a9-4419-b167-91dd303a51e8")
+		)
+		(instances
+			(project "Skibid-i"
+				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 191.77 50.8 270)
@@ -13084,7 +13141,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 170.18 179.07 0)
+		(at 163.83 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13092,7 +13149,7 @@
 		(dnp no)
 		(uuid "7680b33e-68f0-4194-a820-d9aa472d5b9a")
 		(property "Reference" "#PWR08"
-			(at 170.18 182.88 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13101,7 +13158,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 167.894 175.006 0)
+			(at 167.894 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,7 +13167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 179.07 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 179.07 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 179.07 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,73 +13357,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7977eaa8-74fc-4537-884f-49336831320d")
-		(property "Reference" "#PWR010"
-			(at 162.56 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4311a31d-ea4f-45a3-a0a9-55dcc94ab22f")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 35.56 149.86 90)
 		(unit 1)
@@ -13429,75 +13419,6 @@
 			(project "Skibid-i"
 				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 182.88 147.32 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "81d1ec32-3370-4225-b8b1-8aca5a1e2618")
-		(property "Reference" "J1"
-			(at 179.07 142.1131 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 179.07 144.6531 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 182.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 182.88 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05c27db8-5f29-4f8e-ab44-3d2d160dbf73")
-		)
-		(pin "2"
-			(uuid "a776ef2d-8826-4e60-9d5e-99369642ade3")
-		)
-		(instances
-			(project "Skibid-i"
-				(path "/bfc511a5-2c92-46fd-9868-0fe25107d7eb"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -13788,7 +13709,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 182.88 0)
+		(at 156.21 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13796,7 +13717,7 @@
 		(dnp no)
 		(uuid "854fd857-880b-4163-9166-8fa359261c43")
 		(property "Reference" "C14"
-			(at 168.91 181.61 0)
+			(at 158.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,7 +13726,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 168.91 184.15 0)
+			(at 158.75 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +13735,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 167.3352 186.69 0)
+			(at 157.1752 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13823,7 +13744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 182.88 0)
+			(at 156.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13832,7 +13753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 182.88 0)
+			(at 156.21 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
