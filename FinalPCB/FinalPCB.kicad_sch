@@ -3594,7 +3594,7 @@
 		(uuid "2088975f-1183-4a70-9e1a-971fe27501af")
 	)
 	(no_connect
-		(at 261.62 147.32)
+		(at 247.65 146.05)
 		(uuid "24feb268-1ca9-4c2d-8431-beed60265cb0")
 	)
 	(no_connect
@@ -3661,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 142.24) (xy 261.62 142.24)
+			(xy 248.92 140.97) (xy 247.65 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 144.78) (xy 246.38 144.78)
+			(xy 237.49 143.51) (xy 232.41 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5549,6 +5549,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 227.33 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e2f9d6d-7016-4fd8-97bd-ffe2260e0087")
+		(property "Reference" "J7"
+			(at 227.965 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "xt30"
+			(at 227.965 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a15a78ff-92eb-454c-98fb-1823326746ff")
+		)
+		(pin "2"
+			(uuid "24c1c792-52a1-4bb5-ab6c-46de059daeb7")
+		)
+		(instances
+			(project "FinalPCB"
+				(path "/eb9dfe2c-3eb9-4509-9f77-a9810ee0d00a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 152.4 90)
 		(unit 1)
@@ -6912,7 +6980,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 266.7 142.24 90)
+		(at 252.73 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6921,7 +6989,7 @@
 		(fields_autoplaced yes)
 		(uuid "65608c21-1993-4cc5-af0e-b101d6f18eb1")
 		(property "Reference" "F1"
-			(at 266.7 135.89 90)
+			(at 252.73 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6997,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 266.7 138.43 90)
+			(at 252.73 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6937,7 +7005,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 266.7 144.018 90)
+			(at 252.73 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +7014,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 142.24 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6955,7 +7023,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 266.7 142.24 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,6 +7249,92 @@
 			(project "FinalPCB"
 				(path "/eb9dfe2c-3eb9-4509-9f77-a9810ee0d00a"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 260.35 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f273472-797d-43e7-8c19-12876e5d5b35")
+		(property "Reference" "D9"
+			(at 260.35 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 260.35 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 260.35 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b96d0f9-eacb-436a-9852-f0cc3b25e906")
+		)
+		(pin "2"
+			(uuid "91385d50-dbfa-4f90-bc93-6a5cf0666030")
+		)
+		(instances
+			(project ""
+				(path "/eb9dfe2c-3eb9-4509-9f77-a9810ee0d00a"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8006,7 +8160,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 256.54 144.78 0)
+		(at 242.57 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8015,7 +8169,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6267a58-5922-44e7-988d-cbbd0830319e")
 		(property "Reference" "SW1"
-			(at 256.54 135.89 0)
+			(at 242.57 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8023,7 +8177,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 256.54 138.43 0)
+			(at 242.57 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +8185,7 @@
 			)
 		)
 		(property "Footprint" "joesfo:SWitcch"
-			(at 256.54 144.78 0)
+			(at 242.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 144.78 0)
+			(at 242.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8049,7 +8203,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 256.54 144.78 0)
+			(at 242.57 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,74 +8899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 241.3 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce909c0f-ba69-4616-b64f-24ad640b0fe4")
-		(property "Reference" "J13"
-			(at 241.935 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "xt30"
-			(at 241.935 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
-			(at 241.3 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 241.3 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a944082-4744-4322-aaca-cdb3dde6d47b")
-		)
-		(pin "2"
-			(uuid "2902d174-98f4-4987-aaf0-18a557e77a21")
-		)
-		(instances
-			(project "FinalPCB"
-				(path "/eb9dfe2c-3eb9-4509-9f77-a9810ee0d00a"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 138.43 95.25 0)
 		(unit 1)
@@ -9156,7 +9242,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 270.51 142.24 270)
+		(at 264.16 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9165,7 +9251,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb9632a4-7d41-40ae-bcd5-5ad2e1c753f0")
 		(property "Reference" "#PWR052"
-			(at 266.7 142.24 0)
+			(at 260.35 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9174,7 +9260,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 274.32 142.2399 90)
+			(at 267.97 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +9269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 142.24 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9192,7 +9278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 142.24 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 270.51 142.24 0)
+			(at 264.16 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9646,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 147.32 0)
+		(at 232.41 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9569,7 +9655,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa4cac49-4d88-4e33-85d9-60808f27d081")
 		(property "Reference" "#PWR048"
-			(at 246.38 153.67 0)
+			(at 232.41 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,15 +9664,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 152.4 0)
+			(at 234.95 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 147.32 0)
+			(at 232.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9595,7 +9682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 147.32 0)
+			(at 232.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 147.32 0)
+			(at 232.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
