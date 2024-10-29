@@ -3490,126 +3490,6 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_names
@@ -3714,126 +3594,6 @@
 					(at 0 0 90)
 					(length 0) hide
 					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6009,6 +5769,12 @@
 		(uuid "1c67479d-b97a-4e0f-b20f-075d614360a5")
 	)
 	(junction
+		(at 187.96 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cba22fe-cff0-409f-89ae-c2b65081c0d3")
+	)
+	(junction
 		(at 496.57 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6025,6 +5791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e9451cd-0564-4c9b-a6e7-ba4285345922")
+	)
+	(junction
+		(at 187.96 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26252c6b-4ec6-46f8-9662-f088376c450f")
 	)
 	(junction
 		(at 190.5 184.15)
@@ -6081,12 +5853,6 @@
 		(uuid "3c50142e-35ae-4864-be12-a4e82919f23b")
 	)
 	(junction
-		(at 187.96 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e3c7989-2b45-4a6e-9eb8-3c893d97b871")
-	)
-	(junction
 		(at 190.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6109,12 +5875,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eb861aa-7fc7-4096-8599-7a6ae4d7cc4e")
-	)
-	(junction
-		(at 187.96 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5787fc35-05f5-4a6f-b41c-8922f8cecb10")
 	)
 	(junction
 		(at 190.5 176.53)
@@ -6175,12 +5935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d63d92-ca99-4d1d-8cdd-a74021817e5f")
-	)
-	(junction
-		(at 187.96 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92c76336-5a30-46ba-9d62-7560e201e5d2")
 	)
 	(junction
 		(at 490.22 212.09)
@@ -6253,6 +6007,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cea648de-fb5a-4020-8581-b111d6fd604a")
+	)
+	(junction
+		(at 187.96 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3f50110-7bd1-45b5-bc33-95a4ffb98533")
 	)
 	(junction
 		(at 288.29 231.14)
@@ -6623,6 +6383,16 @@
 			(type default)
 		)
 		(uuid "03c32e70-067f-4c12-b751-302dfca049f1")
+	)
+	(wire
+		(pts
+			(xy 186.69 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ef1271-d809-4be8-b45f-3e76f3653f40")
 	)
 	(wire
 		(pts
@@ -7656,6 +7426,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 39.37) (xy 187.96 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efe0404-fe56-46d7-b659-79d3ff5834f5")
+	)
+	(wire
+		(pts
 			(xy 533.4 72.39) (xy 533.4 61.595)
 		)
 		(stroke
@@ -8533,6 +8313,16 @@
 			(type default)
 		)
 		(uuid "bf86dc31-3a40-4398-8f82-95130cdb3e13")
+	)
+	(wire
+		(pts
+			(xy 186.69 238.76) (xy 187.96 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfad9db3-43fc-4819-8f29-5bc8d7f4275c")
 	)
 	(wire
 		(pts
@@ -9698,28 +9488,6 @@
 			)
 		)
 	)
-	(global_label "44.4v"
-		(shape input)
-		(at 454.66 212.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09abb930-803a-46d3-a60e-151fa08c2de4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 446.4739 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Distance Sensor 2 3.3V"
 		(shape input)
 		(at 344.17 142.24 180)
@@ -9764,6 +9532,28 @@
 			)
 		)
 	)
+	(global_label "5v"
+		(shape input)
+		(at 77.47 312.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d1184b5-aebe-4326-9aec-7c16e4d897dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.6323 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Direction MD2"
 		(shape input)
 		(at 97.79 77.47 0)
@@ -9782,6 +9572,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12v"
+		(shape input)
+		(at 189.23 279.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11862b02-6f65-46e5-aab8-72315e8fe74a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.8582 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9843,6 +9655,28 @@
 		(uuid "15377674-0f62-4c9a-ac78-710541660d37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.0245 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v"
+		(shape input)
+		(at 187.96 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a73694b-1257-459a-a13a-b481f5a3bf00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7977 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,6 +9906,28 @@
 			)
 		)
 	)
+	(global_label "12v"
+		(shape input)
+		(at 186.69 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fe6659d-2a24-4a8d-b556-ee739b733117")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3182 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Distance Sensor 1 3.3V"
 		(shape input)
 		(at 280.67 132.08 180)
@@ -10112,6 +9968,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3299e899-b954-4437-a358-6fff1353639d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10622,6 +10500,28 @@
 			)
 		)
 	)
+	(global_label "5v"
+		(shape input)
+		(at 187.96 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ce2636f-2ce5-476a-9886-834db8ff8101")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7977 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Distance Sensor 8 12V"
 		(shape input)
 		(at 271.78 276.86 180)
@@ -10635,6 +10535,50 @@
 		(uuid "6f91eab5-c8d2-4468-9acb-ef002ab80f90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.6607 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v"
+		(shape input)
+		(at 186.69 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71a5b99a-da42-4f3c-8641-c4a5fe28aa29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5277 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "729586f2-2a6c-4b5b-bbb2-b1e6945c6586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,28 +10676,6 @@
 			)
 		)
 	)
-	(global_label "44.4v"
-		(shape input)
-		(at 551.18 250.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "83ed4b3c-3335-4057-81ec-a00a1c3e1758")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 559.3661 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Line Sensor 1 5v"
 		(shape input)
 		(at 261.62 35.56 180)
@@ -10842,6 +10764,28 @@
 			)
 		)
 	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e1f98d7-4dbb-49a7-b81d-1c30533e2654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Interupt"
 		(shape input)
 		(at 63.5 335.28 0)
@@ -10855,6 +10799,28 @@
 		(uuid "8ed4574e-81ff-4e9d-9dcf-761ab5b00a3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 73.8632 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v"
+		(shape input)
+		(at 104.14 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92e8b723-dfae-4cba-b013-ddbab6bce886")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.3023 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10952,6 +10918,28 @@
 			)
 		)
 	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e9fd9fc-b5eb-4d07-822c-c800d023084c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Distance Sensor 5 12V"
 		(shape input)
 		(at 275.59 209.55 180)
@@ -11036,6 +11024,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 259.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad64d377-baae-4238-b8d4-3160c7251a7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11348,6 +11358,28 @@
 			)
 		)
 	)
+	(global_label "5v"
+		(shape input)
+		(at 186.69 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2b5bd9e-c5a4-46ad-8594-4bafd6494367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5277 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Distance Sensor 6 3.3V"
 		(shape input)
 		(at 283.21 236.22 180)
@@ -11405,6 +11437,28 @@
 		(uuid "d65b1df1-8fa9-4b93-b694-626368d99362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 16.1859 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de41be5e-4a39-409e-849c-a3096c9d25a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11590,6 +11644,28 @@
 			)
 		)
 	)
+	(global_label "12v"
+		(shape input)
+		(at 187.96 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7ba70ce-afb9-4f63-bdca-54b61f212079")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5882 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Distance Sensor 6 3.3V"
 		(shape input)
 		(at 349.25 229.87 180)
@@ -11719,73 +11795,6 @@
 			(project "Team2-New"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 238.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02b993d3-7cd2-44e2-bf70-a0a3d5456ed9")
-		(property "Reference" "#PWR027"
-			(at 191.77 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 238.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49625fdf-bd0e-455d-b5ad-daea1276ae00")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -13798,73 +13807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32974fa3-0221-4168-8bb3-dcf28c9f2b6d")
-		(property "Reference" "#PWR015"
-			(at 191.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b1fa664-e1a6-463f-919a-21480b8054b4")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
 		(at 58.42 325.12 0)
 		(unit 1)
@@ -14238,73 +14180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38808d4d-fa26-4d82-a241-b050d53bdc6f")
-		(property "Reference" "#PWR09"
-			(at 191.77 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "764160a9-dbc4-4d60-9b09-40992062fa33")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 187.96 184.15 270)
 		(unit 1)
@@ -14508,73 +14383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f93327f-5801-4605-a825-225152a14776")
-		(property "Reference" "#PWR07"
-			(at 191.77 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e63a45e0-6a15-4265-8e25-9332b6821d87")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 200.66 259.08 0)
 		(unit 1)
@@ -14715,73 +14523,6 @@
 			(project "Team2"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 104.14 31.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4566b86f-062f-4dce-a13c-ecf6c398cd64")
-		(property "Reference" "#PWR079"
-			(at 100.33 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 107.95 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "adee960e-2491-4d2e-aefe-cebda65c29d6")
-		)
-		(instances
-			(project ""
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -15812,73 +15553,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 196.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ba7f9c0-23e6-46d0-bda7-a5757bafbe16")
-		(property "Reference" "#PWR023"
-			(at 191.77 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 196.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07a4653c-b4d1-4937-a356-4eaed5d2cc25")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 77.47 320.04 90)
 		(unit 1)
@@ -15940,73 +15614,6 @@
 			(project ""
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 259.08 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f98113a-80fa-49f0-9b94-829bbdb7b68c")
-		(property "Reference" "#PWR029"
-			(at 191.77 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 259.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66314538-6841-496b-bbd6-f3966beaa46e")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17176,73 +16783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8102dabe-50f3-4d7d-8e0f-c46d0f4faf50")
-		(property "Reference" "#PWR017"
-			(at 191.77 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "268275b3-d300-43ec-aef8-59adce3f468e")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 306.07 254 90)
 		(unit 1)
@@ -17511,73 +17051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "865de5ea-79f5-44f9-bfda-fecebccf6f2c")
-		(property "Reference" "#PWR025"
-			(at 191.77 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 218.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "367868dc-bfb0-4204-bc65-559b7f02d725")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "XT60-M:XT60-M")
 		(at 142.24 72.39 0)
 		(unit 1)
@@ -17763,73 +17236,6 @@
 			(project "Team2(EvenNewer9:19)"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 189.23 279.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87d79f51-1225-4cd9-9561-51575c4941de")
-		(property "Reference" "#PWR031"
-			(at 193.04 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 185.42 279.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 189.23 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "710528f1-4cb0-4fed-a151-270c7fe663e7")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19195,17 +18601,18 @@
 		)
 	)
 	(symbol
+		(lib_name "+12V_1")
 		(lib_id "power:+12V")
-		(at 187.96 157.48 90)
+		(at 454.66 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "99141c20-7175-4834-ab40-6c24a1222d46")
-		(property "Reference" "#PWR019"
-			(at 191.77 157.48 0)
+		(uuid "99746cb1-13be-4923-b4f9-39375a71c535")
+		(property "Reference" "#PWR03"
+			(at 458.47 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19213,8 +18620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 184.15 157.4799 90)
+		(property "Value" "44.4V"
+			(at 450.85 212.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19223,7 +18630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 157.48 0)
+			(at 454.66 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19232,7 +18639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 157.48 0)
+			(at 454.66 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19240,8 +18647,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 157.48 0)
+		(property "Description" ""
+			(at 454.66 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19250,12 +18657,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c5b4e56-cd32-4490-a161-8280b5292515")
+			(uuid "c66e503b-736b-4ec5-8116-4aa95c7fe1d9")
 		)
 		(instances
-			(project "Team2"
+			(project "Team2(10-27)"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20496,73 +19903,6 @@
 			(project "Team2-New"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abe3c7b1-7c07-4966-9cd4-09df9e6addfb")
-		(property "Reference" "#PWR05"
-			(at 191.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c235f11-4996-4b51-8241-feee13672d74")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -22186,73 +21526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 77.47 312.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2634426-f474-43a8-b89e-e607bf2e39d1")
-		(property "Reference" "#PWR049"
-			(at 73.66 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 81.28 312.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7075efae-539f-4976-8275-b541f387e3d8")
-		)
-		(instances
-			(project ""
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 342.9 52.07 90)
 		(unit 1)
@@ -22710,6 +21983,74 @@
 			(project "Team2"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 551.18 250.19 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc7b299d-9c29-411d-9e9f-81d18191803f")
+		(property "Reference" "#PWR05"
+			(at 547.37 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "44.4V"
+			(at 554.99 250.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 551.18 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 551.18 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 551.18 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "973568a5-a71a-4622-a95c-62f4f56a6eed")
+		)
+		(instances
+			(project "Team2(10-27)"
+				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -23275,73 +22616,6 @@
 			(project ""
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 187.96 39.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae60214-1940-403d-9d8a-80aeac61b876")
-		(property "Reference" "#PWR03"
-			(at 191.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 184.15 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30509ced-4997-4e0a-8658-702dedf83c52")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -24299,73 +23573,6 @@
 			(project "Team2"
 				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 187.96 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efb7f201-85ba-4d94-b5a7-3bfb7d610330")
-		(property "Reference" "#PWR021"
-			(at 191.77 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 184.15 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 187.96 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19351182-bb37-439b-97f8-e801bd99b1c0")
-		)
-		(instances
-			(project "Team2"
-				(path "/113d5a4f-8af6-4d26-a733-e9d3dd2d040f"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
