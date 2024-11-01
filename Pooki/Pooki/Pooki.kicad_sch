@@ -4276,7 +4276,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 93.98)
+			(xy 218.44 105.41) (xy 218.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 81.28) (xy 219.71 71.12)
+			(xy 219.71 82.55) (xy 219.71 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4476,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 81.28) (xy 238.76 81.28)
+			(xy 219.71 82.55) (xy 238.76 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4496,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 104.14) (xy 237.49 91.44)
+			(xy 237.49 105.41) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4536,7 +4536,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 81.28) (xy 238.76 68.58)
+			(xy 238.76 82.55) (xy 238.76 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4766,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 237.49 104.14)
+			(xy 218.44 105.41) (xy 237.49 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5187,6 +5187,28 @@
 			)
 		)
 	)
+	(global_label "5v"
+		(shape input)
+		(at 72.39 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e9fd53-2320-407e-bc98-5bd7f94afe83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.5523 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ST"
 		(shape input)
 		(at 104.14 167.64 0)
@@ -5315,6 +5337,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v"
+		(shape input)
+		(at 72.39 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f2871ad-ff85-4e56-94f0-81e013fa0a69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.5523 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5464,6 +5508,28 @@
 		(uuid "5df7b970-fb72-4a6f-8d10-fe772fffc454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.3642 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5v"
+		(shape input)
+		(at 72.39 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c0a5ea-3b79-4dae-acf8-a5ae35f6d698")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.5523 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,6 +5803,28 @@
 			)
 		)
 	)
+	(global_label "5v"
+		(shape input)
+		(at 41.91 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afd97080-d9d6-4ed1-b29a-2bedf40116ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.0723 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S3"
 		(shape input)
 		(at 30.48 156.21 0)
@@ -5847,6 +5935,28 @@
 			)
 		)
 	)
+	(global_label "5v"
+		(shape input)
+		(at 43.18 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dff02516-27e4-46dc-bed6-2eb8d6d8dec0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.3423 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MOTOR2A"
 		(shape input)
 		(at 31.75 85.09 180)
@@ -5914,73 +6024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01177c6b-3d80-4767-ae9f-44edb72c8e0e")
-		(property "Reference" "#PWR08"
-			(at 39.37 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 46.99 133.3501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "479b0a74-c278-4164-a62f-9ad6b41301ef")
-		)
-		(instances
-			(project "Pooki"
-				(path "/47e6c6cb-9ed2-4e2a-b4d1-1d3bc56167ed"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x04")
 		(at 242.57 38.1 0)
 		(unit 1)
@@ -6006,7 +6049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZSKIBIDI:DIP8_210-4_CTS[1]"
+		(property "Footprint" "JOEJOE:dip"
 			(at 242.57 38.1 0)
 			(effects
 				(font
@@ -6705,7 +6748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZSKIBIDI:SHIELD_ARDUINO_NANO[1]"
+		(property "Footprint" "JOEJOE:nano"
 			(at 49.53 62.23 0)
 			(effects
 				(font
@@ -7022,7 +7065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT6_DRV8212_TEX"
+		(property "Footprint" "JOEJOE:SOT6_DRV8212_TEX[1]"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -7652,7 +7695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "JOEJOE:screw2"
 			(at 242.57 88.9 0)
 			(effects
 				(font
@@ -7901,73 +7944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 41.91 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49f01c87-3866-4959-a05b-b43c8669a01d")
-		(property "Reference" "#PWR07"
-			(at 38.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 45.72 153.6701 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "725e8f43-c55d-4cf1-9b57-f11d48a7b329")
-		)
-		(instances
-			(project "Pooki"
-				(path "/47e6c6cb-9ed2-4e2a-b4d1-1d3bc56167ed"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 250.19 25.4 180)
 		(unit 1)
@@ -8196,7 +8172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZSKIBIDI:5vCOnv"
+		(property "Footprint" "JOEJOE:convertor"
 			(at 200.66 147.32 0)
 			(effects
 				(font
@@ -9014,73 +8990,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 132.08 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73ccb536-39f8-4766-94c8-8b9bd4db3456")
-		(property "Reference" "#PWR018"
-			(at 68.58 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 132.0801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9cb4939-8681-42fd-9d5b-dddf383e2713")
-		)
-		(instances
-			(project "Pooki"
-				(path "/47e6c6cb-9ed2-4e2a-b4d1-1d3bc56167ed"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 110.49 105.41 90)
 		(unit 1)
@@ -9562,73 +9471,6 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 72.39 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e730794-c206-48a8-b6bb-0ad93100df8e")
-		(property "Reference" "#PWR019"
-			(at 68.58 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 151.1301 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89a503ee-37aa-4370-9e06-9e0ce883c956")
-		)
-		(instances
-			(project "Pooki"
-				(path "/47e6c6cb-9ed2-4e2a-b4d1-1d3bc56167ed"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
 		(at 146.05 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10032,73 +9874,6 @@
 			(project "Pooki"
 				(path "/47e6c6cb-9ed2-4e2a-b4d1-1d3bc56167ed"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9be5d960-1db0-4c1d-ba10-7fe0194e471e")
-		(property "Reference" "#PWR020"
-			(at 68.58 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 76.2 172.7201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20144696-326a-41e7-8552-c2f2635a0c8e")
-		)
-		(instances
-			(project "Pooki"
-				(path "/47e6c6cb-9ed2-4e2a-b4d1-1d3bc56167ed"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10667,7 +10442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "JOEJOE:screw2"
 			(at 243.84 66.04 0)
 			(effects
 				(font
@@ -11479,7 +11254,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ZSKIBIDI:switch"
+		(property "Footprint" "JOEJOE:switch"
 			(at 255.27 147.32 0)
 			(effects
 				(font
@@ -12576,7 +12351,7 @@
 		(dnp no)
 		(uuid "e7054b97-d345-481d-9141-234a384ab452")
 		(property "Reference" "C8"
-			(at 175.514 136.906 0)
+			(at 176.784 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "10uF"
 			(at 178.054 140.208 0)
 			(effects
 				(font
@@ -12865,7 +12640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT6_DRV8212_TEX"
+		(property "Footprint" "JOEJOE:SOT6_DRV8212_TEX[1]"
 			(at 179.07 66.04 0)
 			(effects
 				(font
