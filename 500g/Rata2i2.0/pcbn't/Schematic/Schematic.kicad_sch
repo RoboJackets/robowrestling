@@ -5240,14 +5240,6 @@
 		(uuid "5d2eed46-b40e-4886-a5df-f45c350029cc")
 	)
 	(no_connect
-		(at 135.89 95.25)
-		(uuid "5f9b329e-33ff-4b25-9533-0f223e35cc65")
-	)
-	(no_connect
-		(at 101.6 105.41)
-		(uuid "7017e70d-c474-4122-ace9-f61d66266310")
-	)
-	(no_connect
 		(at 135.89 87.63)
 		(uuid "8b098ded-3ccd-4cb9-93f5-22b8341ce91d")
 	)
@@ -6958,6 +6950,28 @@
 			)
 		)
 	)
+	(global_label "int"
+		(shape input)
+		(at 135.89 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89d217d3-9179-4ac3-9e8d-95b75431d336")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.3547 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "motorapwm"
 		(shape input)
 		(at 217.17 129.54 180)
@@ -7126,6 +7140,28 @@
 		(uuid "af27f404-0a67-44f3-a19c-6097b5768b13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.6571 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "int"
+		(shape input)
+		(at 101.6 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b432b36c-8c20-433d-a4c8-e17535f3b4ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.0647 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +10558,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 38.1 34.29 0)
 			(effects
 				(font
@@ -11805,7 +11841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 19.05 72.39 0)
 			(effects
 				(font
@@ -12074,7 +12110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 20.32 34.29 0)
 			(effects
 				(font
@@ -12343,7 +12379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 25.4 121.92 0)
 			(effects
 				(font
@@ -12614,7 +12650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 38.1 72.39 0)
 			(effects
 				(font
