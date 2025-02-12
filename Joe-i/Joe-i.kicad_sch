@@ -3792,12 +3792,6 @@
 		(uuid "ce6416b8-88b8-430e-a4c7-b864240b08ac")
 	)
 	(junction
-		(at 30.48 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfe713db-9a0d-46f8-8f5b-b6a94ee09c84")
-	)
-	(junction
 		(at 96.52 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4767,7 +4761,7 @@
 			)
 		)
 	)
-	(global_label "DIP2"
+	(global_label "DIP1"
 		(shape input)
 		(at 238.76 33.02 0)
 		(fields_autoplaced yes)
@@ -5295,7 +5289,7 @@
 			)
 		)
 	)
-	(global_label "DIP1"
+	(global_label "DIP2"
 		(shape input)
 		(at 238.76 35.56 0)
 		(fields_autoplaced yes)
@@ -7573,72 +7567,6 @@
 			(project "Joe-i"
 				(path "/f79ffdde-4cd4-4bae-9efe-36cb5fedd80b"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5723b791-2fab-4fd8-803b-0be74f791db3")
-		(property "Reference" "#PWR02"
-			(at 30.48 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ebb4d8f-8d20-4079-8265-944ab783f4a3")
-		)
-		(instances
-			(project "Joe-i"
-				(path "/f79ffdde-4cd4-4bae-9efe-36cb5fedd80b"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10257,76 +10185,6 @@
 			(project "Joe-i"
 				(path "/f79ffdde-4cd4-4bae-9efe-36cb5fedd80b"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 30.48 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc2d00d7-b9e4-4890-b4ef-d4017815d924")
-		(property "Reference" "C1"
-			(at 26.67 36.8301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 26.67 34.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 29.5148 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 30.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edcc009b-ad1b-4893-8ed5-03d218519685")
-		)
-		(pin "1"
-			(uuid "c3ecc193-33e4-42b0-9bcf-518a2e671ffc")
-		)
-		(instances
-			(project "Joe-i"
-				(path "/f79ffdde-4cd4-4bae-9efe-36cb5fedd80b"
-					(reference "C1")
 					(unit 1)
 				)
 			)
