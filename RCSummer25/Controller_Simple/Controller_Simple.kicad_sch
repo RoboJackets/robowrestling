@@ -4014,6 +4014,12 @@
 		(uuid "d767d946-6add-4795-b62e-020cf77bc5d1")
 	)
 	(junction
+		(at 193.04 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9daad95-f1a1-4f08-a381-b4a65424301c")
+	)
+	(junction
 		(at 196.85 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4426,6 +4432,16 @@
 			(type default)
 		)
 		(uuid "f69df1b9-dc27-47d1-b0f8-2795912d39c1")
+	)
+	(wire
+		(pts
+			(xy 187.96 40.64) (xy 193.04 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84f644f-512e-4e43-9d32-03d8a12cb76f")
 	)
 	(wire
 		(pts
@@ -6952,6 +6968,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 193.04 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75903dd6-a715-493f-9073-a72bc7f2ef67")
+		(property "Reference" "#PWR036"
+			(at 193.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "492611ff-0325-4e13-9a85-9e33bf4842f7")
+		)
+		(instances
+			(project ""
+				(path "/6c578a11-c7c4-4e4b-b372-f2769ce1c845"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 100.33 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9305,7 +9387,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 193.04 24.13 0)
+		(at 187.96 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9314,7 +9396,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3c5e7af-858e-4bd8-9d71-0227b516ce1b")
 		(property "Reference" "#PWR018"
-			(at 193.04 27.94 0)
+			(at 191.77 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9405,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 193.04 19.05 0)
+			(at 186.69 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9413,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 24.13 0)
+			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 24.13 0)
+			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9431,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 193.04 24.13 0)
+			(at 187.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9443,7 @@
 			(uuid "1846cc52-67c6-4046-a8d1-38bf67580ef0")
 		)
 		(instances
-			(project ""
+			(project "Controller_Simple"
 				(path "/6c578a11-c7c4-4e4b-b372-f2769ce1c845"
 					(reference "#PWR018")
 					(unit 1)
