@@ -69,12 +69,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "./")
+			(outputdirectory "CustomML2Gerbs/")
 		)
 	)
 	(net 0 "")
@@ -481,6 +481,7 @@
 		(property "Reference" "U1"
 			(at 0 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "be7ba181-5e58-4193-a89f-8360d5e34313")
 			(effects
 				(font
@@ -930,6 +931,7 @@
 		(property "Reference" "U2"
 			(at 0 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6a668323-9381-403b-8bbc-b7ee84a4dba1")
 			(effects
 				(font
@@ -1771,6 +1773,7 @@
 		(property "Reference" "J1"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "effad071-ceb7-4d09-8fe4-6d57bc414265")
 			(effects
 				(font
