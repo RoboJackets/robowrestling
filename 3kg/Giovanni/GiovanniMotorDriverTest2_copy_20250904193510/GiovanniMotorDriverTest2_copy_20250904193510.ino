@@ -29,7 +29,7 @@
 
 
 // Configure the motor driver.
-CytronMD motor(PWM_DIR, 39, 38);  // PWM = Pin 3, DIR = Pin 4.
+CytronMD motor(PWM_DIR, 37, 38);  // PWM = Pin 3, DIR = Pin 4.
 
 
 // The setup routine runs once when you press reset.
