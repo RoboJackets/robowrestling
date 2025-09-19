@@ -34,7 +34,7 @@ CytronMD motor(PWM_DIR, 37, 38);  // PWM = Pin 3, DIR = Pin 4.
 
 // The setup routine runs once when you press reset.
 void setup() {
-  
+  delay(5000);
 }
 
 
