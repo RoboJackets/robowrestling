@@ -5359,6 +5359,10 @@
 		(uuid "aa12301e-2e4a-4ff1-bad2-7402c4ca33c2")
 	)
 	(no_connect
+		(at 255.27 135.89)
+		(uuid "b1b11cae-75c4-47dc-a13e-146e7d5d912e")
+	)
+	(no_connect
 		(at 60.96 72.39)
 		(uuid "b21db92a-fb96-41f4-b18d-1ad84390e86d")
 	)
@@ -5625,16 +5629,6 @@
 			(type default)
 		)
 		(uuid "307486cc-0db8-42f1-9146-5c3c4e199e23")
-	)
-	(wire
-		(pts
-			(xy 234.95 96.52) (xy 237.49 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30adc789-e0c2-4905-bcbe-10567577af3f")
 	)
 	(wire
 		(pts
@@ -6538,6 +6532,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 96.52) (xy 237.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0549445-4410-42c7-ab72-9fdcc6c357f9")
+	)
+	(wire
+		(pts
 			(xy 58.42 46.99) (xy 60.96 46.99)
 		)
 		(stroke
@@ -6827,16 +6831,6 @@
 		(uuid "3ffd2b44-0155-48eb-b6bc-5711d267d8e1")
 	)
 	(label "10 µF"
-		(at 63.5 184.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61b0b635-5548-4037-8442-af74e00600ea")
-	)
-	(label "10 µF"
 		(at 124.46 172.72 0)
 		(effects
 			(font
@@ -6855,16 +6849,6 @@
 			(justify right bottom)
 		)
 		(uuid "71907049-9367-49bf-a32a-cc43bdd826e1")
-	)
-	(label "10 µF"
-		(at 63.5 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d236c69-5a4b-43a5-ae5e-2a9ae8110396")
 	)
 	(label "200 Ω"
 		(at 46.99 78.74 180)
@@ -12273,7 +12257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 267.97 140.97 0)
 			(effects
 				(font
@@ -13151,7 +13135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 273.05 148.59 0)
 			(effects
 				(font
@@ -14655,7 +14639,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 231.14 91.44 180)
+		(at 231.14 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14663,7 +14647,7 @@
 		(dnp no)
 		(uuid "f2d1a5f0-e246-4e8b-ad4b-a94134053b9f")
 		(property "Reference" "#PWR060"
-			(at 231.14 87.63 0)
+			(at 234.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14672,7 +14656,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 231.394 96.774 0)
+			(at 225.806 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
