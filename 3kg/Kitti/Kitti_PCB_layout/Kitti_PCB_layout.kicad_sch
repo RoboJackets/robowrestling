@@ -5,6 +5,221 @@
 	(uuid "7546ba49-78f3-4d70-aac0-ddd551a614da")
 	(paper "A4")
 	(lib_symbols
+		(symbol "IRsensor:Omron E3Z-D82"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Omron E3Z-D82"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Omron E3Z-D82_1_1"
+				(rectangle
+					(start -2.794 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "Out"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LidarSensor:TF_mini"
 			(pin_names
 				(offset 1.016)
@@ -1840,6 +2055,219 @@
 		)
 	)
 	(symbol
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 243.84 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a0e47d3-aa20-413f-9d7a-87a84885232c")
+		(property "Reference" "J13"
+			(at 243.1161 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Omron E3Z-D82"
+			(at 243.1161 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "f8838aaf-7ed3-4526-86e9-7b9d4148f118")
+		)
+		(pin "Out"
+			(uuid "d8d27120-7d09-4317-a2a8-975bcff3ba9b")
+		)
+		(pin "5V"
+			(uuid "9c0f0974-a4e9-4504-a3ba-4fd9d20a6d00")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 243.84 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dac7290-83e0-4e5a-8670-c4063ee14037")
+		(property "Reference" "J14"
+			(at 243.1161 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Omron E3Z-D82"
+			(at 243.1161 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "b247fb8a-0a3d-4815-aa7d-f142129c3d7f")
+		)
+		(pin "Out"
+			(uuid "6a1b38c6-fe15-4e45-b7fd-5926b3372fed")
+		)
+		(pin "5V"
+			(uuid "c15d8157-2b9c-4bcc-bd80-c3190da7bb2e")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 243.84 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d928872-5d5c-47a8-8e58-cb364fa8ef13")
+		(property "Reference" "J11"
+			(at 243.1161 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Omron E3Z-D82"
+			(at 243.1161 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "88fca1f5-ae84-4647-a398-550c30dcdc63")
+		)
+		(pin "Out"
+			(uuid "51027e8a-8f02-48d8-acd5-48ba42754e8b")
+		)
+		(pin "5V"
+			(uuid "625ff506-10a0-4d06-8eda-b30a6ccadbcc")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Line_Sensors:JS17250")
 		(at 29.21 177.8 0)
 		(unit 1)
@@ -1917,25 +2345,25 @@
 		)
 	)
 	(symbol
-		(lib_id "LidarSensor:TF_mini")
-		(at 96.52 176.53 0)
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 265.43 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "457cbf4c-6a99-4075-abbf-6b629a795e9b")
-		(property "Reference" "J7"
-			(at 95.9231 167.64 0)
+		(uuid "3a87af73-04f4-4876-ae72-3f245cfe414b")
+		(property "Reference" "J10"
+			(at 264.7061 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TF_mini"
-			(at 95.9231 170.18 0)
+		(property "Value" "Omron E3Z-D82"
+			(at 264.7061 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,7 +2371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 176.53 0)
+			(at 265.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +2380,78 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 176.53 0)
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 265.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "3a81e9a3-f64e-4fad-8196-fb4641780b6d")
+		)
+		(pin "Out"
+			(uuid "da084623-8aad-47f5-b140-b558abb36656")
+		)
+		(pin "5V"
+			(uuid "e54ef480-41d2-47ac-b291-054ad008e3e6")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LidarSensor:TF_mini")
+		(at 109.22 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "457cbf4c-6a99-4075-abbf-6b629a795e9b")
+		(property "Reference" "J7"
+			(at 108.6231 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TF_mini"
+			(at 108.6231 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2460,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 96.52 176.53 0)
+			(at 109.22 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,162 +2490,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Line_Sensors:JS17250")
-		(at 29.21 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c3814a4-bceb-4f36-80e9-02743ca0170d")
-		(property "Reference" "J10"
-			(at 27.9781 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JS17250"
-			(at 27.9781 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "Signal_NOR"
-			(uuid "a6ec1845-5fa0-45fe-988d-2b3e43f9a59d")
-		)
-		(pin "Signal_1"
-			(uuid "65668e6a-fd21-4e66-aa06-e93d448ebc46")
-		)
-		(pin "5V"
-			(uuid "bbda9c70-4ead-48d7-bbec-8a8d9f3ac56d")
-		)
-		(pin "Signal_2"
-			(uuid "eeeade05-4c21-45e8-a3be-041a00e4e7ca")
-		)
-		(pin "GND"
-			(uuid "78b03b5b-3cd1-4754-88f8-0b3c5aeff730")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Line_Sensors:JS17250")
-		(at 54.61 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fcf4e03-17fc-40dc-892a-a4448b24daf2")
-		(property "Reference" "J11"
-			(at 53.3781 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JS17250"
-			(at 53.3781 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 54.61 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "Signal_1"
-			(uuid "a80026e1-7f00-4c78-80fc-84c5c200898d")
-		)
-		(pin "GND"
-			(uuid "18314714-7bae-4353-8c5b-890415d074d9")
-		)
-		(pin "5V"
-			(uuid "94a23584-20e2-4bbb-bc62-97521e5ead24")
-		)
-		(pin "Signal_2"
-			(uuid "8bf502e2-45cf-402d-8f23-6d0411730e31")
-		)
-		(pin "Signal_NOR"
-			(uuid "73a4adee-f41d-4151-9b4e-2b2163605fa5")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LidarSensor:TF_mini")
-		(at 78.74 156.21 0)
+		(at 91.44 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2155,7 +2500,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f3659b-e4b9-4e77-9dca-8416befa3211")
 		(property "Reference" "J5"
-			(at 78.1431 147.32 0)
+			(at 90.8431 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2508,7 @@
 			)
 		)
 		(property "Value" "TF_mini"
-			(at 78.1431 149.86 0)
+			(at 90.8431 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 156.21 0)
+			(at 91.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2525,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 156.21 0)
+			(at 91.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2534,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 78.74 156.21 0)
+			(at 91.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,85 +2718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Line_Sensors:JS17250")
-		(at 54.61 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "826ebce6-9e31-4745-bec2-1dab3d3434d2")
-		(property "Reference" "J12"
-			(at 53.3781 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JS17250"
-			(at 53.3781 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "Signal_1"
-			(uuid "1f896e45-8d31-4ac0-abf6-fa8891409257")
-		)
-		(pin "Signal_NOR"
-			(uuid "0c66c535-56bd-4403-843f-06c843337840")
-		)
-		(pin "5V"
-			(uuid "07e5940e-2e1d-464a-ba2a-4067ff38f756")
-		)
-		(pin "Signal_2"
-			(uuid "cfa19991-f630-4589-9010-dfd98fe3956f")
-		)
-		(pin "GND"
-			(uuid "eea7a997-189b-4897-b48a-5ca919bdf87f")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LidarSensor:TF_mini")
-		(at 78.74 176.53 0)
+		(at 91.44 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2460,7 +2728,7 @@
 		(fields_autoplaced yes)
 		(uuid "86c281bb-f1e1-4d63-9bb3-2b18a5648eab")
 		(property "Reference" "J6"
-			(at 78.1431 167.64 0)
+			(at 90.8431 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2736,7 @@
 			)
 		)
 		(property "Value" "TF_mini"
-			(at 78.1431 170.18 0)
+			(at 90.8431 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 176.53 0)
+			(at 91.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2485,7 +2753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 176.53 0)
+			(at 91.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 78.74 176.53 0)
+			(at 91.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,25 +2792,25 @@
 		)
 	)
 	(symbol
-		(lib_id "LidarSensor:TF_mini")
-		(at 96.52 156.21 0)
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 265.43 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2316a98-9ea5-41c6-93db-3fe20097dd9d")
-		(property "Reference" "J8"
-			(at 95.9231 147.32 0)
+		(uuid "b6f92470-1580-41f6-9ea1-c66ec536715b")
+		(property "Reference" "J15"
+			(at 264.7061 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TF_mini"
-			(at 95.9231 149.86 0)
+		(property "Value" "Omron E3Z-D82"
+			(at 264.7061 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 156.21 0)
+			(at 265.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2827,78 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 156.21 0)
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "74a6b547-1037-492c-a23b-be31e4b8ca07")
+		)
+		(pin "Out"
+			(uuid "b631039f-9fea-4b5e-8693-3cb624762a39")
+		)
+		(pin "5V"
+			(uuid "8e7e6010-c98e-449f-8fb8-7e4f1e16a6f7")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LidarSensor:TF_mini")
+		(at 109.22 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2316a98-9ea5-41c6-93db-3fe20097dd9d")
+		(property "Reference" "J8"
+			(at 108.6231 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TF_mini"
+			(at 108.6231 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 96.52 156.21 0)
+			(at 109.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,83 +2931,6 @@
 			(project ""
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Line_Sensors:JS17250")
-		(at 29.21 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c610430f-e1f5-4a3b-b4c9-bf2cf0163c1b")
-		(property "Reference" "J9"
-			(at 27.9781 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JS17250"
-			(at 27.9781 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 29.21 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5V"
-			(uuid "9462be93-cabb-4446-8bb0-b770e99c64d7")
-		)
-		(pin "Signal_1"
-			(uuid "7b05c968-3072-45cd-a2f6-4922f9626309")
-		)
-		(pin "Signal_2"
-			(uuid "9a35647c-a0ca-40c1-a62e-d281368d2fc3")
-		)
-		(pin "Signal_NOR"
-			(uuid "fff29a44-e22f-422f-8e9c-2f3a9e1e622b")
-		)
-		(pin "GND"
-			(uuid "b2013dd5-de74-4ee3-acf9-fdf1a0e4fc2c")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3142,25 +3404,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Line_Sensors:JS17250")
-		(at 41.91 76.2 0)
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 265.43 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff0882b4-1fb7-4d2e-a460-cea12e0ab512")
-		(property "Reference" "J13"
-			(at 40.6781 64.77 0)
+		(uuid "d2e83635-6e77-4067-a1e2-31b182c35f11")
+		(property "Reference" "J16"
+			(at 264.7061 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "JS17250"
-			(at 40.6781 67.31 0)
+		(property "Value" "Omron E3Z-D82"
+			(at 264.7061 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 76.2 0)
+			(at 265.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 76.2 0)
+			(at 265.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,34 +3447,241 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 41.91 76.2 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 265.43 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "Signal_1"
-			(uuid "4de97cb9-bb5c-435a-ab3b-8dccfd159315")
 		)
 		(pin "GND"
-			(uuid "e166f88f-dcc2-4bde-ab8d-8d0af4fccf5a")
+			(uuid "d109691d-b144-4f85-bac1-5ba06580650a")
+		)
+		(pin "Out"
+			(uuid "bc4d5a9c-4e0b-429b-a79b-84649f6bee99")
 		)
 		(pin "5V"
-			(uuid "12fabff0-d69b-4a28-9494-86e7ea89c7af")
-		)
-		(pin "Signal_2"
-			(uuid "a8149152-8004-40ef-9413-ea0bbea6063d")
-		)
-		(pin "Signal_NOR"
-			(uuid "2bcf6e55-23a2-4819-97ea-c9e8685a888e")
+			(uuid "2ede6272-98f5-4d2b-989f-370c225b8ea9")
 		)
 		(instances
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J13")
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 243.84 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d75f6f8b-74c6-4d9e-b222-a8f7a3a5415b")
+		(property "Reference" "J9"
+			(at 243.1161 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Omron E3Z-D82"
+			(at 243.1161 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 243.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "530099f8-3768-4590-9e6f-20bf2490af66")
+		)
+		(pin "Out"
+			(uuid "5cb75408-e9a2-4475-b029-7d95874499c1")
+		)
+		(pin "5V"
+			(uuid "e50dacdc-d735-4772-8bf3-a31328625b9a")
+		)
+		(instances
+			(project ""
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 256.54 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57c9b78-1277-4bcc-b375-9ff31782a2fb")
+		(property "Reference" "J17"
+			(at 255.8161 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Omron E3Z-D82"
+			(at 255.8161 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 256.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "bb1d2170-6ea1-4f46-983c-9e08244d08da")
+		)
+		(pin "Out"
+			(uuid "6d63b42a-f2ed-414d-85b2-b0ea6384fde4")
+		)
+		(pin "5V"
+			(uuid "372f9d5a-a808-4d71-ab1b-3328c7e7b805")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IRsensor:Omron E3Z-D82")
+		(at 265.43 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd9cd950-002a-4b9c-b84f-0ddfc9456aeb")
+		(property "Reference" "J12"
+			(at 264.7061 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Omron E3Z-D82"
+			(at 264.7061 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 265.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "0a0533b1-4165-42e3-9487-f1f456f760a8")
+		)
+		(pin "Out"
+			(uuid "7889eb6b-5603-4db2-bc42-b7f62b15482f")
+		)
+		(pin "5V"
+			(uuid "d8af0428-d62f-486e-aa47-c2d6833a8a3d")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "J12")
 					(unit 1)
 				)
 			)
