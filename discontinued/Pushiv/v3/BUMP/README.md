@@ -1,1 +1,0 @@
-Prints output from all sensors and runs a test of the ESCs
