@@ -4613,12 +4613,6 @@
 		(uuid "3bb38fe5-e279-4dfc-acba-4badc454d1ac")
 	)
 	(junction
-		(at 147.32 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52f4034e-c5be-4aea-81ee-e47536c2e618")
-	)
-	(junction
 		(at 264.16 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4629,12 +4623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86c545fe-c29d-4049-a2b3-64272b5f6389")
-	)
-	(junction
-		(at 127 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7a29656-4bb3-446c-bf89-ee95e11032e1")
 	)
 	(junction
 		(at 252.73 105.41)
@@ -4826,16 +4814,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 140.97 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6937e0d4-76fe-45a7-a62b-b2f68258fbc9")
-	)
-	(wire
-		(pts
 			(xy 176.53 157.48) (xy 186.69 157.48)
 		)
 		(stroke
@@ -4873,16 +4851,6 @@
 			(type default)
 		)
 		(uuid "7e9fafc3-fa93-4dcd-8486-731a82730e4d")
-	)
-	(wire
-		(pts
-			(xy 127 138.43) (xy 133.35 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8676b315-5efb-42e1-b2f1-81268e469480")
 	)
 	(wire
 		(pts
@@ -5003,16 +4971,6 @@
 			(type default)
 		)
 		(uuid "ba291007-6eee-4faa-a0c1-420de6e69429")
-	)
-	(wire
-		(pts
-			(xy 147.32 149.86) (xy 147.32 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c728b0d1-5a09-47c4-99fc-2fda1810ae2a")
 	)
 	(wire
 		(pts
@@ -42675,6 +42633,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 246.38 191.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "140e9847-bfe5-4bcc-a43f-f2811c8aaeae")
+		(property "Reference" "#PWR038"
+			(at 242.57 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 250.19 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 246.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "597102ad-3b09-41b3-803a-15f970ba1b58")
+		)
+		(instances
+			(project "Spii_v3"
+				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 110.49 0)
 		(unit 1)
@@ -45121,73 +45146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 218.44 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6adccd87-ec2e-49e3-b2c2-ca62f993153a")
-		(property "Reference" "#PWR021"
-			(at 222.25 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 214.63 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f14418d-f189-4fe2-860f-5fd790889aa7")
-		)
-		(instances
-			(project "Spii_v3"
-				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 119.38 138.43 0)
 		(unit 1)
@@ -45784,6 +45742,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 199.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d6d0b3e-8ba9-4311-a510-b958ca679eff")
+		(property "Reference" "#PWR037"
+			(at 214.63 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 207.01 199.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "237fedee-049f-4075-a357-118524300c9b")
+		)
+		(instances
+			(project "Spii_v3"
+				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 106.68 0)
 		(unit 1)
@@ -45914,71 +45939,6 @@
 			(project "Spii_v3"
 				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 210.82 199.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7de36d02-8536-4786-b5ff-28f2f3aae7d2")
-		(property "Reference" "#PWR060"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3|5"
-			(at 204.47 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f18b3f51-6343-4351-a639-f9d055e085c6")
-		)
-		(instances
-			(project "Spii_v3"
-				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -46325,74 +46285,6 @@
 			(project ""
 				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
 					(reference "START_MOD1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 137.16 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a6d5404-762c-4eea-9604-70a9e81a2bbe")
-		(property "Reference" "R3"
-			(at 137.16 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 137.16 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 137.16 140.208 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ecf6ff8-5027-4a24-9029-ec2c50631bf2")
-		)
-		(pin "2"
-			(uuid "ae8af80a-7c17-4fa2-a361-a777012891a2")
-		)
-		(instances
-			(project "Spii_v3"
-				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -46974,71 +46866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 246.38 191.77 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a57df9fa-cdc7-47cd-9318-0ca2797568db")
-		(property "Reference" "#PWR061"
-			(at 242.57 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3|5"
-			(at 252.73 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 246.38 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ae687d8-5fe5-4af8-bf5d-6b7aee124a58")
-		)
-		(instances
-			(project "Spii_v3"
-				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 66.04 90)
 		(unit 1)
@@ -47433,6 +47260,73 @@
 			(project "Spii_v3"
 				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 218.44 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b406b603-f010-4beb-84b3-178d881ed9ae")
+		(property "Reference" "#PWR021"
+			(at 222.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 214.63 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 218.44 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec86151-25d1-46f6-8dcf-2279e643ec6d")
+		)
+		(instances
+			(project "Spii_v3"
+				(path "/2d7c0581-ada7-47d1-9566-cd316f644b4d"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
