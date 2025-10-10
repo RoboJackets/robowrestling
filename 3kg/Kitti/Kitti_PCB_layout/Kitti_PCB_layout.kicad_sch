@@ -3291,6 +3291,16 @@
 		)
 		(uuid "3e8ff157-abc0-4d6c-9b45-5c5d5f12b200")
 	)
+	(text "Voltage Regulator"
+		(exclude_from_sim no)
+		(at 150.622 139.7 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+		)
+		(uuid "7c3abe3f-2dd5-459f-9462-216f74bf46ef")
+	)
 	(text "Start Module"
 		(exclude_from_sim no)
 		(at 144.526 195.326 0)
@@ -3503,6 +3513,16 @@
 	)
 	(polyline
 		(pts
+			(xy 127 164.8572) (xy 172.7991 164.8572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32905831-73a4-45b9-b91e-04007bc8b8cb")
+	)
+	(polyline
+		(pts
 			(xy 12.7 134.62) (xy 127 134.62)
 		)
 		(stroke
@@ -3581,6 +3601,16 @@
 		)
 		(uuid "640cbe05-bc62-4f34-86b6-961c1b0cd192")
 	)
+	(polyline
+		(pts
+			(xy 127 164.8572) (xy 127 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffafb2b-bdbf-40b1-a6e9-3d7eeea9bf59")
+	)
 	(wire
 		(pts
 			(xy 54.61 180.34) (xy 63.5 180.34)
@@ -3591,6 +3621,16 @@
 		)
 		(uuid "8f4bfe90-0348-4072-bff0-5a4da59d777b")
 	)
+	(polyline
+		(pts
+			(xy 127 134.62) (xy 172.7532 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de1da97-a39d-4d1b-8e3c-36098471b005")
+	)
 	(wire
 		(pts
 			(xy 205.74 68.58) (xy 210.82 68.58)
@@ -3600,6 +3640,16 @@
 			(type default)
 		)
 		(uuid "aab62efd-9a47-47c3-aed4-3f0871e9511e")
+	)
+	(polyline
+		(pts
+			(xy 172.7532 134.62) (xy 172.7532 164.8572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b0382a-9f73-4ecb-a87c-790203ee83b0")
 	)
 	(wire
 		(pts
@@ -4809,6 +4859,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 168.91 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0be8e2f8-d5b5-46d9-8169-7916c1e610cb")
+		(property "Reference" "#PWR058"
+			(at 175.26 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c98a2d-3740-4936-a378-cc7374e67aae")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 210.82 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5224,6 +5341,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 151.13 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b059ca2-ec85-4dcb-b92e-c2cf82c4d4cd")
+		(property "Reference" "#PWR061"
+			(at 151.13 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d743460f-b0e7-45da-8a32-de840f9bbc77")
+		)
+		(instances
+			(project ""
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 241.3 26.67 270)
 		(unit 1)
@@ -5242,7 +5425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 245.11 26.6699 90)
 			(effects
 				(font
@@ -5533,7 +5716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 214.63 46.9899 90)
 			(effects
 				(font
@@ -6342,7 +6525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 245.11 68.5799 90)
 			(effects
 				(font
@@ -6727,6 +6910,73 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5249a095-3bbd-4850-82b4-e21222b18d1e")
+		(property "Reference" "#PWR062"
+			(at 154.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 162.56 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69c2d81-17f1-4192-926f-cdf595849f46")
+		)
+		(instances
+			(project ""
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7154,7 +7404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 214.63 68.5799 90)
 			(effects
 				(font
@@ -7278,6 +7528,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 168.91 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74dc77a7-d82b-4a01-b71f-41d224da3356")
+		(property "Reference" "#PWR060"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ddd5cac-a462-4703-a4d9-a33b2f22b1d0")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 205.74 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7361,7 +7678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 275.59 68.5799 90)
 			(effects
 				(font
@@ -7906,6 +8223,140 @@
 			(project ""
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "898d39ca-0b78-45fe-a6c2-b6c0f15f8f60")
+		(property "Reference" "#PWR057"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f15851-12fb-4361-ac56-38629efa1568")
+		)
+		(instances
+			(project ""
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 143.51 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ad95fe9-8709-4e42-8489-187d6312debf")
+		(property "Reference" "#PWR063"
+			(at 147.32 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+6.5V"
+			(at 139.7 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 143.51 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1ed4c00-aa7f-4040-91d4-33110ac785ad")
+		)
+		(instances
+			(project ""
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9071,7 +9522,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-5.0")
-		(at 151.13 147.32 0)
+		(at 151.13 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9080,14 +9531,6 @@
 		(fields_autoplaced yes)
 		(uuid "b5127b26-5ea4-4951-80d2-49c8beb4095c")
 		(property "Reference" "U1"
-			(at 151.13 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-5.0"
 			(at 151.13 143.51 0)
 			(effects
 				(font
@@ -9095,8 +9538,16 @@
 				)
 			)
 		)
+		(property "Value" "AMS1117-5.0"
+			(at 151.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 151.13 142.24 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9105,7 +9556,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 153.67 153.67 0)
+			(at 153.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9565,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
-			(at 151.13 147.32 0)
+			(at 151.13 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +9676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 245.11 46.9899 90)
 			(effects
 				(font
@@ -9362,7 +9813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 275.59 46.9899 90)
 			(effects
 				(font
@@ -10279,6 +10730,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 168.91 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceae075a-3634-42e3-aa3a-e35dc2a3b6cf")
+		(property "Reference" "#PWR056"
+			(at 175.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a1017a2-ed55-4a69-9b23-6b58ae65818c")
+		)
+		(instances
+			(project ""
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 210.82 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10709,7 +11227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 214.63 26.6699 90)
 			(effects
 				(font
@@ -11048,7 +11566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+12V"
 			(at 275.59 26.6699 90)
 			(effects
 				(font
@@ -11091,6 +11609,73 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb64fe94-a802-4689-9e37-9220779c3a1f")
+		(property "Reference" "#PWR059"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "722d11fc-476c-426a-89be-15a1acb61234")
+		)
+		(instances
+			(project "Kitti_PCB_layout"
+				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
