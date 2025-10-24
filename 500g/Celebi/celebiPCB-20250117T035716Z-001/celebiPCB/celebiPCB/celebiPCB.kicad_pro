@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -57,21 +57,21 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "ignore",
-        "clearance": "ignore",
+        "annular_width": "error",
+        "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "ignore",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -94,7 +94,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -417,7 +417,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "celebiNewMD.kicad_pro",
+    "filename": "celebiPCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -466,10 +466,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../../../../../../OneDrive/Desktop/newcell/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "celebiNewMD.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -574,11 +574,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "333c0112-58a2-450b-a519-54b905b1e608",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
