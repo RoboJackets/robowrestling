@@ -6182,6 +6182,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 148.59) (xy 224.79 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d63b55-279c-4b01-8870-377efec0a967")
+	)
+	(wire
+		(pts
 			(xy 54.61 74.93) (xy 59.69 74.93)
 		)
 		(stroke
@@ -9074,7 +9084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21fb8747-8c94-4a67-a533-c9843611ba86")
-		(property "Reference" "R8"
+		(property "Reference" "R8(10k?)"
 			(at 241.3 151.1299 0)
 			(effects
 				(font
@@ -9128,7 +9138,7 @@
 		(instances
 			(project "500Updated"
 				(path "/12510c2b-b621-44d9-ad20-a826d0bba445"
-					(reference "R8")
+					(reference "R8(10k?)")
 					(unit 1)
 				)
 			)
@@ -9971,7 +9981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "47 uF"
 			(at 273.05 95.2499 0)
 			(effects
 				(font
@@ -12192,7 +12202,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" ".1 uF"
 			(at 188.722 94.996 0)
 			(effects
 				(font
@@ -12262,7 +12272,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "47 uF"
 			(at 205.74 95.2499 0)
 			(effects
 				(font
@@ -12466,7 +12476,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" ".1 uF"
 			(at 255.524 93.472 0)
 			(effects
 				(font
@@ -15165,7 +15175,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 224.79 148.59 0)
+		(at 222.25 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15174,7 +15184,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb553983-05e6-4205-aec4-694b3de20a9f")
 		(property "Reference" "#PWR014"
-			(at 224.79 152.4 0)
+			(at 222.25 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +15193,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 224.79 143.51 0)
+			(at 222.25 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15191,7 +15201,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 148.59 0)
+			(at 222.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15200,7 +15210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 148.59 0)
+			(at 222.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15209,7 +15219,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 224.79 148.59 0)
+			(at 222.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
