@@ -1,0 +1,144 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "EL817C" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -7.63462 7.63462 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "EL817C" (id 1) (at -7.63205 -12.7201 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "EL817C:DIP762W25P254L650H453Q4B" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Everlight" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Optoisolator Transistor Output 5000Vrms 1 Channel 4-DIP\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "DIP Everlight Electronics" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/EL817(C)/Everlight/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/EL817(C)/Everlight/view-part/?ref=snap" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "EL817(C)" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Everlight" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "EL817C_0_0"
+      (polyline
+        (pts (xy -7.62 5.08) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -2.54 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy 0.0 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -5.08 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 0.0) (xy -2.54 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy 0.0 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -2.54 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -7.62) (xy -7.62 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 2.54 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 5.08 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 10.16 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -2.54) (xy 5.08 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -7.62) (xy 10.16 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 5.08 -4.445)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -4.445) (xy 4.445 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 4.445 -5.08) (xy 5.08 -5.08)) (stroke (width 0.254))
+      )
+      (rectangle (start -7.62 -10.16) (end 10.16 7.62)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 5.08 0) (length 5.08)
+        (name "A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -7.62 0) (length 5.08)
+        (name "K"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 -7.62 180.0) (length 5.08)
+        (name "E"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 15.24 5.08 180.0) (length 5.08)
+        (name "C"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
