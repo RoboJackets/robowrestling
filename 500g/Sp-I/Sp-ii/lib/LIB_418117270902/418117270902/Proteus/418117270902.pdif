@@ -1,0 +1,126 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "418117270902"
+   (description "Dip Switch SPST 2 Position Through Hole Slide (Standard) Actuator 25mA 24VDC")
+   (family "SWI")
+   (package "418117270902")
+   (attribute "Datasheet Link" "https://www.we-online.com/components/products/datasheet/418117270902.pdf")
+   (attribute "Geometry.Height" "6.95mm")
+   (attribute "Mouser Part Number" "710-418117270902")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/418117270902?qs=wr8lucFkNMWPQj5jgffPRw%3D%3D")
+   (attribute "Manufacturer_Name" "Wurth Elektronik")
+   (attribute "Manufacturer_Part_Number" "418117270902")
+   (gate
+    (symbol "418117270902")
+    (pin "COM_1" 1 PS)
+    (pin "COM_2" 2 PS)
+    (pin "NO_1" 3 PS)
+    (pin "NO_2" 4 PS)
+   )
+  )
+  (symbol "418117270902"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "418117270902"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.77 8.76)
+      (pt 4.31 8.76)
+      (pt 4.31 -1.14)
+      (pt -1.77 -1.14)
+      (pt -1.77 8.76))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.77 8.76)
+      (pt 4.31 8.76)
+      (pt 4.31 -1.14)
+      (pt -1.77 -1.14)
+      (pt -1.77 8.76))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.77 9.76)
+      (pt 5.31 9.76)
+      (pt 5.31 -2.14)
+      (pt -2.77 -2.14)
+      (pt -2.77 9.76))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 0 -1.6)
+      (arc (pt 0.000 -1.600) (pt -0.050 -1.700) (pt 0.050 -1.600) (start 180.0) (sweep 90.0))
+      (pt 0 -1.7)
+      (arc (pt 0.000 -1.700) (pt -0.050 -1.700) (pt 0.050 -1.600) (start 180.0) (sweep -90.0))
+      (pt 0 -1.6))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 2.540 7.620) (padstack 0))
+   (leg 4 (pt 0.000 7.620) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (round 1.300))
+   )
+   (padstack 1
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (square 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (square 1.300))
+   )
+   (model "418117270902.stp"
+    (euler 0 0 0)
+    (offset 1.2699999809265137 3.809999942779541 -0.6600000262260437)
+   )
+  )
+ )
+)
