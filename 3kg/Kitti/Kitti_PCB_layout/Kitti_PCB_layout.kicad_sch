@@ -2695,6 +2695,304 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_DIP_x03"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x03"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_DIP_x03_0_0"
+				(circle
+					(center -2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.667) (xy 2.3622 3.7084)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.413) (xy 2.3622 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x03_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x03_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Nidec_CAS-120A1"
 			(pin_names
 				(offset 1)
@@ -4673,6 +4971,26 @@
 		)
 		(uuid 9808b0ea-692f-46fc-8e82-6f039ea93bfb)
 	)
+	(text "Line Sensor"
+		(exclude_from_sim no)
+		(at 60.706 194.056 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "39bd5168-68ad-409d-8d8a-9dc9f6a9823d")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 204.47 163.068 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3b398658-b7b2-4ab1-a7ee-6c04af84696b")
+	)
 	(text "Motor Driver"
 		(exclude_from_sim no)
 		(at 250.952 151.13 0)
@@ -4692,6 +5010,16 @@
 			)
 		)
 		(uuid "3e8ff157-abc0-4d6c-9b45-5c5d5f12b200")
+	)
+	(text "Fuse"
+		(exclude_from_sim no)
+		(at 110.49 109.22 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "71fce04f-1931-4b7e-bef0-05e1a48a8db0")
 	)
 	(text "Voltage Regulator"
 		(exclude_from_sim no)
@@ -4730,12 +5058,6 @@
 		(uuid "043c19fd-edd7-4845-bcbf-9eec2b285037")
 	)
 	(junction
-		(at 36.83 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14318868-c295-4866-9d65-4834fdf56cd4")
-	)
-	(junction
 		(at 271.78 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4758,12 +5080,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bfc27a2-2342-4ebb-8e9d-74943f2d8211")
-	)
-	(junction
-		(at 36.83 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a3ba429-ec66-40e9-a355-03507fa2ecb9")
 	)
 	(junction
 		(at 241.3 25.4)
@@ -4796,12 +5112,6 @@
 		(uuid "708a8045-e0c9-4f35-8082-ad9b17765cf2")
 	)
 	(junction
-		(at 241.3 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "727ebeaf-a5f4-4b49-8f83-dfe8339c1643")
-	)
-	(junction
 		(at 210.82 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4814,22 +5124,10 @@
 		(uuid "87effea3-cbc2-4ada-bd62-929edbbf9c9f")
 	)
 	(junction
-		(at 36.83 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bff5189-8fc6-4b06-adec-09d09e9529d6")
-	)
-	(junction
 		(at 271.78 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ba7bc4a-f6bc-46af-9ffb-a2bc802a0690")
-	)
-	(junction
-		(at 36.83 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9db447e1-89cf-4f0f-ba81-1fb9f9b63c66")
 	)
 	(junction
 		(at 210.82 83.82)
@@ -5143,16 +5441,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 241.3 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c005141-f5aa-4d05-ab21-96582a2a1926")
-	)
-	(wire
-		(pts
 			(xy 21.59 172.72) (xy 27.94 172.72)
 		)
 		(stroke
@@ -5203,16 +5491,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 172.72) (xy 43.18 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c137383-8688-49da-96ac-c85a036a79eb")
-	)
-	(wire
-		(pts
 			(xy 21.59 140.97) (xy 27.94 140.97)
 		)
 		(stroke
@@ -5250,26 +5528,6 @@
 			(type default)
 		)
 		(uuid "57a0bfe9-0974-494d-9573-52b6a47f5b13")
-	)
-	(wire
-		(pts
-			(xy 36.83 180.34) (xy 43.18 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a84ab6b-d7dc-489e-9fe3-84a91e0d0f4e")
-	)
-	(wire
-		(pts
-			(xy 236.22 88.9) (xy 236.22 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bcc8fde-3416-4895-a65b-604caa9d6574")
 	)
 	(wire
 		(pts
@@ -5343,16 +5601,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 149.86) (xy 43.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76567dd1-7f95-4a81-a736-49d4421772db")
-	)
-	(wire
-		(pts
 			(xy 205.74 88.9) (xy 205.74 93.98)
 		)
 		(stroke
@@ -5400,16 +5648,6 @@
 			(type default)
 		)
 		(uuid "900222bc-d488-4f16-846a-9280ff655f8b")
-	)
-	(wire
-		(pts
-			(xy 43.18 157.48) (xy 43.18 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f78d72-0255-4bea-a44b-5487dc5c8e1e")
 	)
 	(wire
 		(pts
@@ -5593,16 +5831,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 157.48) (xy 43.18 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfb67a7e-2b2d-4ed0-91e6-5608c991f1cd")
-	)
-	(wire
-		(pts
 			(xy 219.71 137.16) (xy 223.52 137.16)
 		)
 		(stroke
@@ -5620,16 +5848,6 @@
 			(type default)
 		)
 		(uuid "e6466d7f-6373-4f9b-a9b6-85f070e3020e")
-	)
-	(wire
-		(pts
-			(xy 43.18 180.34) (xy 43.18 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec16a674-8075-4176-aeee-21ae21946737")
 	)
 	(wire
 		(pts
@@ -5762,28 +5980,6 @@
 		(uuid "0b509e8b-822d-49a5-b88e-2e79c445870d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.412 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_1T"
-		(shape input)
-		(at 43.18 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e64dca0-bf0f-4b88-9b46-79889dcc41cf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.022 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,28 +6205,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "L_1T"
-		(shape input)
-		(at 43.18 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3161d42f-8000-49e1-8d53-369f094cc3e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.022 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6449,28 +6623,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IR_8"
-		(shape input)
-		(at 236.22 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e87a813-ab97-4feb-9628-d3e8afe6ddfb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.1829 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7207,75 +7359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 240.03 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10d9d511-b4f5-46c6-9888-35dc40511f8b")
-		(property "Reference" "R11"
-			(at 240.03 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "1 kOhm"
-			(at 240.03 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 239.776 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 240.03 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebb1b9de-a430-454f-89f2-40482f72f5c1")
-		)
-		(pin "2"
-			(uuid "4b5a72d4-99c4-4914-aa3f-a40571a69aa5")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IRsensor:Omron E3Z-D82")
 		(at 200.66 26.67 0)
 		(unit 1)
@@ -7551,35 +7634,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 36.83 157.48 270)
+		(lib_id "Switch:SW_DIP_x03")
+		(at 52.07 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1bcf2285-ae19-4e93-88b6-aae908fe4442")
-		(property "Reference" "#PWR023"
-			(at 30.48 157.48 0)
+		(uuid "1c156a1b-a1fa-4ba8-9291-37af893a6336")
+		(property "Reference" "SW2"
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 33.02 157.4799 90)
+		(property "Value" "SW_DIP_x03"
+			(at 52.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 157.48 0)
+			(at 52.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,8 +7668,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 157.48 0)
+		(property "Datasheet" "~"
+			(at 52.07 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,8 +7677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 157.48 0)
+		(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(at 52.07 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,12 +7687,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d79f305-863a-48b4-a3ec-112c2a6cf134")
+			(uuid "3119807b-51b1-4731-959a-3af562f55c7d")
+		)
+		(pin "3"
+			(uuid "8150721d-6b4c-4dbc-825f-3067099b13ff")
+		)
+		(pin "5"
+			(uuid "53f06b2a-6da0-4bbd-98d4-440391c9e996")
+		)
+		(pin "2"
+			(uuid "644ad7fa-13c9-4eb8-b478-7053d868a1df")
+		)
+		(pin "4"
+			(uuid "f71a890b-b3c9-4aa1-b6d8-242f98284a51")
+		)
+		(pin "6"
+			(uuid "ecd16214-80b7-46ff-8a5e-420c8970b600")
 		)
 		(instances
-			(project "Kitti_PCB_layout"
+			(project ""
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR023")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8132,143 +8228,6 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be57715-18ad-4071-8d93-ac18a7d16793")
-		(property "Reference" "C2"
-			(at 245.11 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 245.11 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 242.2652 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a52ddd8-2d6d-436c-af01-fe8214806a39")
-		)
-		(pin "2"
-			(uuid "6d6b2ce6-ad44-4c5d-8cbe-fdebbbc0a1c8")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c35e9ce-d2fa-4af7-a572-a07a53607139")
-		(property "Reference" "#PWR038"
-			(at 257.81 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afd8bbbf-aaa8-4d42-9175-3fd5b9c10190")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8963,73 +8922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "525994bb-54cb-4a0e-88c3-02470f39e6df")
-		(property "Reference" "#PWR026"
-			(at 40.64 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 33.02 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f589f5a-51bd-4abd-94c0-9e9c52692c84")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 209.55 93.98 270)
 		(unit 1)
@@ -9453,72 +9345,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 236.22 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5ed4edb0-04c0-4721-a192-ec9d2e43be36")
-		(property "Reference" "#PWR012"
-			(at 242.57 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96c0d208-ccbd-44ce-b7b3-f4a3d8860728")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
 		(at 33.02 186.69 0)
 		(unit 1)
@@ -9652,76 +9478,6 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 36.83 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68455388-91ed-4df1-92f6-fbeff258d8a7")
-		(property "Reference" "C11"
-			(at 40.64 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 40.64 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 37.7952 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 36.83 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2548f200-01e8-408e-ac07-2244dc61b158")
-		)
-		(pin "2"
-			(uuid "ea2df924-f989-468c-8402-22758f9428e2")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9923,138 +9679,6 @@
 			(project ""
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c749048-2378-4dae-8cad-f96f23f73225")
-		(property "Reference" "#PWR015"
-			(at 241.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f67b72b-aa2a-4858-a8bf-e5a57cb5a59c")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 36.83 180.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c914cc6-9022-4acf-92b3-7d25e9b7ecea")
-		(property "Reference" "#PWR027"
-			(at 30.48 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "600883f7-9a66-4e58-aa72-19131518e342")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12583,79 +12207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 48.26 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8a66cea-7e05-49e5-a346-73ac844b766d")
-		(property "Reference" "J4"
-			(at 50.8 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 50.8 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal"
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5d94cfd-45c3-46ca-80c1-52d838af91d3")
-		)
-		(pin "3"
-			(uuid "4d95c942-5eac-4cf1-824b-aca4fc02dd92")
-		)
-		(pin "1"
-			(uuid "c9f71878-f55b-428f-9150-bca6876e8bfb")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 281.94 35.56 90)
 		(unit 1)
@@ -12796,73 +12347,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 241.3 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af0a881d-71bc-4926-9b62-be4ea27998fa")
-		(property "Reference" "#PWR016"
-			(at 237.49 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 245.11 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 241.3 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6303f1ca-f05f-419d-8be8-68ede55f44c8")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 175.26 90)
 		(unit 1)
@@ -12994,73 +12478,6 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 36.83 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7036046-ab4e-4674-934a-14391a2b8312")
-		(property "Reference" "#PWR011"
-			(at 40.64 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 33.02 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 36.83 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b8d5885-28fc-46a0-b22a-c24b347f5048")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14146,154 +13563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 247.65 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb808589-03d4-4a56-ae8b-3b1bcce86076")
-		(property "Reference" "D3"
-			(at 249.2375 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "LED"
-			(at 249.2375 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edffd700-419e-4aa4-a161-4dc63dd50202")
-		)
-		(pin "1"
-			(uuid "830e7f62-4c81-4be7-a96c-ee999afbcff3")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IRsensor:Omron E3Z-D82")
-		(at 231.14 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc413669-536d-40fe-8036-a1209bc9a5dc")
-		(property "Reference" "J9"
-			(at 230.4161 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Omron E3Z-D82"
-			(at 230.4161 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 231.14 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "c13b485f-3ef3-4e30-8708-0c8c16d8f2c1")
-		)
-		(pin "Out"
-			(uuid "77cac41a-c932-466f-b5ae-c4a6f1728cee")
-		)
-		(pin "5V"
-			(uuid "cb8c7258-4e7a-4902-ae22-0e1d48d15096")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 210.82 83.82 270)
 		(unit 1)
@@ -14555,76 +13824,6 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 36.83 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4613f6a-9472-4d88-aa2a-53a819269bd9")
-		(property "Reference" "C12"
-			(at 40.64 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 40.64 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 37.7952 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 36.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e764c20-86dd-4dc8-8ea8-14ef634c2dc1")
-		)
-		(pin "2"
-			(uuid "82218741-d6b4-4734-90c3-670abea0105e")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14975,79 +14174,6 @@
 			(project "Kitti_PCB_layout"
 				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 48.26 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e00adeea-b9dd-4a26-81e0-54e72461f765")
-		(property "Reference" "J6"
-			(at 50.8 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 50.8 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal"
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed8a253a-6c9f-4e0a-8f79-ff6c0f3f5078")
-		)
-		(pin "3"
-			(uuid "33593e74-a34b-4b77-b812-87fdbb296972")
-		)
-		(pin "1"
-			(uuid "8d52029d-93e5-4c5d-9551-d5ade4812fef")
-		)
-		(instances
-			(project "Kitti_PCB_layout"
-				(path "/7546ba49-78f3-4d70-aac0-ddd551a614da"
-					(reference "J6")
 					(unit 1)
 				)
 			)
