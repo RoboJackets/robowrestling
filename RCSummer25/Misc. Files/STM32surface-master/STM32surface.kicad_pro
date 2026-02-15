@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.05,
+        "board_outline_line_width": 0.15,
         "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -37,15 +37,15 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -54,6 +54,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
+        "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
@@ -119,7 +120,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.075,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -130,9 +131,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +181,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.35,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -450,7 +456,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Sp-ii-top-board.kicad_pro",
+    "filename": "STM32surface.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -466,11 +472,11 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -479,17 +485,202 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "3V3B"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "5VB"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "BOOT0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GNDB"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "NRST"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(D4-Pad1)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J3-Pad2)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Net-(J3-Pad3)"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OSC32IN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OSC32OUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OSCIN"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "OSCOUT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PA9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB0"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB10"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB11"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB12"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB14"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB15"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB2"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB4"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB5"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB6"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB7"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB8"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PB9"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "PC13"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "VBAT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Spii-top",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Sp-ii-top-board.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -573,7 +764,7 @@
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 60.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -581,21 +772,21 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -608,11 +799,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "95190979-d565-46c8-a32d-adebd4ba8fad",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
