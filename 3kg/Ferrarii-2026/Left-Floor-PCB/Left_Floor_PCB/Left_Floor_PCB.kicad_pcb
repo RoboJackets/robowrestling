@@ -37,7 +37,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 162.5 124)
+		(grid_origin 124.45 86.85)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -15959,17 +15959,6 @@
 		(uuid "bd0d4481-f210-425c-a17b-8dadc696399f")
 	)
 	(gr_arc
-		(start 124.45 86.85)
-		(mid 124.88934 85.78934)
-		(end 125.95 85.35)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bd3a444b-2710-4d4d-ab57-a0759935e087")
-	)
-	(gr_arc
 		(start 72.5 119)
 		(mid 72.207107 119.707107)
 		(end 71.5 120)
@@ -16032,6 +16021,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fbe184ad-58e8-47e8-8ad1-85579fa2afa2")
+	)
+	(gr_arc
+		(start 124.45 86.85)
+		(mid 124.88934 85.78934)
+		(end 125.95 85.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fe49e6b1-e447-4890-b79e-ab6a7ce878ff")
 	)
 	(gr_text "-  S  +"
 		(at 92.1 78.1 0)
