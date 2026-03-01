@@ -5137,6 +5137,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 152.4) (xy 119.38 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0753fff1-7eb5-44c6-b83a-cf5dd3453c07")
+	)
+	(wire
+		(pts
 			(xy 260.35 36.83) (xy 248.92 36.83)
 		)
 		(stroke
@@ -10949,6 +10959,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 121.92 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "014755af-8923-486e-8e5b-7fcc118ac32d")
+		(property "Reference" "#PWR042"
+			(at 121.92 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25d2681-9cda-4665-b684-b5aeb00130d8")
+		)
+		(instances
+			(project ""
+				(path "/6f2b6b32-1a1d-4cec-99d9-8e9530dcfe91"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 209.55 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11154,6 +11230,70 @@
 			(project "Control_Board"
 				(path "/6f2b6b32-1a1d-4cec-99d9-8e9530dcfe91"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 114.3 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08137e90-d9a7-4071-b3c2-aa9cee5b79c6")
+		(property "Reference" "J28"
+			(at 114.046 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_TP"
+			(at 114.046 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 114.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de417132-8405-41c2-8d31-edb844e25dd1")
+		)
+		(instances
+			(project "Control_Board"
+				(path "/6f2b6b32-1a1d-4cec-99d9-8e9530dcfe91"
+					(reference "J28")
 					(unit 1)
 				)
 			)
