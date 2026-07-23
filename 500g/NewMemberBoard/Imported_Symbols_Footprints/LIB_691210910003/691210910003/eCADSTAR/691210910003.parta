@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_11420480"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2026-04-15-03:36:26)
+    (utime 2026-04-15-03:36:26)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "691210910003")
+)
+
+
+(pinAssign "ECS_11420480"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2026-04-15-03:36:26)
+    (utime 2026-04-15-03:36:26)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_11420480")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "691210910003")
+)
+
+
+(part "691210910003"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2026-04-15-03:36:26)
+    (utime 2026-04-15-03:36:26)
+    (packageRef "691210910003")
+    (pinAssignRef "ECS_11420480")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "WR-TBL Terminal block - Rising Cage - THT Serie 2109 - 2,54mm pitch - Monoblock THT - Green - Horizontal cable entry Rising Cage Clamp 8.5mm height - 03p")
+    (property "Mouser_Part_Number" "710-691210910003")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/691210910003?qs=sPbYRqrBIVnYm0xWWpvD1g%3D%3D")
+    (property "Manufacturer_Name" "Wurth Elektronik")
+    (property "Manufacturer_Part_Number" "691210910003")
+    (property "Datasheet_Link" "https://www.we-online.com/components/products/datasheet/691210910003.pdf")
+    (property "compAreaTopHeight" 8.8)
+)
+
+

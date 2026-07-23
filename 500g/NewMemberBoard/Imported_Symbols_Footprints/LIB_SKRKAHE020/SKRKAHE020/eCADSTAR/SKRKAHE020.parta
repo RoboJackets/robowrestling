@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1023669"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-05-09:52:00)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SKRKAHE020")
+)
+
+
+(pinAssign "ECS_1023669"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-05-09:52:00)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1023669")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SKRKAHE020")
+)
+
+
+(part "SKRKAHE020"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-02-05-09:52:00)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "SKRKAHE020")
+    (pinAssignRef "ECS_1023669")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "Tactile Switches 50 mAmps at 12 Volts")
+    (property "Mouser_Part_Number" "688-SKRKAHE010")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRKAHE020?qs=chTDxNqvsymUfAVYmcFXaw%3D%3D")
+    (property "Manufacturer_Name" "ALPS Electric")
+    (property "Manufacturer_Part_Number" "SKRKAHE020")
+    (property "Datasheet_Link" "https://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
+    (property "compAreaTopHeight" 2)
+)
+
+
