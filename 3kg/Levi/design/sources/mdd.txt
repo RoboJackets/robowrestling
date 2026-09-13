@@ -1,0 +1,280 @@
+ 
+ 
+ 
+ 
+MDD20A 
+20Amp 6V-30V DC Motor Driver 
+(2 Channels) 
+ 
+ 
+ 
+Datasheet 
+ 
+Rev 1.0 
+July 2020 
+ 
+Information in this publication regarding device applications and the like is intended through 
+suggestion only and may be superseded by updates. It is your responsibility to ensure that your 
+application meets with your specifications. No representation or warranty is given and no liability is 
+assumed by Cytron Technologies Incorporated with respect to the accuracy or use of such information 
+or infringement of patents or other intellectual property rights arising from such use or otherwise. Use 
+of Cytron Technologies’s products as critical components in life support system is not authorized except 
+with express written approval by Cytron Technologies. No licenses are conveyed, implicitly or 
+otherwise, under any intellectual property rights. 
+ 
+ 
+ 
+ 
+
+ROBOT.HEAD to TOE 
+Datasheet - MDD20A 
+ 
+1. BOARD LAYOUT & FUNCTION 
+ 
+ 
+Figure 1: MDD20A Board Functions 
+ 
+Function 
+Description 
+Power Input Terminal 
+Connect to battery. 
+●​ VB+​ : Positive 
+●​ VB-​ : Negative 
+Warning​ : Connecting in reverse polarity will damage the 
+​
+  motor driver instantaneously. 
+Motor Output Terminal 
+Connect to motor terminal. 
+Motor direction is depending on the polarity. 
+Power LED 
+Turn on when powered up. 
+Motor Status LEDs 
+Turn on when the motor is running. 
+●​ MxA : Forward* 
+●​ MxB : Backward* 
+Error LED 
+Turn on during undervoltage shutdown or hardware fault. 
+Please contact support@cytron.io for more information. 
+OC (Overcurrent) LED 
+Turn on when current limiting is in action. 
+Current limit threshold is depending on the board temperature. 
+Test Buttons 
+Press to test the functionality of the motor driver. 
+Motor will run at full speed. 
+●​ MxA : Forward* 
+●​ MxB : Backward* 
+PWM/DIR Input 
+Control the motor with PWM & DIR signal. 
+●​ DIRx​
+: Direction input. 
+●​ PWMx​ : PWM input for motor speed control. 
+●​ GND​
+: Signal ground. 
+Table 1: MDD20A Board Functions 
+ 
+∗​ Actual motor direction is depending on the motor connection. 
+Swapping the connection (MxA & MxB) will reverse the direction.
+ 
+ 
+Created by Cytron Technologies Sdn Bhd – All Rights Reserved                                                              1 
+
+ROBOT.HEAD to TOE 
+Datasheet - MDD20A 
+ 
+2. SPECIFICATIONS 
+ 
+No 
+Parameters 
+Min 
+Max 
+Unit 
+1 
+Power Input Voltage 
+6 
+30 
+V 
+2 
+Maximum Motor Current (Per channel) 
+Continuous 
+- 
+20 
+A 
+Peak *¹ 
+- 
+60 
+A 
+3 
+Logic Input Voltage (PWM & DIR) 
+Low Level 
+0 
+0.8 
+V 
+High Level 
+1.5 
+15 *² 
+V 
+4 
+PWM Frequency 
+(Output frequency is same as input frequency) 
+Standard 
+DC 
+20 
+KHz 
+Extended *3 
+20 
+40 
+KHz 
+Table 2: MDD20A Absolute Maximum Ratings 
+ 
+*¹​ Peak current is limited by the overcurrent protection circuit. Actual current limit is depending 
+​
+on board temperature. Value shown is at room temperature (25 - 30 degree Celsius). 
+ 
+*²​ Maximum input voltage can be extended up to 30V by connecting a 10K ohm resistor in 
+​
+series. 
+ 
+*3​ When the PWM operates in extended frequency range, continuous motor current will be 
+​
+reduced. 
+ 
+ 
+3. DIMENSION 
+ 
+Figure 2: MDD20A Dimension
+ 
+ 
+Created by Cytron Technologies Sdn Bhd – All Rights Reserved                                                              2 
+
+ROBOT.HEAD to TOE 
+Datasheet - MDD20A 
+ 
+4. INTERFACE 
+ 
+ 
+Figure 3: PWM & DIR Input Connection Diagram 
+ 
+ 
+PWMx 
+DIRx 
+Output A (MxA) 
+Output B (MxB) 
+Motor x 
+Low 
+X (Don’t Care) 
+Low 
+Low 
+Brake 
+High 
+Low 
+High 
+Low 
+Forward* 
+High 
+High 
+Low 
+High 
+Backward* 
+Table 3: PWM/DIR Input Truth Table 
+ 
+∗​ Actual motor direction is depending on the motor connection. 
+Swapping the connection (MxA & MxB) will reverse the direction. 
+ 
+ 
+Created by Cytron Technologies Sdn Bhd – All Rights Reserved                                                              3 
+
+ROBOT.HEAD to TOE 
+Datasheet - MDD20A 
+ 
+5. PROTECTION FEATURES 
+ 
+ 
+●​ Overcurrent Protection with Active Current Limiting 
+ 
+When the motor is trying to draw more current than what the motor driver can supply, the 
+PWM to the motor will be chopped off and the motor current will be maintained at 
+maximum current limit. This prevents the motor driver from damage when the motor stalls 
+or an oversized motor is hooked up. OC LED will turn on when current limiting is in action. 
+ 
+ 
+ 
+●​ Temperature Protection 
+ 
+The maximum current limiting threshold is determined by the board temperature. The 
+higher the board temperature, the lower the current limiting threshold. This way, MDD20A 
+is able to deliver its full potential depending on the actual condition without damaging the 
+MOSFETs. 
+ 
+ 
+Figure 4: Maximum Current Limit vs Temperature Graph (Per channel) 
+ 
+ 
+ 
+●​ Undervoltage Shutdown 
+ 
+The motor driver output will be shut down when the power input voltage drops below the 
+lower limit. This is to make sure the MOSFETs have sufficient voltage to fully turn on and do 
+not overheat. ERR LED will turn on during undervoltage shutdown. 
+ 
+ 
+Created by Cytron Technologies Sdn Bhd – All Rights Reserved                                                              4 
+
+ROBOT.HEAD to TOE 
+Datasheet - MDD20A 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Prepared by: 
+ 
+Cytron Technologies Sdn Bhd 
+www.cytron.io 
+No. 1, Lorong Industri Impian 1, 
+Taman Industri Impian, 
+14000 Bukit Mertajam, 
+Penang, Malaysia. 
+ 
+Tel:​
++604 - 548 0668 
+Fax: ​
++604 - 548 0669 
+ 
+Email: 
+support@cytron.io 
+sales@cytron.io 
+ 
+Created by Cytron Technologies Sdn Bhd – All Rights Reserved                                                              5 

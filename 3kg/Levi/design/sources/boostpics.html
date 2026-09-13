@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<link rel="icon" type="image/png" href="https://a.pololu-files.com/assets/favicon_32x32-f40058cd34e1fec5906522ec0c9eb39b303192067c0e353a30796e859ce41106.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://a.pololu-files.com/assets/favicon_192x192-52532413e1c353491bfa0a2dd977aacf020e8ca4104064094121739bad21c4bf.png" sizes="192x192" />
+<link rel="icon" type="image/png" href="https://a.pololu-files.com/assets/favicon_96x96-fcf7f6d6568f76d479e5ae1822ded335e0bbd75ab7efd0de7e010bb41fd83e41.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://a.pololu-files.com/assets/favicon_16x16-13632635dc6dd0e11ba9a38071e8218d26d62e71f8ebafacd9929c3136117372.png" sizes="16x16" />
+<link rel="apple-touch-icon" type="image/png" href="https://a.pololu-files.com/assets/favicon_96x96-fcf7f6d6568f76d479e5ae1822ded335e0bbd75ab7efd0de7e010bb41fd83e41.png" />
+<link crossorigin='anonymous' href='https://a.pololu-files.com/mirror/maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' integrity='sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://a.pololu-files.com/mirror/cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css' integrity='sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=' media='all' rel='stylesheet'>
+<link crossorigin='anonymous' href='https://a.pololu-files.com/mirror/cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css' integrity='sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=' media='all' rel='stylesheet'>
+<link rel="stylesheet" crossorigin="anonymous" href="https://a.pololu-files.com/assets/application-e635e160a355d4b2b19403e60b42c30abb9ae25ace89aaf7631693e2034b8c9f.css" media="all" integrity="sha256-RyjKAGsMQf/lcOuc4ZBHf+4fcBjG1BkZ+QGNQM70/3c=" />
+<script crossorigin='anonymous' integrity='sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=' src='https://a.pololu-files.com/mirror/code.jquery.com/jquery-1.12.4.min.js'></script>
+<script crossorigin='anonymous' integrity='sha256-4Cr335oZDYg4Di3OwgUOyqSTri0jUm2+7Gf2kH3zp1I=' src='https://a.pololu-files.com/mirror/cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+<script crossorigin='anonymous' integrity='sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=' src='https://a.pololu-files.com/mirror/code.jquery.com/ui/1.12.1/jquery-ui.min.js'></script>
+<link crossorigin='anonymous' href='https://a.pololu-files.com/mirror/code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' integrity='sha256-RPilbUJ5F7X6DdeTO6VFZ5vl5rO5MJnmSk4pwhWfV8A' media='all' rel='stylesheet'>
+<script class='braintree-gateway' src='https://js.braintreegateway.com/web/3.88.4/js/client.min.js'></script>
+<script class='braintree-gateway' src='https://js.braintreegateway.com/web/3.88.4/js/hosted-fields.min.js'></script>
+<script src="https://a.pololu-files.com/assets/application-c0ec77b54a7e9447cb384f3223214d9cf03e3c1aa34f6047e6dc36c41d3ca8b1.js" crossorigin="anonymous" integrity="sha256-IPFNj8dSGsFwSX/+1UuL7cAyz7Xa5F/Ua/aV26VV4Js="></script>
+<script type="importmap" data-turbo-track="reload">{
+  "integrity":
+{"https://a.pololu-files.com/assets/application_module-765f0f526c59caa9c9857c01889e68833710c17121ab6f9093f3a0a809af7bd4.js":"sha256-s+WZHcA06TsuXtPz2xeDSGgG6j+QSXvT2ghPYhJLLow=","https://a.pololu-files.com/assets/price_notification-f64b0ae30b1bb595d10d8954f34036fbff24e2c81e1c7a9e581f03692cc149c3.js":"sha256-nL1KwUBafy6EPV1yoK+yXM1O5GODfiG083pcMsXgCxs=","https://a.pololu-files.com/assets/stock_notification-87bb320c31885d5b381c69e4a05013db3f11fb479d693729b0e5de58ae356892.js":"sha256-yqOxxloFhGTJ98f3K+XH50QttcrJOBxnARzUT78kLCc=","https://a.pololu-files.com/assets/payment_handler-49a20512068cb88565bc275464d6002af52baec06430fbdc9480f530a2c5b9a7.js":"sha256-PmVdEt5BorGjsZxOo7BfGw8aes3BCxnDQvw55paraHo="},
+  "imports": {
+    "application": "https://a.pololu-files.com/assets/application_module-765f0f526c59caa9c9857c01889e68833710c17121ab6f9093f3a0a809af7bd4.js",
+    "price_notification": "https://a.pololu-files.com/assets/price_notification-f64b0ae30b1bb595d10d8954f34036fbff24e2c81e1c7a9e581f03692cc149c3.js",
+    "stock_notification": "https://a.pololu-files.com/assets/stock_notification-87bb320c31885d5b381c69e4a05013db3f11fb479d693729b0e5de58ae356892.js",
+    "payment_handler": "https://a.pololu-files.com/assets/payment_handler-49a20512068cb88565bc275464d6002af52baec06430fbdc9480f530a2c5b9a7.js",
+    "braintree": "https://js.braintreegateway.com/web/dropin/1.46.1/js/dropin.js"
+  }
+}</script>
+
+<script type="module">import "application"</script>
+<script>
+  if(document.domain.indexOf("pololu-files.com") == -1) {
+    $.ajax({
+    url: "https://www.googletagmanager.com/gtag/js?id=G-G4ENPJ5RV1",
+    dataType: "script"
+    });
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', "G-G4ENPJ5RV1");
+  }
+</script>
+
+<link rel="stylesheet" href="https://a.pololu-files.com/assets/print-ac5d562ac93a31ac3e5c942e261bf17032bf5da61b940dea46300fe83f1e72dc.css" media="print" />
+
+<title>Pololu 24V Step-Up Voltage Regulator U3V50F24</title>
+
+<meta name="description" content="
+	
+		Output voltage
+		Typical max input current*
+		Min input voltage
+	
+	
+		24 V
+		5 A
+		 2.9 V
+	
+
+*Actual achievable maximum continuous current is a function of input voltage and is limited by thermal dissipation." />
+<meta name="keywords" content="Pololu,robotics,robot electronics,robot kits,robot parts,ir beacon,servo controller,motor controller,robot sensors,robot chassis,robot gearboxes,robot tires, ball casters, tamiya parts,elenco kits" />
+<meta property="og:url" content="https://www.pololu.com/product/2569/pictures" />
+<meta property="og:title" content="Pololu 24V Step-Up Voltage Regulator U3V50F24" />
+<meta property="og:description" content="
+	
+		Output voltage
+		Typical max input current*
+		Min input voltage
+	
+	
+		24 V
+		5 A
+		 2.9 V
+	
+
+*Actual achievable maximum continuous current is a function of input voltage and is limited by thermal dissipation." />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627" />
+<meta property="og:image" content="https://a.pololu-files.com/picture/0J5017.1200x627.jpg?a7d073fa57203cb9fca9167de1e81815" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Pololu" />
+<meta name="twitter:title" content="Pololu 24V Step-Up Voltage Regulator U3V50F24" />
+<meta name="twitter:description" content="
+	
+		Output voltage
+		Typical max input current*
+		Min input voltage
+	
+	
+		24 V
+		5 A
+		 2.9 V
+	
+
+*Actual achievable maximum continuous current is a function of input voltage and is limited by thermal dissipation." />
+<meta name="twitter:image" content="https://a.pololu-files.com/picture/0J5017.1200x627.jpg?a7d073fa57203cb9fca9167de1e81815" />
+<script class='structured_data' type='application/ld+json'>
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Voltage Regulators and Power Supplies","item":"https://www.pololu.com/category/84/voltage-regulators-and-power-supplies"},{"@type":"ListItem","position":2,"name":"Step-Up (Boost) Voltage Regulators","item":"https://www.pololu.com/category/132/step-up-boost-voltage-regulators"},{"@type":"ListItem","position":3,"name":"U3V50x Step-Up Voltage Regulators","item":"https://www.pololu.com/category/145/u3v50x-step-up-voltage-regulators"}]}
+</script>
+<script class='structured_data' type='application/ld+json'>
+{"@context":"https://schema.org","@type":"Product","image":"https://a.pololu-files.com/picture/0J5017.600x480.jpg?a7d073fa57203cb9fca9167de1e81815","name":"Pololu 24V Step-Up Voltage Regulator U3V50F24","description":"\n\t\n\t\tOutput voltage\n\t\tTypical max input current*\n\t\tMin input voltage\n\t\n\t\n\t\t24 V\n\t\t5 A\n\t\t 2.9 V\n\t\n\n*Actual achievable maximum continuous current is a function of input voltage and is limited by thermal dissipation.","sku":2569,"brand":"Pololu","offers":{"@type":"Offer","price":"31.95","priceCurrency":"USD","URL":"https://www.pololu.com/product/2569","availability":"InStock"}}
+</script>
+
+<script src="https://a.pololu-files.com/assets/syntaxhighlight-91017fb9868118fd42306075e0164112dd3d3e16331dc462f55ad4497e7fca3d.js" defer="defer"></script>
+</head>
+
+<body class='math_ignore' onload='externalLinksNewWindow(); if(document.onLoadHandler){document.onLoadHandler();}  productInit(&#39;/product/2569/pictures&#39;);'>
+
+<div id='main'>
+<h2 id="breadcrumbs"><a href="/category/84/voltage-regulators-and-power-supplies">Voltage Regulators and Power Supplies</a> &raquo; <a href="/category/132/step-up-boost-voltage-regulators">Step-Up (Boost) Voltage Regulators</a> &raquo; <a href="/category/145/u3v50x-step-up-voltage-regulators">U3V50x Step-Up Voltage Regulators</a> &raquo;</h2>
+<h1 id="page_title">Pololu 24V Step-Up Voltage Regulator U3V50F24</h1>
+<div data-url='/product/2569/pictures' id='contents'>
+<!-- CONTENTS_BEGIN /product/2569/pictures -->
+<div data-javascript-not-loaded-message='&lt;!-- javascript_not_loaded_message --&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Your browser failed to load our JavaScript files, which are required for checkout.  Please check that you are not blocking or disabling our scripts and &lt;a href=&quot;/contact&quot;&gt;contact us&lt;/a&gt; if you are still unable to proceed.' id='javascript_not_loaded_message' style='display:none;'></div>
+<div data-braintree-not-loaded-message='&lt;!-- braintree_not_loaded_message --&gt;&lt;p&gt;&lt;strong&gt;Warning:&lt;/strong&gt; Your browser failed to connect to our secure payment processor, Braintree Payments.  You will be unable to enter your credit card information at  the payment step of checkout unless this is fixed.&lt;/p&gt;
+&lt;p&gt;Some things to try:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Check for network problems or things like script blockers that could be blocking &lt;a href=&quot;https://js.braintreegateway.com/web/3.58.0/js/client.min.js&quot;&gt;this file&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Try completing checkout on a device on a different network, such as a phone with Wi-Fi disabled.&lt;/li&gt;
+	&lt;li&gt;Select the option to pay with PayPal and enter your credit card on their site. (You don&amp;#8217;t need a PayPal account.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please &lt;a href=&quot;/contact&quot;&gt;contact us&lt;/a&gt; if you continue to have trouble with checkout!&lt;/p&gt;' id='braintree_not_loaded_message' style='display:none;'></div>
+
+<div class='product_top'><span class='product_top_pictures'>
+<div>
+<a class="noscript-fallback" href="https://a.pololu-files.com/picture/0J5017.1200.jpg?a7d073fa57203cb9fca9167de1e81815"><img alt="" title="Click to zoom" id="main_picture_img" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J5017&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50F24.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J5017.98x98.jpg?a7d073fa57203cb9fca9167de1e81815&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J5017.600x480.jpg?a7d073fa57203cb9fca9167de1e81815&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J5017.1200.jpg?a7d073fa57203cb9fca9167de1e81815&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J4880&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50F5, U3V50F6, U3V50F9, and U3V50F12.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4880.98x98.jpg?54151f07f9d88dd19d151a75ec9041a4&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4880.600x480.jpg?54151f07f9d88dd19d151a75ec9041a4&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4880.1200.jpg?54151f07f9d88dd19d151a75ec9041a4&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J4879&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50x, bottom view with dimensions.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4879.98x98.jpg?e0a331414b62555edb00fc1a6fcfca17&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4879.600x480.jpg?e0a331414b62555edb00fc1a6fcfca17&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4879.1200.jpg?e0a331414b62555edb00fc1a6fcfca17&quot;,&quot;longest_side&quot;:661},{&quot;id&quot;:&quot;0J4889&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx with included optional terminal blocks and header pins.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4889.98x98.jpg?de84fd4fb83c8587470f1b07f2a8873e&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4889.600x480.jpg?de84fd4fb83c8587470f1b07f2a8873e&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4889.1200.jpg?de84fd4fb83c8587470f1b07f2a8873e&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J4885&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, assembled with included terminal blocks.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4885.98x98.jpg?7cc049be5eeedb948909cd987354a31f&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4885.600x480.jpg?7cc049be5eeedb948909cd987354a31f&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4885.1200.jpg?7cc049be5eeedb948909cd987354a31f&quot;,&quot;longest_side&quot;:821},{&quot;id&quot;:&quot;0J4891&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, labeled top view.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4891.98x98.jpg?92b45922d6c44cf32bd301f36eb25ef6&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4891.600x480.jpg?92b45922d6c44cf32bd301f36eb25ef6&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4891.1200.jpg?92b45922d6c44cf32bd301f36eb25ef6&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J4883&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, top view.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4883.98x98.jpg?8438feeeccd05be57c697e1703e1ed30&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4883.600x480.jpg?8438feeeccd05be57c697e1703e1ed30&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4883.1200.jpg?8438feeeccd05be57c697e1703e1ed30&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J4887&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, assembled with included terminal blocks.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4887.98x98.jpg?8ec424f17389dc4f347ff960bcaf57e0&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4887.600x480.jpg?8ec424f17389dc4f347ff960bcaf57e0&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4887.1200.jpg?8ec424f17389dc4f347ff960bcaf57e0&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J5008&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50x with included terminal blocks installed, side view.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J5008.98x98.jpg?f370d3ac36ea5aad3baf8865a72db7f3&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J5008.600x480.jpg?f370d3ac36ea5aad3baf8865a72db7f3&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J5008.1200.jpg?f370d3ac36ea5aad3baf8865a72db7f3&quot;,&quot;longest_side&quot;:800},{&quot;id&quot;:&quot;0J4904&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 5\u0026nbsp;V step-up voltage regulator U3V50F5.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4904.98x98.jpg?f65d15352729f14a2c9413da9aa58f09&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4904.600x480.jpg?f65d15352729f14a2c9413da9aa58f09&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4904.1200.png?f65d15352729f14a2c9413da9aa58f09&quot;,&quot;longest_side&quot;:600},{&quot;id&quot;:&quot;0J4905&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 6\u0026nbsp;V step-up voltage regulator U3V50F6.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4905.98x98.jpg?dbf8c404b348cbb5ed9b7a540a1a0ccc&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4905.600x480.jpg?dbf8c404b348cbb5ed9b7a540a1a0ccc&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4905.1200.png?dbf8c404b348cbb5ed9b7a540a1a0ccc&quot;,&quot;longest_side&quot;:600},{&quot;id&quot;:&quot;0J4906&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 9\u0026nbsp;V step-up voltage regulator U3V50F9.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4906.98x98.jpg?8c00addb2993a9801e0f925c205eee16&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4906.600x480.jpg?8c00addb2993a9801e0f925c205eee16&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4906.1200.png?8c00addb2993a9801e0f925c205eee16&quot;,&quot;longest_side&quot;:600},{&quot;id&quot;:&quot;0J4911&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 12\u0026nbsp;V step-up voltage regulator U3V50F12.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4911.98x98.jpg?3c9da1e5ffff918d5074f2b72dcb3057&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4911.600x480.jpg?3c9da1e5ffff918d5074f2b72dcb3057&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4911.1200.png?3c9da1e5ffff918d5074f2b72dcb3057&quot;,&quot;longest_side&quot;:600},{&quot;id&quot;:&quot;0J4912&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 24\u0026nbsp;V step-up voltage regulator U3V50F24.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4912.98x98.jpg?04ce60f96d7f85af2dce53a4a2d98f9b&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4912.600x480.jpg?04ce60f96d7f85af2dce53a4a2d98f9b&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4912.1200.png?04ce60f96d7f85af2dce53a4a2d98f9b&quot;,&quot;longest_side&quot;:600}]" data-picture-id="0J5017" data-picture-longest-side="800" data-gallery-id="main-pictures" src="https://a.pololu-files.com/picture/0J5017.600x480.jpg?a7d073fa57203cb9fca9167de1e81815" /></a>
+<div id='related_pictures_gallery'></div>
+</div>
+
+</span><span class='order_form_section'>
+<div class='order_form_with_price_notification'>
+<form action='/cart/add' data-product-id='2569' data-product-ui='short_order_form' enctype='multipart/form-data' method='post'>
+<fieldset class='hidden'>
+<input type="hidden" name="session_id" value="3da62a3ae8758c92709b921d37dd35be" />
+<input name='product[id]' type='hidden' value='2569'>
+</fieldset>
+<div>
+<div>
+<span data-product-ui='short_order_form_on_sale' style='display: none'></span>
+<span class='message_positive' data-product-ui='short_order_form_new' style='display: none'>
+<!-- product_recently_added_to_website -->New!
+</span>
+</div>
+<table class='part_number_and_stock text_left'>
+<tr>
+<td class='part_number' style='white-space: nowrap'>
+<span class='label'>Pololu item #:</span>
+<span class='value'>2569</span>
+</td>
+<td class="td_right" data-product-ui="order_form_stock"><span></span></td>
+</tr>
+<tr>
+<td style='white-space: nowrap'>
+<span class='label'>Brand:</span>
+<span class='value'><a href="/brands/pololu">Pololu</a></span>
+</td>
+<td class='td_right'>
+<a data-lightbox-link="true" data-lightbox-height="25rem" data-lightbox-width="34rem" href="/product/2569/supply-outlook">supply outlook</a>
+</td>
+</tr>
+<tr>
+<td colspan='2'>
+<div class='stock-notification-display-div'>
+<div class='stock-notification-label-and-button-div' data-available-stock='172' data-product-id='0J2569'>
+<span class='label'>
+</span>
+<button class='enable-stock-notification-button btn-small btn-link' data-logged-in='false' type='button'>
+Get stock notification
+</button>
+<a class="fa fa-question-circle" data-lightbox-link="true" data-lightbox-height="21rem" data-lightbox-width="27rem" href="/ordering/stock-notifications"></a>
+</div>
+</div>
+
+<tr>
+<td colspan='2'>
+<div class='stock-notification-form-div' style='display: none;'>
+<hr>
+<div class='spaced-row'>
+<div>
+<label>Notify me when stock is at least</label>
+<input class='stock_quantity' name='wishlist_product[notify_stock_quantity]' size='2' type='text'>
+</div>
+<button class='disable-stock-notification-button btn-small btn-link' style='display: none; margin-left: 8px;' type='button'>Cancel</button>
+</div>
+<div>
+<label>Optional: desired quantity</label>
+<input class='desired_quantity' name='wishlist_product[quantity_desired]' size='2' type='text'>
+</div>
+<div class='spaced-row'>
+<div>
+<button class='remove-stock-notification-button btn-small btn-red' type='button'>Remove</button>
+</div>
+<button class='save-stock-notification-button btn-small btn-green' type='button'>Save</button>
+</div>
+<hr>
+</div>
+
+</td>
+</tr>
+
+</td>
+</tr>
+<tr>
+<td colspan='2'>
+<span class='label'>Status:</span>
+<span class='value'>Active&nbsp;<a class="fa fa-question-circle" data-lightbox-link="true" data-lightbox-height="21rem" data-lightbox-width="27rem" href="/product-status-overview"></a></span>
+</td>
+</tr>
+<tr>
+<td>
+<a title="RoHS 3 compliant" data-lightbox-link="true" data-lightbox-height="17rem" data-lightbox-width="25rem" href="/compliance/rohs3-compliant"><img style="width: 76px; height: 16px; min-width: 76px;" alt="RoHS 3 compliant" src="https://a.pololu-files.com/assets/rohs3_compliant_yes-cde9d1a22538fcb174660dfa52f6fb93f93fcdfcf99e282ad9cf792ffa8f3124.png" /></a>
+</td>
+<td class='td_right'></td>
+</tr>
+<tr class='free_shipping_info' style='display: none'>
+<td colspan='2'>
+<a class="shipping_info_popup_link " title="This item could qualify for free shipping" data-lightbox-link="true" data-lightbox-height="17rem" data-lightbox-width="25rem" href="/ordering/potential-free-shipping-usa"><img style="width: 16px; height: 11px; min-width: 16px;" alt="This item could qualify for free shipping" src="https://a.pololu-files.com/assets/free_shipping_usa_gray-7c9ae1b4621ead73c8493cff1b11345529bb7604d4584577749f53b7c7a0628f.png" /></a>&nbsp;Free shipping in USA over $100&nbsp;<a class="shipping_info_popup_link " title="This item could qualify for free shipping" data-lightbox-link="true" data-lightbox-height="17rem" data-lightbox-width="25rem" href="/ordering/potential-free-shipping-usa"><span class="fa fa-question-circle" /></a>
+</td>
+</tr>
+
+</table>
+
+
+</div>
+<hr>
+<table class='pricing'>
+<tr>
+<th>
+Price break
+</th>
+<th>
+Unit price (US$)
+</th>
+</tr>
+<tr>
+<td>
+1
+</td>
+<td class=''>
+31.95
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td class=''>
+29.39
+</td>
+</tr>
+<tr>
+<td>
+25
+</td>
+<td class=''>
+27.04
+</td>
+</tr>
+<tr>
+<td>
+100
+</td>
+<td class=''>
+24.88
+</td>
+</tr>
+</table>
+<hr>
+
+<table class='add_to_cart'>
+<tr>
+<td class='add_to_cart'>
+<label for='product_quantity'>Quantity:</label>
+<input id='product_quantity' name='product[quantity]' size='2' type='text' value='1'>
+<br>
+<span class='allow_backorders'><!-- allow_backorders --><a href="/ordering#backorders">backorders</a> allowed</span>
+</td>
+<td class='td_right'>
+<div>
+<button alt="Add to cart" name="submit" value="add_to_cart" title="Adds Pololu 24V Step-Up Voltage Regulator U3V50F24 to your cart." data-add-to-cart="true" data-freeze-cart="false" class="btn-medium btn-green">Add to cart</button><br/>
+<button alt="Add to list" name="submit" value="add_to_list" title="Adds Pololu 24V Step-Up Voltage Regulator U3V50F24 to your list." class="btn-small btn-link">Add to list</button>
+</div>
+</td>
+
+</tr>
+</table>
+</form>
+<div>
+<div class='price-notification-container'>
+<div class='price-notification-display-div' style='display: flex; align-items: center;
+margin-top: 0.3em; margin-bottom: 0.3em;'>
+<span class='label price-notification-label'>
+</span>
+<span class='right-span'>
+<button class='enable-price-notification-button btn-small btn-link' data-logged-in='false' type='button'>
+Get price notification
+</button>
+<a class="fa fa-question-circle" data-lightbox-link="true" data-lightbox-height="21rem" data-lightbox-width="27rem" href="/ordering/price-change-notifications"></a>
+</span>
+</div>
+<div class='price-notification-form-div' style='display: none;'>
+<form action='https://www.pololu.com/wishlist_product/set_price_notification' enctype='multipart/form-data' method='post' style='width: 100%'>
+<input type="hidden" name="wishlist_product[id]" id="wishlist_product_id" autocomplete="off" />
+<input type="hidden" name="product_id" id="product_id" value="0J2569" autocomplete="off" />
+<input type="hidden" name="session_id" value="3da62a3ae8758c92709b921d37dd35be" />
+<hr>
+<div class='spaced-row'>
+<label>Notify me</label>
+<button class='disable-price-notification-button btn-small btn-link' type='button'>Cancel</button>
+</div>
+<div class='align-center indent-radio'>
+<input checked class='notify-any-price-change' id='notify-any-price-change' name='wishlist_product[price_notification]' type='radio' value='notify-any-price-change'>
+<label for='notify-any-price-change'>&nbspon any price change</label>
+</div>
+<div class='align-center indent-radio'>
+<input class='notify-any-price-drop' id='notify-any-price-drop' name='wishlist_product[price_notification]' type='radio' value='notify-any-price-drop'>
+<label for='notify-any-price-drop'>&nbspon any price drop</label>
+</div>
+<div class='align-center indent-radio'>
+<input class='notify-at-target-price' id='notify-at-target-price' name='wishlist_product[price_notification]' type='radio' value='notify-at-target-price'>
+<label for='notify-at-target-price'>&nbspat or below $</label>
+<input class='target-price' name='wishlist_product[target_price]' placeholder='price' size='3' type='text' value=''>
+<label for='notify-at-target-price'>&nbspat qty&nbsp</label>
+<input class='quantity' name='wishlist_product[target_quantity]' placeholder='qty' size='2' type='text' value=''>
+</div>
+<div class='spaced-row'>
+<div>
+</div>
+<button class='save-price-notification-button btn-small btn-green' type='submit'>Save</button>
+</div>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+<script type='module'>
+import {PriceNotification} from 'price_notification'
+new PriceNotification();
+import {StockNotification} from 'stock_notification'
+new StockNotification();
+</script>
+
+</span>
+<div id='short_description'>
+<table class="active_controller_comparison">
+	<tr>
+		<th>Output voltage</th>
+		<th>Typical max <em>input</em> current<sup>*</sup></th>
+		<th>Min input voltage</th>
+	</tr>
+	<tr>
+		<td>24&nbsp;V</td>
+		<td>5&nbsp;A</td>
+		<td> 2.9&nbsp;V</td>
+	</tr>
+</table>
+<p><small><sup>*</sup>Actual achievable maximum continuous current is a function of input voltage and is limited by thermal dissipation.</small></p>
+
+</div>
+<p>Alternatives available with variations in these parameter(s):
+<a class="select_by_specification_link" data-lightbox-link="true" data-lightbox-height="20rem" data-lightbox-width="50rem" href="/catalog/select-by-specification?parameters=0J130&amp;product=2569&amp;products=2565"><span class='select_by_specification_parameter'>output voltage</span>
+<span class="select_by_specification_main_link">Select variant&#8230;</span>
+</a></p><p class='compare_link'>
+<span class="compare"><a href="/search/compare/145"><img alt="" src="https://a.pololu-files.com/assets/compare-cd658e4a1effbb8bf041401c86b9bef3949f6946b740d13b04703d381ec5594b.png" /></a><a title="Compare all products in U3V50x Step-Up Voltage Regulators" href="/search/compare/145">Compare all products in U3V50x Step-Up Voltage Regulators</a></span>.
+</p></div>
+
+<a name="tabs"></a><table class="tabs"><tr><td>&nbsp;</td><th class=""><a onclick="saveScrollPosition(&#39;/product/2569&#39;);" href="/product/2569"><span id="name">Description</span></a></th><td>&nbsp;</td><th class=""><a onclick="saveScrollPosition(&#39;/product/2569/specs&#39;);" href="/product/2569/specs"><span id="name">Specs</span> <span id="count">(10)</span></a></th><td>&nbsp;</td><th class="selected "><span id="name">Pictures</span> <span id="count">(13)</span></th><td>&nbsp;</td><th class=""><a onclick="saveScrollPosition(&#39;/product/2569/resources&#39;);" href="/product/2569/resources"><span id="name">Resources</span> <span id="count">(3)</span></a></th><td>&nbsp;</td><th class="empty"><span id="name">FAQs</span> <span id="count">(0)</span></th><td>&nbsp;</td><th class=""><a onclick="saveScrollPosition(&#39;/product/2569/blog&#39;);" href="/product/2569/blog"><span id="name">On the blog</span> <span id="count">(1)</span></a></th><td>&nbsp;</td><th class=""><a onclick="saveScrollPosition(&#39;/product/2569/distributors&#39;);" href="/product/2569/distributors"><span id="name">Distributors</span> <span id="count">(61)</span></a></th><td class="last">&nbsp;</td></tr></table><div class="tab_page"><div class='attached_pictures'>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4880.1200.jpg?54151f07f9d88dd19d151a75ec9041a4" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4880&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50F5, U3V50F6, U3V50F9, and U3V50F12.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4880.98x98.jpg?54151f07f9d88dd19d151a75ec9041a4&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4880.600x480.jpg?54151f07f9d88dd19d151a75ec9041a4&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4880.1200.jpg?54151f07f9d88dd19d151a75ec9041a4&quot;,&quot;longest_side&quot;:800}]" data-picture-id="0J4880" data-picture-longest_side="800" src="https://a.pololu-files.com/picture/0J4880.200.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu step-up voltage regulator U3V50F5, U3V50F6, U3V50F9, and U3V50F12.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4879.1200.jpg?e0a331414b62555edb00fc1a6fcfca17" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4879&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50x, bottom view with dimensions.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4879.98x98.jpg?e0a331414b62555edb00fc1a6fcfca17&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4879.600x480.jpg?e0a331414b62555edb00fc1a6fcfca17&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4879.1200.jpg?e0a331414b62555edb00fc1a6fcfca17&quot;,&quot;longest_side&quot;:661}]" data-picture-id="0J4879" data-picture-longest_side="661" src="https://a.pololu-files.com/picture/0J4879.200.jpg?e0a331414b62555edb00fc1a6fcfca17" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu step-up voltage regulator U3V50x, bottom view with dimensions.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4889.1200.jpg?de84fd4fb83c8587470f1b07f2a8873e" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4889&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx with included optional terminal blocks and header pins.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4889.98x98.jpg?de84fd4fb83c8587470f1b07f2a8873e&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4889.600x480.jpg?de84fd4fb83c8587470f1b07f2a8873e&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4889.1200.jpg?de84fd4fb83c8587470f1b07f2a8873e&quot;,&quot;longest_side&quot;:800}]" data-picture-id="0J4889" data-picture-longest_side="800" src="https://a.pololu-files.com/picture/0J4889.200.jpg?de84fd4fb83c8587470f1b07f2a8873e" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu fixed step-up voltage regulator U3V50Fx with included optional terminal blocks and header pins.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4885.1200.jpg?7cc049be5eeedb948909cd987354a31f" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4885&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, assembled with included terminal blocks.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4885.98x98.jpg?7cc049be5eeedb948909cd987354a31f&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4885.600x480.jpg?7cc049be5eeedb948909cd987354a31f&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4885.1200.jpg?7cc049be5eeedb948909cd987354a31f&quot;,&quot;longest_side&quot;:821}]" data-picture-id="0J4885" data-picture-longest_side="821" src="https://a.pololu-files.com/picture/0J4885.200.jpg?7cc049be5eeedb948909cd987354a31f" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu fixed step-up voltage regulator U3V50Fx, assembled with included terminal blocks.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4891.1200.jpg?92b45922d6c44cf32bd301f36eb25ef6" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4891&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, labeled top view.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4891.98x98.jpg?92b45922d6c44cf32bd301f36eb25ef6&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4891.600x480.jpg?92b45922d6c44cf32bd301f36eb25ef6&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4891.1200.jpg?92b45922d6c44cf32bd301f36eb25ef6&quot;,&quot;longest_side&quot;:800}]" data-picture-id="0J4891" data-picture-longest_side="800" src="https://a.pololu-files.com/picture/0J4891.200.jpg?92b45922d6c44cf32bd301f36eb25ef6" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu fixed step-up voltage regulator U3V50Fx, labeled top view.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4883.1200.jpg?8438feeeccd05be57c697e1703e1ed30" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4883&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, top view.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4883.98x98.jpg?8438feeeccd05be57c697e1703e1ed30&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4883.600x480.jpg?8438feeeccd05be57c697e1703e1ed30&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4883.1200.jpg?8438feeeccd05be57c697e1703e1ed30&quot;,&quot;longest_side&quot;:800}]" data-picture-id="0J4883" data-picture-longest_side="800" src="https://a.pololu-files.com/picture/0J4883.200.jpg?8438feeeccd05be57c697e1703e1ed30" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu fixed step-up voltage regulator U3V50Fx, top view.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4887.1200.jpg?8ec424f17389dc4f347ff960bcaf57e0" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4887&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu fixed step-up voltage regulator U3V50Fx, assembled with included terminal blocks.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4887.98x98.jpg?8ec424f17389dc4f347ff960bcaf57e0&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4887.600x480.jpg?8ec424f17389dc4f347ff960bcaf57e0&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4887.1200.jpg?8ec424f17389dc4f347ff960bcaf57e0&quot;,&quot;longest_side&quot;:800}]" data-picture-id="0J4887" data-picture-longest_side="800" src="https://a.pololu-files.com/picture/0J4887.200.jpg?8ec424f17389dc4f347ff960bcaf57e0" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu fixed step-up voltage regulator U3V50Fx, assembled with included terminal blocks.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J5008.1200.jpg?f370d3ac36ea5aad3baf8865a72db7f3" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J5008&quot;,&quot;caption&quot;:&quot;\u003cp\u003ePololu step-up voltage regulator U3V50x with included terminal blocks installed, side view.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J5008.98x98.jpg?f370d3ac36ea5aad3baf8865a72db7f3&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J5008.600x480.jpg?f370d3ac36ea5aad3baf8865a72db7f3&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J5008.1200.jpg?f370d3ac36ea5aad3baf8865a72db7f3&quot;,&quot;longest_side&quot;:800}]" data-picture-id="0J5008" data-picture-longest_side="800" src="https://a.pololu-files.com/picture/0J5008.200.jpg?f370d3ac36ea5aad3baf8865a72db7f3" /></a></td></tr><tr><th style="max-width: 200px"><p>Pololu step-up voltage regulator U3V50x with included terminal blocks installed, side view.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4904.1200.png?f65d15352729f14a2c9413da9aa58f09" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4904&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 5\u0026nbsp;V step-up voltage regulator U3V50F5.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4904.98x98.jpg?f65d15352729f14a2c9413da9aa58f09&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4904.600x480.jpg?f65d15352729f14a2c9413da9aa58f09&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4904.1200.png?f65d15352729f14a2c9413da9aa58f09&quot;,&quot;longest_side&quot;:600}]" data-picture-id="0J4904" data-picture-longest_side="600" src="https://a.pololu-files.com/picture/0J4904.200.jpg?f65d15352729f14a2c9413da9aa58f09" /></a></td></tr><tr><th style="max-width: 200px"><p>Typical efficiency of Pololu 5&nbsp;V step-up voltage regulator U3V50F5.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4905.1200.png?dbf8c404b348cbb5ed9b7a540a1a0ccc" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4905&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 6\u0026nbsp;V step-up voltage regulator U3V50F6.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4905.98x98.jpg?dbf8c404b348cbb5ed9b7a540a1a0ccc&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4905.600x480.jpg?dbf8c404b348cbb5ed9b7a540a1a0ccc&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4905.1200.png?dbf8c404b348cbb5ed9b7a540a1a0ccc&quot;,&quot;longest_side&quot;:600}]" data-picture-id="0J4905" data-picture-longest_side="600" src="https://a.pololu-files.com/picture/0J4905.200.jpg?dbf8c404b348cbb5ed9b7a540a1a0ccc" /></a></td></tr><tr><th style="max-width: 200px"><p>Typical efficiency of Pololu 6&nbsp;V step-up voltage regulator U3V50F6.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4906.1200.png?8c00addb2993a9801e0f925c205eee16" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4906&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 9\u0026nbsp;V step-up voltage regulator U3V50F9.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4906.98x98.jpg?8c00addb2993a9801e0f925c205eee16&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4906.600x480.jpg?8c00addb2993a9801e0f925c205eee16&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4906.1200.png?8c00addb2993a9801e0f925c205eee16&quot;,&quot;longest_side&quot;:600}]" data-picture-id="0J4906" data-picture-longest_side="600" src="https://a.pololu-files.com/picture/0J4906.200.jpg?8c00addb2993a9801e0f925c205eee16" /></a></td></tr><tr><th style="max-width: 200px"><p>Typical efficiency of Pololu 9&nbsp;V step-up voltage regulator U3V50F9.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4911.1200.png?3c9da1e5ffff918d5074f2b72dcb3057" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4911&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 12\u0026nbsp;V step-up voltage regulator U3V50F12.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4911.98x98.jpg?3c9da1e5ffff918d5074f2b72dcb3057&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4911.600x480.jpg?3c9da1e5ffff918d5074f2b72dcb3057&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4911.1200.png?3c9da1e5ffff918d5074f2b72dcb3057&quot;,&quot;longest_side&quot;:600}]" data-picture-id="0J4911" data-picture-longest_side="600" src="https://a.pololu-files.com/picture/0J4911.200.jpg?3c9da1e5ffff918d5074f2b72dcb3057" /></a></td></tr><tr><th style="max-width: 200px"><p>Typical efficiency of Pololu 12&nbsp;V step-up voltage regulator U3V50F12.</p></th></tr></table>
+<table class="picture_with_caption center"><tr><td style="max-width: 200px"><a href="https://a.pololu-files.com/picture/0J4912.1200.png?04ce60f96d7f85af2dce53a4a2d98f9b" class="noscript-fallback"><img alt="" class="zoomable" data-gallery-pictures="[{&quot;id&quot;:&quot;0J4912&quot;,&quot;caption&quot;:&quot;\u003cp\u003eTypical efficiency of Pololu 24\u0026nbsp;V step-up voltage regulator U3V50F24.\u003c/p\u003e&quot;,&quot;url_tiny&quot;:&quot;https://a.pololu-files.com/picture/0J4912.98x98.jpg?04ce60f96d7f85af2dce53a4a2d98f9b&quot;,&quot;url_medium&quot;:&quot;https://a.pololu-files.com/picture/0J4912.600x480.jpg?04ce60f96d7f85af2dce53a4a2d98f9b&quot;,&quot;url_full&quot;:&quot;https://a.pololu-files.com/picture/0J4912.1200.png?04ce60f96d7f85af2dce53a4a2d98f9b&quot;,&quot;longest_side&quot;:600}]" data-picture-id="0J4912" data-picture-longest_side="600" src="https://a.pololu-files.com/picture/0J4912.200.jpg?04ce60f96d7f85af2dce53a4a2d98f9b" /></a></td></tr><tr><th style="max-width: 200px"><p>Typical efficiency of Pololu 24&nbsp;V step-up voltage regulator U3V50F24.</p></th></tr></table>
+</div>
+<br class='clear_both'>
+</div>
+
+
+<div id="small_related_items"><div><h2>Related products</h2>
+<div>
+<table class='linkable_item_list'>
+<tr>
+<td class='img'>
+<a href="/product/2565"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2565">Pololu 5V Step-Up Voltage Regulator U3V50F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2566"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2566">Pololu 6V Step-Up Voltage Regulator U3V50F6</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2567"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2567">Pololu 9V Step-Up Voltage Regulator U3V50F9</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2568"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2568">Pololu 12V Step-Up Voltage Regulator U3V50F12</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2570"><img alt="" src="https://a.pololu-files.com/picture/0J4881.50x40.jpg?244c5add670590bc7459c2ded9a3cd6d" /></a>
+</td>
+<td><a href="/product/2570">Pololu Adjustable 4-12V Step-Up Voltage Regulator U3V50ALV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2571"><img alt="" src="https://a.pololu-files.com/picture/0J4882.50x40.jpg?2c7ccead328606687d1060bf7cbeb47d" /></a>
+</td>
+<td><a href="/product/2571">Pololu Adjustable 9-30V Step-Up Voltage Regulator U3V50AHV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2891"><img alt="" src="https://a.pololu-files.com/picture/0J9097.50x40.jpg?8e237ffb8cbff2a17a340e932130e815" /></a>
+</td>
+<td><a href="/product/2891">5V Step-Up Voltage Regulator U3V70F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2892"><img alt="" src="https://a.pololu-files.com/picture/0J9099.50x40.jpg?be5987bde16f6b95b19ad46bc80eface" /></a>
+</td>
+<td><a href="/product/2892">6V Step-Up Voltage Regulator U3V70F6</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2893"><img alt="" src="https://a.pololu-files.com/picture/0J9101.50x40.jpg?c948d1ab010027da626aec0798735626" /></a>
+</td>
+<td><a href="/product/2893">7.5V Step-Up Voltage Regulator U3V70F7</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2894"><img alt="" src="https://a.pololu-files.com/picture/0J9103.50x40.jpg?9b85c13ef3ff48682736c951a4bcffc6" /></a>
+</td>
+<td><a href="/product/2894">9V Step-Up Voltage Regulator U3V70F9</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2895"><img alt="" src="https://a.pololu-files.com/picture/0J9105.50x40.jpg?9f50506fac8f7e02596c30ccefc430ec" /></a>
+</td>
+<td><a href="/product/2895">12V Step-Up Voltage Regulator U3V70F12</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2896"><img alt="" src="https://a.pololu-files.com/picture/0J9107.50x40.jpg?241473c641bc256136cbd9696ddb7d9d" /></a>
+</td>
+<td><a href="/product/2896">15V Step-Up Voltage Regulator U3V70F15</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2890"><img alt="" src="https://a.pololu-files.com/picture/0J9071.50x40.jpg?970c52045997ed1d1b461e63d3c50acd" /></a>
+</td>
+<td><a href="/product/2890">4.5-20V Fine-Adjust Step-Up Voltage Regulator U3V70A</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2851"><img alt="" src="https://a.pololu-files.com/picture/0J5851.50x40.jpg?d7ecfd2d1dd922f537ce44c02e13305b" /></a>
+</td>
+<td><a href="/product/2851">Pololu 5V, 5A Step-Down Voltage Regulator D24V50F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2866"><img alt="" src="https://a.pololu-files.com/picture/0J5585.50x40.jpg?644d05c330b2f470c7c637a35d6dd0be" /></a>
+</td>
+<td><a href="/product/2866">Pololu 5V, 9A Step-Down Voltage Regulator D24V90F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/1406"><img alt="" src="https://a.pololu-files.com/picture/0J2204.50x40.jpg?b3ba248216e714c82039603a96d16ed5" /></a>
+</td>
+<td><a href="/product/1406">Rocker Switch: 3-Pin, SPDT, 10A</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2808"><img alt="" src="https://a.pololu-files.com/picture/0J6789.50x40.jpg?a4cf523daa68a0fc751c6ff85fb0ffc6" /></a>
+</td>
+<td><a href="/product/2808">Mini Pushbutton Power Switch with Reverse Voltage Protection, LV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2809"><img alt="" src="https://a.pololu-files.com/picture/0J6790.50x40.jpg?7e4b267e642a5afbf9f2803d2b9c360b" /></a>
+</td>
+<td><a href="/product/2809">Mini Pushbutton Power Switch with Reverse Voltage Protection, SV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2596"><img alt="" src="https://a.pololu-files.com/picture/0J5492.50x40.jpg?a67eb2612201bcb0753fdec17b0de2ea" /></a>
+</td>
+<td><a href="/product/2596">TPS2113A Power Multiplexer Carrier with USB Micro-B Connector</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/1152"><img alt="" src="https://a.pololu-files.com/picture/0J1053.50x40.jpg?6533c8b5ada79ac0872094f8b056ede4" /></a>
+</td>
+<td><a href="/product/1152">3-AA Battery Holder, Enclosed with Switch</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/965"><img alt="" src="https://a.pololu-files.com/picture/0J6370.50x40.jpg?a0299347159567689cbc426a68c01988" /></a>
+</td>
+<td><a href="/product/965">0.100&quot; (2.54 mm) Breakaway Male Header: 1×40-Pin, Straight, Black</a></td>
+</tr>
+</table>
+</div>
+</div><div><h2>Related categories</h2>
+<div>
+<table class='linkable_item_list'>
+<tr>
+<td class='img'>
+<a href="/category/145/u3v50x-step-up-voltage-regulators"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/category/145/u3v50x-step-up-voltage-regulators">U3V50x Step-Up Voltage Regulators</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/132/step-up-boost-voltage-regulators"><img alt="" src="https://a.pololu-files.com/picture/0J13404.50x40.jpg?936182b011c3beb4165bbdabdfef2dcb" /></a>
+</td>
+<td><a href="/category/132/step-up-boost-voltage-regulators">Step-Up (Boost) Voltage Regulators</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/133/step-up-step-down-voltage-regulators"><img alt="" src="https://a.pololu-files.com/picture/0J13403.50x40.jpg?6d056b0564245b45e95d07587f0898f2" /></a>
+</td>
+<td><a href="/category/133/step-up-step-down-voltage-regulators">Step-Up/Step-Down Voltage Regulators</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/84/voltage-regulators-and-power-supplies"><img alt="" src="https://a.pololu-files.com/picture/0J2628.50x40.jpg?984e9066c5f521063eb16f8112fdc272" /></a>
+</td>
+<td><a href="/category/84/voltage-regulators-and-power-supplies">Voltage Regulators and Power Supplies</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/55/battery-holders"><img alt="" src="https://a.pololu-files.com/picture/0J1040.50x40.jpg?5e38db440c535ab82074b6a75e9cd342" /></a>
+</td>
+<td><a href="/category/55/battery-holders">Battery Holders</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/54/batteries"><img alt="" src="https://a.pololu-files.com/picture/0J3231.50x40.jpg?8722944d6f6a762d7d2e32c4a550577a" /></a>
+</td>
+<td><a href="/category/54/batteries">Batteries</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/65/premium-jumper-wires"><img alt="" src="https://a.pololu-files.com/picture/0J11599.50x40.jpg?7f829c2badab1ad82f4da395e4a46cb8" /></a>
+</td>
+<td><a href="/category/65/premium-jumper-wires">Premium Jumper Wires</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/71/wires-with-pre-crimped-terminals"><img alt="" src="https://a.pololu-files.com/picture/0J11614.50x40.jpg?0c44e46f7c16b54a162ac2f0a59b3c6f" /></a>
+</td>
+<td><a href="/category/71/wires-with-pre-crimped-terminals">Wires with Pre-Crimped Terminals</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/28/solderless-breadboards"><img alt="" src="https://a.pololu-files.com/picture/0J10450.50x40.jpg?5982ae89594735acb521388debe5512f" /></a>
+</td>
+<td><a href="/category/28/solderless-breadboards">Solderless Breadboards</a></td>
+</tr>
+</table>
+</div>
+</div></div>
+<script>
+product_ui.update();
+</script>
+
+
+<!-- CONTENTS_END -->
+<div id='footer'>
+<p class='share'>
+<span class="image_text_link"><a href="/product/2569/pictures?print=1"><img alt="" src="https://a.pololu-files.com/assets/printer-448cebb2a5016700db2565421ada6e98f90fabe5885d8cd3cca1a3854748e146.png" /></a><a href="/product/2569/pictures?print=1">Print</a></span>
+<span class="image_text_link"><a href="mailto:?body=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures&amp;subject"><img alt="" src="https://a.pololu-files.com/assets/email-f2957b324fa09a7d81ed64679a6b9454647ad40514cd7b1ce501aefd946f5593.png" /></a><a href="mailto:?body=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures&amp;subject">Email a friend</a></span>
+<span class="image_text_link"><a href="/feeds"><img alt="" src="https://a.pololu-files.com/assets/feed-icon-12x12-ad0e7f1965647f9414a76a1f32fb46dc73c1b2d295201b0abb56f2b2cf88bfb2.png" /></a><a href="/feeds">Feeds</a></span>
+</p>
+<p class='links'>
+<a href="/">Home</a>
+|
+<a href="https://forum.pololu.com/">Forum</a>
+|
+<a href="/blog">Blog</a>
+|
+<a href="/support">Support</a>
+|
+<a href="/ordering">Ordering Information</a>
+|
+<a href="/list">Lists</a>
+|
+<a href="/distributors">Distributors</a>
+|
+<a href="/catalog/bigorderform">BIG Order Form</a>
+|
+<a href="/about">About</a>
+|
+<a href="/contact">Contact</a>
+</p>
+<p id='copyright'>&copy; 2001<a rel="nofollow" style="text-decoration: none; color: inherit;" href="/pot/0?from=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures">–</a>2026 Pololu Corporation</p>
+</div>
+</div>
+</div>
+<div id='right_col'>
+<div class='menu' data-my-quotes='1'></div>
+<script>quote.display_list()</script>
+<div class='menu' data-mini-cart='1'></div>
+<script>cart.display_mini_cart_content()</script>
+<div><h2>Related Products</h2>
+<div>
+<table class='linkable_item_list'>
+<tr>
+<td class='img'>
+<a href="/product/2565"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2565">Pololu 5V Step-Up Voltage Regulator U3V50F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2566"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2566">Pololu 6V Step-Up Voltage Regulator U3V50F6</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2567"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2567">Pololu 9V Step-Up Voltage Regulator U3V50F9</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2568"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/product/2568">Pololu 12V Step-Up Voltage Regulator U3V50F12</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2570"><img alt="" src="https://a.pololu-files.com/picture/0J4881.50x40.jpg?244c5add670590bc7459c2ded9a3cd6d" /></a>
+</td>
+<td><a href="/product/2570">Pololu Adjustable 4-12V Step-Up Voltage Regulator U3V50ALV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2571"><img alt="" src="https://a.pololu-files.com/picture/0J4882.50x40.jpg?2c7ccead328606687d1060bf7cbeb47d" /></a>
+</td>
+<td><a href="/product/2571">Pololu Adjustable 9-30V Step-Up Voltage Regulator U3V50AHV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2891"><img alt="" src="https://a.pololu-files.com/picture/0J9097.50x40.jpg?8e237ffb8cbff2a17a340e932130e815" /></a>
+</td>
+<td><a href="/product/2891">5V Step-Up Voltage Regulator U3V70F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2892"><img alt="" src="https://a.pololu-files.com/picture/0J9099.50x40.jpg?be5987bde16f6b95b19ad46bc80eface" /></a>
+</td>
+<td><a href="/product/2892">6V Step-Up Voltage Regulator U3V70F6</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2893"><img alt="" src="https://a.pololu-files.com/picture/0J9101.50x40.jpg?c948d1ab010027da626aec0798735626" /></a>
+</td>
+<td><a href="/product/2893">7.5V Step-Up Voltage Regulator U3V70F7</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2894"><img alt="" src="https://a.pololu-files.com/picture/0J9103.50x40.jpg?9b85c13ef3ff48682736c951a4bcffc6" /></a>
+</td>
+<td><a href="/product/2894">9V Step-Up Voltage Regulator U3V70F9</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2895"><img alt="" src="https://a.pololu-files.com/picture/0J9105.50x40.jpg?9f50506fac8f7e02596c30ccefc430ec" /></a>
+</td>
+<td><a href="/product/2895">12V Step-Up Voltage Regulator U3V70F12</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2896"><img alt="" src="https://a.pololu-files.com/picture/0J9107.50x40.jpg?241473c641bc256136cbd9696ddb7d9d" /></a>
+</td>
+<td><a href="/product/2896">15V Step-Up Voltage Regulator U3V70F15</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2890"><img alt="" src="https://a.pololu-files.com/picture/0J9071.50x40.jpg?970c52045997ed1d1b461e63d3c50acd" /></a>
+</td>
+<td><a href="/product/2890">4.5-20V Fine-Adjust Step-Up Voltage Regulator U3V70A</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2851"><img alt="" src="https://a.pololu-files.com/picture/0J5851.50x40.jpg?d7ecfd2d1dd922f537ce44c02e13305b" /></a>
+</td>
+<td><a href="/product/2851">Pololu 5V, 5A Step-Down Voltage Regulator D24V50F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2866"><img alt="" src="https://a.pololu-files.com/picture/0J5585.50x40.jpg?644d05c330b2f470c7c637a35d6dd0be" /></a>
+</td>
+<td><a href="/product/2866">Pololu 5V, 9A Step-Down Voltage Regulator D24V90F5</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/1406"><img alt="" src="https://a.pololu-files.com/picture/0J2204.50x40.jpg?b3ba248216e714c82039603a96d16ed5" /></a>
+</td>
+<td><a href="/product/1406">Rocker Switch: 3-Pin, SPDT, 10A</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2808"><img alt="" src="https://a.pololu-files.com/picture/0J6789.50x40.jpg?a4cf523daa68a0fc751c6ff85fb0ffc6" /></a>
+</td>
+<td><a href="/product/2808">Mini Pushbutton Power Switch with Reverse Voltage Protection, LV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2809"><img alt="" src="https://a.pololu-files.com/picture/0J6790.50x40.jpg?7e4b267e642a5afbf9f2803d2b9c360b" /></a>
+</td>
+<td><a href="/product/2809">Mini Pushbutton Power Switch with Reverse Voltage Protection, SV</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/2596"><img alt="" src="https://a.pololu-files.com/picture/0J5492.50x40.jpg?a67eb2612201bcb0753fdec17b0de2ea" /></a>
+</td>
+<td><a href="/product/2596">TPS2113A Power Multiplexer Carrier with USB Micro-B Connector</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/1152"><img alt="" src="https://a.pololu-files.com/picture/0J1053.50x40.jpg?6533c8b5ada79ac0872094f8b056ede4" /></a>
+</td>
+<td><a href="/product/1152">3-AA Battery Holder, Enclosed with Switch</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/product/965"><img alt="" src="https://a.pololu-files.com/picture/0J6370.50x40.jpg?a0299347159567689cbc426a68c01988" /></a>
+</td>
+<td><a href="/product/965">0.100&quot; (2.54 mm) Breakaway Male Header: 1×40-Pin, Straight, Black</a></td>
+</tr>
+</table>
+</div>
+</div><div><h2>Related Categories</h2>
+<div>
+<table class='linkable_item_list'>
+<tr>
+<td class='img'>
+<a href="/category/145/u3v50x-step-up-voltage-regulators"><img alt="" src="https://a.pololu-files.com/picture/0J4880.50x40.jpg?54151f07f9d88dd19d151a75ec9041a4" /></a>
+</td>
+<td><a href="/category/145/u3v50x-step-up-voltage-regulators">U3V50x Step-Up Voltage Regulators</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/132/step-up-boost-voltage-regulators"><img alt="" src="https://a.pololu-files.com/picture/0J13404.50x40.jpg?936182b011c3beb4165bbdabdfef2dcb" /></a>
+</td>
+<td><a href="/category/132/step-up-boost-voltage-regulators">Step-Up (Boost) Voltage Regulators</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/133/step-up-step-down-voltage-regulators"><img alt="" src="https://a.pololu-files.com/picture/0J13403.50x40.jpg?6d056b0564245b45e95d07587f0898f2" /></a>
+</td>
+<td><a href="/category/133/step-up-step-down-voltage-regulators">Step-Up/Step-Down Voltage Regulators</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/84/voltage-regulators-and-power-supplies"><img alt="" src="https://a.pololu-files.com/picture/0J2628.50x40.jpg?984e9066c5f521063eb16f8112fdc272" /></a>
+</td>
+<td><a href="/category/84/voltage-regulators-and-power-supplies">Voltage Regulators and Power Supplies</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/55/battery-holders"><img alt="" src="https://a.pololu-files.com/picture/0J1040.50x40.jpg?5e38db440c535ab82074b6a75e9cd342" /></a>
+</td>
+<td><a href="/category/55/battery-holders">Battery Holders</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/54/batteries"><img alt="" src="https://a.pololu-files.com/picture/0J3231.50x40.jpg?8722944d6f6a762d7d2e32c4a550577a" /></a>
+</td>
+<td><a href="/category/54/batteries">Batteries</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/65/premium-jumper-wires"><img alt="" src="https://a.pololu-files.com/picture/0J11599.50x40.jpg?7f829c2badab1ad82f4da395e4a46cb8" /></a>
+</td>
+<td><a href="/category/65/premium-jumper-wires">Premium Jumper Wires</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/71/wires-with-pre-crimped-terminals"><img alt="" src="https://a.pololu-files.com/picture/0J11614.50x40.jpg?0c44e46f7c16b54a162ac2f0a59b3c6f" /></a>
+</td>
+<td><a href="/category/71/wires-with-pre-crimped-terminals">Wires with Pre-Crimped Terminals</a></td>
+</tr>
+<tr>
+<td class='img'>
+<a href="/category/28/solderless-breadboards"><img alt="" src="https://a.pololu-files.com/picture/0J10450.50x40.jpg?5982ae89594735acb521388debe5512f" /></a>
+</td>
+<td><a href="/category/28/solderless-breadboards">Solderless Breadboards</a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<div id='lightbox_holder'>
+<div id='lightbox_gray_screen'></div>
+<div id='lightbox'>
+<div id='lightbox_gallery'></div>
+<div id='lightbox_content'></div>
+<div id='lightbox_right'><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+<div id='lightbox_left'><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+<div id='lightbox_close'>
+<a href='#' title='Close'><i class="fa fa-times" aria-hidden="true"></i></a>
+</div>
+<div id='lightbox_full'>
+<a href='#' title='View image'><i class="fa fa-expand" aria-hidden="true"></i></a>
+</div>
+</div>
+</div>
+
+<div id='header_small_top'>
+<!-- / this has to go first since it takes up 100% of the width and would block clicking on other parts -->
+<div id='header_center_right'>
+<span data-login-ui='login'>
+<a href="/account/login?account%5Burl%5D=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures">Log In</a>
+</span>
+<span data-login-ui='my_account'>
+<a title="My account" data-login-ui="my_account_link" href="/account"></a>
+</span>
+
+</div>
+<div id='header_small_left'>
+<a href="/"><img width="118" height="30" alt="Pololu Robotics &amp; Electronics" class="logo_pololu_only" src="https://a.pololu-files.com/assets/header_pololu_only-fff6349c8769e6b2e59624d6dceacac4422156c5ac8b8b23532f0e93678bb981.png" /></a>
+</div>
+<div id='header_small_right'>
+<a href="/cart"><img width="30" height="30" alt="Shopping cart" src="https://a.pololu-files.com/assets/cart-bf4bf66669c9b9288e6e972718067855ecdcdfc80622cfea29ac04b29478f873.png" /></a>
+</div>
+</div>
+<div id='header_small_bottom'>
+<div id='header_small_right'>
+(702) 262-6648<br/>
+<a href="/ordering">Same-day shipping, worldwide</a>
+</div>
+<div id='header_small_left'>
+<a id="menu_button" onclick="return false;" href="/catalog/menu"><img width="30" height="30" alt="Menu" src="https://a.pololu-files.com/assets/menu-2023bba099d8fd2a25d8e1803c5bdf0aa0a024d9d585000ff9aec2c8a436b29a.png" /></a>
+</div>
+</div>
+<div id='header_small_menu'>
+<div class='header_small_menu_columns'>
+<a href="/catalog/menu">Shop</a>
+<a href="/blog">Blog</a>
+<a href="https://forum.pololu.com/">Forum</a>
+<a href="/support">Support</a>
+</div>
+<!-- / specify local variable id to set an id for the form, mainly for use with testing -->
+<form action='/search' id='header_small_search'>
+<div class='search'><input autocomplete='off' class='search_input mini_search_input' data-autocomplete-search='true' id='header_small_search_input' name='query' placeholder='Search' type='text'><input alt='' class='search_button' src='https://a.pololu-files.com/assets/magglass-d28c6b7b9d1f35858a702b71e13b678bfdee962d795c7ad2426ed9b19ccac5e8.png' type='image' value='go'>
+</div>
+</form>
+
+<a title="My account" href="/account">My account</a>
+<a data-feedback="true" href="/feedback/new?account%5Burl%5D=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures">Comments or questions?</a>
+<a href="/about">About Pololu</a>
+<a href="/contact">Contact</a>
+<a href="/ordering">Ordering information</a>
+<a href="/distributors">Distributors</a>
+</div>
+<div id='gray_screen'></div>
+<script>
+menuInit();
+</script>
+
+<div id='header_holder'>
+<table id='header'>
+<tr id='header_top'>
+<td id='header_logo' rowspan='2'>
+<a href="/"><img width="219" height="69" alt="Pololu Robotics and Electronics" class="logo" style="max-width: 230px;" src="https://a.pololu-files.com/assets/header_pololu_no_padding-e37eb899d2ec2ded9153a53ad9e0e6e12861f762e2c3bafb4ca40e79a85d149e.png" /></a>
+</td>
+<td colspan='16' id='header_address'>
+<div id='header_account_links'>
+<span data-login-ui='login'>
+<a href="/account/login?account%5Burl%5D=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures">Log In</a>
+</span>
+<span data-login-ui='my_account'>
+<a title="My account" data-login-ui="my_account_link" href="/account"></a>
+|
+<a href="/account">My Account</a>
+|
+</span>
+<div data-login-ui='logout'>
+<form data-login-ui="logout" action="https://www.pololu.com/account/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="session_id" value="**SESSION_ID_STUB**" /><button class="btn-link" name="log-out-button">Log Out</button></form>
+</div>
+
+|
+<a href="/cart">Shopping Cart <img width="16" height="16" alt="" src="https://a.pololu-files.com/assets/cart-bf4bf66669c9b9288e6e972718067855ecdcdfc80622cfea29ac04b29478f873.png" /></a>
+<script>dynamic_user_login.init()</script>
+</div>
+<p class='phone_number'>
+US toll free: 1-877-7-POLOLU ~
+(702) 262-6648<br/>
+<a href="/ordering">Same-day shipping, worldwide</a>
+</p>
+</td>
+</tr>
+<tr id='header_links'>
+<th class='selected'>
+<a href="/">Catalog</a>
+</th>
+<td>&nbsp;</td>
+<th>
+<a href="https://forum.pololu.com/">Forum</a>
+</th>
+<td>&nbsp;</td>
+<th class=''>
+<a href="/blog">Blog</a>
+</th>
+<td>&nbsp;</td>
+<th class=''>
+<a href="/support">Support</a>
+</th>
+<td>&nbsp;</td>
+<th class=''>
+<a href="/ordering">Ordering</a>
+</th>
+<td>&nbsp;</td>
+<th class=''>
+<a href="/distributors">Distributors</a>
+</th>
+<td>&nbsp;</td>
+<th class=''>
+<a href="/about">About</a>
+</th>
+<td>&nbsp;</td>
+<th class=''>
+<a href="/contact">Contact</a>
+</th>
+<td class='last'></td>
+</tr>
+</table>
+</div>
+<div id='left_col'>
+<div class='menu' id='menu_search'>
+<div>
+<!-- / specify local variable id to set an id for the form, mainly for use with testing -->
+<form action='/search' id='sidebar_search'>
+<div class='search'><input autocomplete='off' class='search_input mini_search_input' data-autocomplete-search='true' id='sidebar_search_input' name='query' placeholder='Search' type='text'><input alt='' class='search_button' src='https://a.pololu-files.com/assets/magglass-d28c6b7b9d1f35858a702b71e13b678bfdee962d795c7ad2426ed9b19ccac5e8.png' type='image' value='go'>
+</div>
+</form>
+
+</div>
+</div>
+<div class='menu'>
+<h2><a data-feedback="true" href="">Feedback</a></h2>
+<div>
+<a class="menu_visible_link" data-feedback="true" href="">Comments or questions?</a>
+</div>
+</div>
+<div class='menu'>
+<h2><a href="/category/31/services">Services</a></h2>
+<div>
+<ul>
+<li>
+<a href="/product/749">Custom Laser Cutting</a>
+</li>
+<li>
+<a href="/product/446">SMT Stencils</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='menu'>
+<h2><a href="/">Products</a></h2>
+<div>
+<!-- sidebar_categories --><h3><a href="/category/42/new-products">New Products</a></h3>
+<h3><span class="specials_category"><a href="/specials">Specials!</a></span></h3>
+<hr />
+<h3><a href="/category/2/robot-kits">Robots</a></h3>
+<ul>
+	<li><a href="/category/76/3pi-robots-and-accessories">3pi</a></li>
+	<li><a href="/category/210/balboa-robot-and-accessories">Balboa</a></li>
+	<li><a href="/category/327/collaborative-robots">Cobot</a></li>
+	<li><a href="/category/202/romi-chassis-and-accessories">Romi</a></li>
+	<li><a href="/category/129/zumo-robots-and-accessories">Zumo</a></li>
+	<li><a href="/category/3/robot-kits-with-soldering">Kits, Soldering</a></li>
+	<li><a href="/category/4/robot-kits-without-soldering">Kits, No Soldering</a></li>
+</ul>
+<h3><a href="/category/6/electronics">Electronics</a></h3>
+<ul>
+	<li><a href="/category/125/arduino-compatible">Arduino</a></li>
+	<li><a href="/category/39/cables-and-wire">Cables and Wires</a></li>
+	<li><a href="/category/13/computer-interface">Computer Interface</a></li>
+	<li><a href="/category/19/connectors">Connectors</a></li>
+	<li><a href="/category/64/development-boards-programmable-controllers">Development Boards</a></li>
+	<li><a href="/category/334/isolation">Isolation</a></li>
+	<li><a href="/category/20/leds">LEDs</a></li>
+	<li><a href="/category/9/motion-control-modules">Motor Control</a></li>
+	<li><a href="/category/321/power">Power</a></li>
+	<li><a href="/category/14/electronics-prototyping">Prototyping</a></li>
+	<li><a href="/category/150/raspberry-pi">Raspberry Pi</a></li>
+	<li><a href="/category/135/relay-modules">Relays</a></li>
+	<li><a href="/category/7/sensors">Sensors</a></li>
+	<li><a href="/category/102/maestro-usb-servo-controllers">Servo Control</a></li>
+	<li><a href="/category/136/voltage-regulators">Voltage Regulators</a></li>
+</ul>
+<h3><a href="/category/21/mechanical-components">Mechanical</a></h3>
+<ul>
+	<li><a href="/category/231/ball-casters">Ball Casters</a></li>
+	<li><a href="/category/230/brackets">Brackets</a></li>
+	<li><a href="/category/26/chassis">Chassis</a></li>
+	<li><a href="/category/25/hardware">Hardware</a></li>
+	<li><a href="/category/127/linear-actuators">Linear Actuators</a></li>
+	<li><a href="/category/22/motors-and-gearboxes">Motors</a></li>
+	<li><a href="/category/179/motor-shaft-adapters">Motor Shaft Adapters</a></li>
+	<li><a href="/category/205/servos">Servos</a></li>
+	<li><a href="/category/87/stepper-motors">Stepper Motors</a></li>
+	<li><a href="/category/61/tamiya-products">Tamiya Products</a></li>
+	<li><a href="/category/5/tools">Tools</a></li>
+	<li><a href="/category/232/tracks">Tracks</a></li>
+	<li><a href="/category/234/wheels">Wheels</a></li>
+</ul>
+<h3><a href="/category/109/shirts">Shirts</a></h3>
+<ul>
+	<li><a href="/category/237/pololu-balboa-t-shirts">Balboa T-Shirts</a></li>
+	<li><a href="/category/194/pololu-zumo-t-shirts">Zumo T-Shirts</a></li>
+	<li><a href="/category/193/pololu-circuit-logo-t-shirts">Logo T-Shirts</a></li>
+</ul>
+</div>
+</div>
+
+<div class='menu'>
+<h2>Community</h2>
+<div>
+<ul>
+<li>
+<a data-lightbox-link="true" data-lightbox-height="34rem" data-lightbox-width="36rem" href="/account/communication-preferences">Mailing list</a>
+</li>
+<li>
+<a href="/blog">Pololu Blog</a>
+</li>
+<li>
+<a href="/blog/engage-your-brain">Engage Your Brain</a>
+</li>
+<li>
+<a href="/blog/community-projects">Community Projects</a>
+</li>
+<li>
+<span class="image_text_link"><a href="/feeds"><img alt="" src="https://a.pololu-files.com/assets/feed-icon-12x12-ad0e7f1965647f9414a76a1f32fb46dc73c1b2d295201b0abb56f2b2cf88bfb2.png" /></a><a href="/feeds">Feeds</a></span>
+</li>
+<li>
+<span class="image_text_link"><a href="mailto:?body=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures&amp;subject"><img alt="" src="https://a.pololu-files.com/assets/email-f2957b324fa09a7d81ed64679a6b9454647ad40514cd7b1ce501aefd946f5593.png" /></a><a href="mailto:?body=https%3A%2F%2Fwww.pololu.com%2Fproduct%2F2569%2Fpictures&amp;subject">Email a friend</a></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div id='mathjax'></div>
+</body>
+</html>

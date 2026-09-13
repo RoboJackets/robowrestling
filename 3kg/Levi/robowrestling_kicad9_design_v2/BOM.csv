@@ -1,0 +1,14 @@
+Ref/Qty,Part,Suggested part / value,Purpose,Notes
+BT1/J1,Battery + connector,3S LiPo + XT60,Robot power,Battery external; exact capacity/C rating after drivetrain testing
+F1,Fuse,20A initial,Main battery protection,Tune from measured startup/stall data
+U1,12V buck-boost,Pololu S13V25F12,Baumer/Banner/IO-Link sensor rail,Vendor module; footprint after packaging
+U2,5V buck-boost,Pololu S13V30F5,5V logic/IO-Link rail,Vendor module
+U3,3.3V LDO,AP2112K-3.3,3.3V controller-interface/sensor logic,Stock KiCad symbol
+3,Baumer sensor,O300.DI-GM1J.72N,Close-range opponent sensing,Digital or IO-Link through one mechanically linked 3PDT switch
+1 physical,Mode switch,3PDT ON-ON break-before-make,All 3 Baumers DIGITAL <-> IO-Link,Shown as 3 stock SW_SPDT poles SW1A/SW1B/SW1C
+2,IO-Link master,MAX14819A,3 active IO-Link channels + spare,Separate CS and IRQ signals exposed per PHY
+3,Banner sensor,Q20NDXL NPN,Long-range opponent sensing,Both BLACK/WHITE complementary outputs
+4,Line sensor,JSumo ML1,Ring edge sensing,"Analog 3.3V, RC filtered"
+1,Motor driver,Cytron MDD20A,Dual brushed motor drive,"6-30V, 20A/channel class"
+2,Drive motor,Pololu 4743 50:1 37D 12V,High-torque drive baseline,Shown with stock Motor_DC symbols
+9,Debug LED channels,LED + resistor + MMBT3904 buffer,Digital sensor debug,3 Baumer + 6 Banner
