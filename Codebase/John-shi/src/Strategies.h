@@ -8,10 +8,11 @@
 class Strategies {
 public: 
     Strategies(Movement& robot, Servo& servo);
-    void Slowfight();
+    void turtle();
     void rightFight(); 
     void leftFight(); 
     void forwardFight();
+    void dashTurtle();
 private:
     Movement& robot;    
     Servo& servo;

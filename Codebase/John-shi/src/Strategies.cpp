@@ -12,7 +12,7 @@ void Strategies::rightFight() {
     servo.write(95);    
     if(state1 == false) {
       robot.turnRight(230);
-      delay(90);
+      robot.waitMs(90);
 
       unsigned long startTime = millis();
       robot.forward(240); 
@@ -23,16 +23,17 @@ void Strategies::rightFight() {
       state1 = true; 
     }
     else {
-      if (analogRead(A0) < 100 && !digitalRead(LSensor) && !digitalRead(RSensor))
+      if (robot.lineSeenRight() && !digitalRead(LSensor) && !digitalRead(RSensor))
         robot.lineRightt();
-      if (analogRead(A1) < 100 && !digitalRead(LSensor) && !digitalRead(RSensor))
+      if (robot.lineSeenLeft() && !digitalRead(LSensor) && !digitalRead(RSensor))
         robot.lineLeftt();
-      if (digitalRead(LSensor) && digitalRead(RSensor)) {
-        robot.forward(250);
-      } else if (digitalRead(Rside)) {
+      // Side sensors win over the front: front + side means the front is likely a flag
+      if (digitalRead(Rside)) {
         robot.rotateRight(250);
       } else if (digitalRead(Lside)) {
         robot.rotateLeft(250);
+      } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
+        robot.forward(250);
       } else if (digitalRead(RSensor)) {
         robot.rotateRight(250);
       } else if (digitalRead(LSensor)) {
@@ -52,7 +53,7 @@ void Strategies::leftFight() {
     servo.write(90);    
     if(state2 == false) {
       robot.turnLeft(230);
-      delay(90);
+      robot.waitMs(90);
 
       unsigned long startTime = millis();
       robot.forward(240); 
@@ -63,16 +64,17 @@ void Strategies::leftFight() {
       state2 = true; 
     }
     else {
-      if (analogRead(A0) < 100 && !digitalRead(LSensor) && !digitalRead(RSensor))
+      if (robot.lineSeenRight() && !digitalRead(LSensor) && !digitalRead(RSensor))
         robot.lineRightt();
-      if (analogRead(A1) < 100 && !digitalRead(LSensor) && !digitalRead(RSensor))
+      if (robot.lineSeenLeft() && !digitalRead(LSensor) && !digitalRead(RSensor))
         robot.lineLeftt();
-      if (digitalRead(LSensor) && digitalRead(RSensor)) {
-        robot.forward(250);
-      } else if (digitalRead(Rside)) {
+      // Side sensors win over the front: front + side means the front is likely a flag
+      if (digitalRead(Rside)) {
         robot.rotateRight(250);
       } else if (digitalRead(Lside)) {
         robot.rotateLeft(250);
+      } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
+        robot.forward(250);
       } else if (digitalRead(RSensor)) {
         robot.rotateRight(250);
       } else if (digitalRead(LSensor)) {
@@ -92,23 +94,24 @@ void Strategies::forwardFight() {
     servo.write(90);    
     if(state3 == false) {
       unsigned long startTime = millis();
-      robot.rampUp(220, 3);
+      robot.rampUp(220, 5);
 
       state3 = true; 
     }
     else {
-      if (analogRead(A0) < 100 && !digitalRead(LSensor) && !digitalRead(RSensor))
+      if (robot.lineSeenRight() && !digitalRead(LSensor) && !digitalRead(RSensor))
         robot.lineRightt();
-      if (analogRead(A1) < 100 && !digitalRead(LSensor) && !digitalRead(RSensor))
+      if (robot.lineSeenLeft() && !digitalRead(LSensor) && !digitalRead(RSensor))
         robot.lineLeftt();
-      if (digitalRead(LSensor) && digitalRead(RSensor)) {
-        robot.forward(250);
-      } else if (digitalRead(Rside)) {
+      // Side sensors win over the front: front + side means the front is likely a flag
+      if (digitalRead(Rside)) {
         robot.rotateRight(250);
-        delay(20);
+        robot.waitMs(20);
       } else if (digitalRead(Lside)) {
         robot.rotateLeft(250);
-        delay(20);
+        robot.waitMs(20);
+      } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
+        robot.forward(250);
       } else if (digitalRead(RSensor)) {
         robot.rotateRight(250);
       } else if (digitalRead(LSensor)) {
@@ -122,28 +125,52 @@ void Strategies::forwardFight() {
     robot.stop(); 
   }
 }
-void Strategies::Slowfight() {
+void Strategies::turtle() {
   if (digitalRead(StartMod)) {  // If StartMod is enabled
     servo.write(90);
-    if (analogRead(A0) < 100)
-      robot.lineRight();
-    if (analogRead(A1) < 100)
-      robot.lineLeft();
+    if (robot.lineSeenRight())
+      robot.lineRightt();
+    if (robot.lineSeenLeft())
+      robot.lineLeftt();
 
-    if (digitalRead(LSensor) && digitalRead(RSensor)) {
-      robot.waitSlam(220, 2);
-    } else if (digitalRead(Rside)) {
-      robot.rotateRight(250);
-    } else if (digitalRead(Lside)) {
-      robot.rotateLeft(250);
-    } else if (digitalRead(RSensor)) {
+    // Side sensors win over the front: front + side means the front is likely a flag
+    if (digitalRead(Rside)) {
       robot.rotateRight(220);
-    } else if (digitalRead(LSensor)) {
+    } else if (digitalRead(Lside)) {
       robot.rotateLeft(220);
+    } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
+      robot.waitSlam(200, 4);
+    } else if (digitalRead(RSensor)) {
+      robot.rotateRight(180);
+    } else if (digitalRead(LSensor)) {
+      robot.rotateLeft(180);
     } else {
       robot.forward(0);
     }
   } else {  // If StartMod is disabled
+    servo.write(180);
+    robot.stop();
+  }
+}
+bool state4 = false;
+void Strategies::dashTurtle() {
+  if (digitalRead(StartMod)) {
+    servo.write(90);
+    if (state4 == false) {
+      // Opening: short forward dash, then fall into normal turtle
+      unsigned long startTime = millis();
+      robot.forward(200);
+      while (millis() - startTime < 200) {
+        if (!digitalRead(StartMod) || robot.lineSeenRight() || robot.lineSeenLeft())
+          break;
+      }
+      robot.stop();
+      state4 = true;
+    }
+    else {
+      turtle();
+    }
+  } else {
     servo.write(180);
     robot.stop();
   }

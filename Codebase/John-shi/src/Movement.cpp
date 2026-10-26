@@ -1,6 +1,56 @@
 #include "Movement.h"
 
+// Line filter tuning
+const float LINE_ALPHA = 0.3;              // 0-1: higher = reacts faster, lower = ignores more noise
+const int LINE_THRESHOLD = 100;             // smoothed value below this = white line
+const unsigned long LINE_UPDATE_US = 1000;  // filter update period (1 ms)
+
 Movement::Movement() {
+}
+
+// Read twice and keep the second: the first read after switching ADC pins can be off
+int Movement::readLinePin(uint8_t pin) {
+    analogRead(pin);
+    return analogRead(pin);
+}
+
+void Movement::updateLine() {
+    unsigned long now = micros();
+    if (lineSeeded && now - lastLineUpdate < LINE_UPDATE_US) {
+        return;
+    }
+    lastLineUpdate = now;
+
+    int right = readLinePin(A0);
+    int left = readLinePin(A1);
+
+    // First update: start the average at the current reading
+    if (!lineSeeded) {
+        smoothRight = right;
+        smoothLeft = left;
+        lineSeeded = true;
+        return;
+    }
+
+    smoothRight += LINE_ALPHA * (right - smoothRight);
+    smoothLeft += LINE_ALPHA * (left - smoothLeft);
+}
+
+bool Movement::lineSeenRight() {
+    updateLine();
+    return smoothRight < LINE_THRESHOLD;
+}
+
+bool Movement::lineSeenLeft() {
+    updateLine();
+    return smoothLeft < LINE_THRESHOLD;
+}
+
+void Movement::waitMs(unsigned long ms) {
+    unsigned long startTime = millis();
+    while (millis() - startTime < ms) {
+        updateLine();
+    }
 }
 
 void Movement::stop() {
@@ -64,7 +114,8 @@ void Movement::lineRightt() {
 
     // Phase 1: Back up
     back(250);
-    while (millis() - startTime < 160) {
+    while (millis() - startTime < 150) {
+        updateLine();
         if (botDetected()) {
             return;  // EXIT immediately
         }
@@ -72,8 +123,9 @@ void Movement::lineRightt() {
 
     // Phase 2: Rotate right
     unsigned long startTime1 = millis();
-    rotateLeft(180);
+    rotateLeft(160);
     while (millis() - startTime1 < 150) {
+        updateLine();
         if (botDetected()) {
             return;  // EXIT immediately
         }
@@ -85,7 +137,8 @@ void Movement::lineLeftt() {
     unsigned long startTime = millis();
     // Phase 1: Back up
     back(250);
-    while (millis() - startTime < 130) {
+    while (millis() - startTime < 150) {
+        updateLine();
         if (botDetected()) {
             return;
         }
@@ -93,33 +146,15 @@ void Movement::lineLeftt() {
 
     // Phase 2: Rotate left
     unsigned long startTime1 = millis();
-    rotateRight(180);
+    rotateRight(160);
     while (millis() - startTime1 < 150) {
+        updateLine();
         if (botDetected()) {
             stop();
             return;
         }
     }
 
-    stop();
-}
-void Movement::lineRight() {
-    // Phase 1: back up
-    back(180);
-    delay(200);
-    // Phase 2: rotate right
-    rotateLeft(130);
-    delay(150);
-
-    stop();
-}
-void Movement::lineLeft() {
-    // Phase 1: back up
-    back(180);
-    delay(200);
-    // Phase 2: rotate left
-    rotateRight(130);
-    delay(150);
     stop();
 }
 void Movement::rampUp(int targetSpeed, int rampRate) {
@@ -139,7 +174,7 @@ void Movement::rampUp(int targetSpeed, int rampRate) {
         analogWrite(Lpos, currentSpeed);
         analogWrite(Lneg, 0);
 
-        delay(10);  // controls how fast ramping feels
+        waitMs(10);  // controls how fast ramping feels
     }
 }
 
@@ -147,10 +182,12 @@ void Movement::waitSlam(int targetSpeed, int rampRate) {
     unsigned long startTime = millis();
     int currentSpeed = 20;
 
-    // Hold at speed 50 for 2 seconds
+    // Soft touch: hold at speed 20 for 60 ms
     while (millis() - startTime < 60) {
-        if (!digitalRead(RSensor) || !digitalRead(LSensor) || !digitalRead(StartMod)) {
-             return;
+        if (!digitalRead(RSensor) || !digitalRead(LSensor) || !digitalRead(StartMod) || digitalRead(Rside) || digitalRead(Lside)) {
+            return;
+        }
+        if (lineSeenRight() || lineSeenLeft()) {
             return;
         }
 
@@ -160,9 +197,12 @@ void Movement::waitSlam(int targetSpeed, int rampRate) {
         analogWrite(Lneg, 0);
     }
 
-    // After 2 seconds, ramp up
+    // Ramp up: +rampRate every 10 ms until targetSpeed
     while (currentSpeed < targetSpeed) {
-        if (!digitalRead(RSensor) || !digitalRead(LSensor) || !digitalRead(StartMod)) {
+        if (!digitalRead(RSensor) || !digitalRead(LSensor) || !digitalRead(StartMod) || digitalRead(Rside) || digitalRead(Lside)) {
+            return;
+        }
+        if (lineSeenRight() || lineSeenLeft()) {
             return;
         }
 
@@ -176,10 +216,10 @@ void Movement::waitSlam(int targetSpeed, int rampRate) {
         analogWrite(Lpos, currentSpeed);
         analogWrite(Lneg, 0);
 
-        delay(10);
+        waitMs(10);
     }
-    while(digitalRead(LSensor) && digitalRead(RSensor) && digitalRead(StartMod)) {
-        if (analogRead(A0) < 100 || analogRead(A1) < 100) {
+    while(digitalRead(LSensor) && digitalRead(RSensor) && digitalRead(StartMod) && !digitalRead(Rside) && !digitalRead(Lside)) {
+        if (lineSeenRight() || lineSeenLeft()) {
             return;
         }
     }

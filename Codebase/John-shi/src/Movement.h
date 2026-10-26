@@ -18,10 +18,19 @@ public:
   void lineRightt();
   void waitSlam(int targetSpeed, int rampRate);
 
-  void lineLeft();
-  void lineRight(); 
   void rampUp(int targetSpeed, int rampRate);
+
+  // Filtered line sensors (weighted average, updated every 1 ms)
+  void updateLine();
+  bool lineSeenRight();   // A0
+  bool lineSeenLeft();    // A1
+  void waitMs(unsigned long ms);  // like delay(), but keeps the line filter updated
 private:
     bool botDetected();
+    int readLinePin(uint8_t pin);
+    float smoothRight = 0;
+    float smoothLeft = 0;
+    unsigned long lastLineUpdate = 0;
+    bool lineSeeded = false;
 };
 #endif // MOVEMENT_H

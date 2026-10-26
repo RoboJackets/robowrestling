@@ -10,9 +10,9 @@ Movement robot;
 Strategies strat(robot, myservo);   // <-- strategies object uses robot + servo
 
 enum RunMode {
-  frontMode,
+  dashTurtleMode,
   leftMode,
-  slowMode,
+  turtleMode,
   rightMode
 };
 
@@ -44,17 +44,17 @@ void loop() {
   int a6 = analogRead(A6);
   int a7 = analogRead(A7);
   if (a6 < 500 && a7 < 500)
-    mode = slowMode;
+    mode = turtleMode;
   else if( a6 > 500 && a7 < 500)
     mode = leftMode;
   else if (a6 < 500 && a7 > 500)
     mode = rightMode;
   else if (a6 > 500 && a7 > 500)
-    mode = frontMode;
+    mode = dashTurtleMode;
 
   switch (mode) {
-    case slowMode:
-      strat.Slowfight();      // 00
+    case turtleMode:
+      strat.turtle();      // 00
       break;
     case leftMode:            // 10
       strat.leftFight();
@@ -62,8 +62,8 @@ void loop() {
     case rightMode:           // 01
       strat.rightFight();
       break;
-    case frontMode:           // 11
-      strat.forwardFight();
+    case dashTurtleMode:           // 11
+      strat.dashTurtle();
       break;
   }
 }
