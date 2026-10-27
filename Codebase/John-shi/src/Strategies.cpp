@@ -29,15 +29,15 @@ void Strategies::rightFight() {
         robot.lineLeftt();
       // Side sensors win over the front: front + side means the front is likely a flag
       if (digitalRead(Rside)) {
-        robot.rotateRight(250);
+        robot.rotateRight(150);
       } else if (digitalRead(Lside)) {
-        robot.rotateLeft(250);
+        robot.rotateLeft(150);
       } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
         robot.forward(250);
       } else if (digitalRead(RSensor)) {
-        robot.rotateRight(250);
+        robot.rotateRight(200);
       } else if (digitalRead(LSensor)) {
-        robot.rotateLeft(250);
+        robot.rotateLeft(200);
       } else {
         robot.forward(55);
       }
@@ -70,15 +70,15 @@ void Strategies::leftFight() {
         robot.lineLeftt();
       // Side sensors win over the front: front + side means the front is likely a flag
       if (digitalRead(Rside)) {
-        robot.rotateRight(250);
+        robot.rotateRight(150);
       } else if (digitalRead(Lside)) {
-        robot.rotateLeft(250);
+        robot.rotateLeft(150);
       } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
         robot.forward(250);
       } else if (digitalRead(RSensor)) {
-        robot.rotateRight(250);
+        robot.rotateRight(200);
       } else if (digitalRead(LSensor)) {
-        robot.rotateLeft(250);
+        robot.rotateLeft(200);
       } else {
         robot.forward(55);
       }
@@ -105,17 +105,17 @@ void Strategies::forwardFight() {
         robot.lineLeftt();
       // Side sensors win over the front: front + side means the front is likely a flag
       if (digitalRead(Rside)) {
-        robot.rotateRight(250);
+        robot.rotateRight(150);
         robot.waitMs(20);
       } else if (digitalRead(Lside)) {
-        robot.rotateLeft(250);
+        robot.rotateLeft(150);
         robot.waitMs(20);
       } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
         robot.forward(250);
       } else if (digitalRead(RSensor)) {
-        robot.rotateRight(250);
+        robot.rotateRight(200);
       } else if (digitalRead(LSensor)) {
-        robot.rotateLeft(250);
+        robot.rotateLeft(200);
       } else {
         robot.forward(85);
       }
@@ -128,26 +128,55 @@ void Strategies::forwardFight() {
 void Strategies::turtle() {
   if (digitalRead(StartMod)) {  // If StartMod is enabled
     servo.write(90);
-    if (robot.lineSeenRight())
+    if (robot.lineSeenRight()) {
+      turtleInching = false;
       robot.lineRightt();
-    if (robot.lineSeenLeft())
+      return;
+    }
+    if (robot.lineSeenLeft()) {
+      turtleInching = false;
       robot.lineLeftt();
+      return;
+    }
+
+    if (digitalRead(Rside) || digitalRead(Lside) ||
+        digitalRead(RSensor) || digitalRead(LSensor)) {
+      turtleInching = false;
+    }
 
     // Side sensors win over the front: front + side means the front is likely a flag
     if (digitalRead(Rside)) {
-      robot.rotateRight(220);
+      robot.rotateRight(150);
     } else if (digitalRead(Lside)) {
-      robot.rotateLeft(220);
+      robot.rotateLeft(150);
     } else if (digitalRead(LSensor) && digitalRead(RSensor)) {
-      robot.waitSlam(200, 4);
+      robot.waitSlam(250, 4);
     } else if (digitalRead(RSensor)) {
       robot.rotateRight(180);
     } else if (digitalRead(LSensor)) {
       robot.rotateLeft(180);
     } else {
-      robot.forward(0);
+      // Start a short inch immediately, then repeat once per second.
+      const unsigned long inchPeriodMs = 1000;
+      const unsigned long inchDurationMs = 100;
+      const int inchSpeed = 85;
+      unsigned long now = millis();
+      if (!turtleInching) {
+        turtleInchStart = now;
+        turtleInching = true;
+      }
+      unsigned long elapsed = now - turtleInchStart;
+      if (elapsed >= inchPeriodMs) {
+        turtleInchStart = now;
+        elapsed = 0;
+      }
+      if (elapsed < inchDurationMs)
+        robot.forward(inchSpeed);
+      else
+        robot.stop();
     }
   } else {  // If StartMod is disabled
+    turtleInching = false;
     servo.write(180);
     robot.stop();
   }
@@ -171,6 +200,7 @@ void Strategies::dashTurtle() {
       turtle();
     }
   } else {
+    turtleInching = false;
     servo.write(180);
     robot.stop();
   }

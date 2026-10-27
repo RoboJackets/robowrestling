@@ -1,7 +1,7 @@
 #include "Movement.h"
 
 // Line filter tuning
-const float LINE_ALPHA = 0.3;              // 0-1: higher = reacts faster, lower = ignores more noise
+const float LINE_ALPHA = 0.4;              // 0-1: higher = reacts faster, lower = ignores more noise
 const int LINE_THRESHOLD = 100;             // smoothed value below this = white line
 const unsigned long LINE_UPDATE_US = 1000;  // filter update period (1 ms)
 

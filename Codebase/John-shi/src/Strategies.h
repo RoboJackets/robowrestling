@@ -14,8 +14,10 @@ public:
     void forwardFight();
     void dashTurtle();
 private:
+    unsigned long turtleInchStart = 0;
+    bool turtleInching = false;
     Movement& robot;    
     Servo& servo;
 };
 
-#endif  
+#endif
